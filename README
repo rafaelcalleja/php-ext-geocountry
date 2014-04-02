@@ -1,0 +1,74 @@
+Gender PHP Extension
+
+Synopsis
+========
+
+<?php
+$gender = new Gender("compress.bzip2:///home/user/nam_dict.txt.bz2");
+
+$name = "Milene";
+$country = Gender::FRANCE;
+
+$result = $gender->get($name, $country);
+
+switch($result) {
+    case Gender::IS_FEMALE:
+    case Gender::IS_MOSTLY_FEMALE:
+        printf("The name %s is female in %s\n", $name, $country);
+    break;
+
+    case Gender::IS_MALE:
+    case Gender::IS_MOSTLY_MALE:
+        printf("The name %s is male in %s\n", $name, $country);
+    break;
+    
+    default:
+        print "I'm not sure, what gender your name is\n";
+    break;
+}
+
+
+Frequently Asked Questions
+==========================
+
+What is the Gender PHP extension?
+
+Gender PHP extension is a port of the gender.c program originally written
+by Joerg Michael. The main purpose is to find out the gender of firstnames.
+The actually database contains >43000 firstnames from 54 countries.
+
+
+Why is the data from the original program distributed with PHP extension?
+
+The original author Joerg Michael gave his permission to redistribute the
+first names lexicon file (which originally released under GNU Free 
+Documentation License) together with the PHP port of the gender program 
+(which is originally released under LGPL).
+
+
+Which character encoding has the extensions data?
+
+The encoding is iso-8859-1.
+
+
+Is there any support for non latin alphabets?
+
+No, but any transliterated data is supported.
+
+
+The name <whatever> is not found.
+
+For non ascii and transliterated names - please check the transliteration 
+method and/or character encoding of the string you are passing. If a name
+is indeed not found, feel free to extend the data and advise extension's
+authors.
+
+
+Is there any database support for the extensions data?
+
+Not yet, but it's planed in future versions.
+
+
+How much does the firstnames lexicon file take?
+
+About 200Kb bzipped and about 4Mb uncompressed.

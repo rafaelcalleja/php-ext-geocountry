@@ -1,0 +1,9 @@
+// $Id: config.w32 283433 2009-07-03 17:52:36Z kalle $
+// vim:ft=javascript
+
+ARG_ENABLE("geocountry", "enable geocountry support", "no");
+
+if (PHP_GEOCOUNTRY != "no") {
+	EXTENSION("geocountry", "geocountry.c geocountry.c");
+}
+
