@@ -8,7 +8,7 @@
 	$dta_l = strlen($dta);
 	$j = 0;
 
-	echo "const char php_gender_name_dict_data[" . ($dta_l+1) . "] = {\n";
+	echo "const char php_geocountry_name_dict_data[" . ($dta_l+1) . "] = {\n";
 	for ($i = 0; $i < $dta_l; $i++) {
 		printf("0x%02X, ", ord($dta[$i]));
 		if ($j % 16 == 15) {
