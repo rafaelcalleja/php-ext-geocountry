@@ -10,6 +10,10 @@ function eval_result($result, $name , $country = "40.4165, -3.70256") {
 			printf("The name %s is Country in %s\n", $name, $country);
 		break;
 
+        case Geocountry::IS_CITY:
+            printf("The name %s is city in %s\n", $name, $country);
+        break;
+
 	 
 		/*case Gender::IS_MOSTLY_FEMALE:
 			printf("The name %s is mostly female in %s\n", $name, $country);
@@ -46,6 +50,8 @@ function eval_result($result, $name , $country = "40.4165, -3.70256") {
 		break;*/
 	 
 		default:
+            printf("RESULT: %s\nExpected: %s\n", $result, Geocountry::IS_COUNTRY);
+            printf("Buscado: %s\nLocation: %s\n", $name, $country);
 			echo "An error occured!\n";
 		break;
 

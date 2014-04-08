@@ -490,7 +490,6 @@ int initialize_gender (struct ze_geocountry_obj *zgo TSRMLS_DC)
             }
           return (-1);
         }
-
       if ((int)strlen (letters_a_to_z) != (int)strlen (letters_A_to_Z))
         {
           if (zgo->internal_mode & TRACE_GENDER)
@@ -500,7 +499,6 @@ int initialize_gender (struct ze_geocountry_obj *zgo TSRMLS_DC)
             }
           return (-1);
         }
-
       if ((int)strlen (umlaut_lower) != (int)strlen (umlaut_upper))
         {
           if (zgo->internal_mode & TRACE_GENDER)
@@ -510,9 +508,6 @@ int initialize_gender (struct ze_geocountry_obj *zgo TSRMLS_DC)
             }
           return (-1);
         }
-        php_printf ("Internal umlaut_lower '%d", (int)strlen (umlaut_lower));
-php_printf ("Internal umlaut_sort '%d", (int)strlen (umlaut_sort));
-                php_printf ("TRACE_GENDER umlaut_sort2 '%d'", (int)strlen (umlaut_sort2));
       if ((int)strlen (umlaut_lower) != (int)strlen (umlaut_sort)
       ||  (int)strlen (umlaut_lower) != (int)strlen (umlaut_sort2))
         {
@@ -1014,6 +1009,8 @@ static long binary_search (php_stream *fr, char search_name[],
       i = php_stream_seek(fr, 0L, SEEK_SET);
       if (i != 0)
         {
+        php_printf ("Error: Could not position in dictionary file '%s'\n",
+                          zgo->dsn);
           if (zgo->internal_mode & TRACE_GENDER)
             {
               php_printf ("Error: Could not position in dictionary file '%s'\n",
@@ -1025,6 +1022,10 @@ static long binary_search (php_stream *fr, char search_name[],
       read_line(fr, text, MAX_LINE_SIZE+1 TSRMLS_CC);
       if (strncmp (text, CHECK_STRING, strlen(CHECK_STRING)) != 0)
         {
+        php_printf ("Error: Invalid version of dictionary file '%s'.\n",
+                           zgo->dsn);
+                      php_printf ("File header is:  \"%s\"\n", text);
+                      php_printf ("(this should be:  \"%s\").\n", CHECK_STRING);
           if (zgo->internal_mode & TRACE_GENDER)
             {
               i = (int)strlen (text);
@@ -1049,6 +1050,8 @@ static long binary_search (php_stream *fr, char search_name[],
       i = php_stream_seek(fr,0L, SEEK_END);
       if (i != 0)
         {
+         php_printf ("Error: Could not position in dictionary file '%s'.\n",
+                          zgo->dsn);
           if (zgo->internal_mode & TRACE_GENDER)
             {
               php_printf ("Error: Could not position in dictionary file '%s'.\n",
@@ -1073,7 +1076,7 @@ static long binary_search (php_stream *fr, char search_name[],
   p2 = zgo->record_count;
   i = -1;
   n = -1;
- 
+  php_printf ("start binary search.\n");
   while (p1 <= p2)
     {
       p = (long) ((p1+p2) / 2L);
@@ -1090,6 +1093,9 @@ static long binary_search (php_stream *fr, char search_name[],
           i = php_stream_seek(fr, (zgo->line_size * p), SEEK_SET);
           if (i != 0)
             {
+             php_printf ("Could not position in dictionary file '%s'.\n",
+                                  zgo->dsn);
+
               if (zgo->internal_mode & TRACE_GENDER)
                 {
                   php_printf ("Could not position in dictionary file '%s'.\n",
@@ -1113,7 +1119,9 @@ static long binary_search (php_stream *fr, char search_name[],
         {
           copycut (temp, text+offset, len_s TSRMLS_CC);
         }
- 
+
+  php_printf ("Range = line %ld - %ld,  guess = %ld ('%s')\n",
+               p1+1L, p2+1L, p+1L, temp);
       if (zgo->internal_mode & TRACE_GENDER)
         {
           php_printf ("Range = line %ld - %ld,  guess = %ld ('%s')\n",
@@ -1157,6 +1165,7 @@ static long binary_search (php_stream *fr, char search_name[],
  
   if (i == 0)
     {
+    php_printf ("Result: name '%s' foundDDDDDDDDDDDDDDDDDDD\n", temp);
       /****  match has been found  ****/
       if (zgo->internal_mode & TRACE_GENDER)
         {
@@ -2608,7 +2617,9 @@ static int conv_internal_result (char *text, int compare_mode)
           if (strncmp (text,"1F",2) == 0)  return (IS_FEMALE);
           if (strncmp (text,"1M",2) == 0)  return (IS_MALE);
         }
- 
+
+      if (strncmp (text,"P ",2) == 0)  return (IS_COUNTRY);
+      if (strncmp (text,"C ",2) == 0)  return (IS_CITY);
       if (strncmp (text,"F ",2) == 0)  return (IS_FEMALE);
       if (strncmp (text,"1F",2) == 0)  return (IS_MOSTLY_FEMALE);
       if (strncmp (text,"?F",2) == 0)  return (IS_MOSTLY_FEMALE);
@@ -2704,6 +2715,8 @@ static void trace_info_into_buffer
  
   switch (res)
     {
+      case IS_COUNTRY       :  s = "is country";           break;
+      case IS_CITY          :  s = "is city";              break;
       case IS_FEMALE        :  s = "is female";            break;
       case IS_MOSTLY_FEMALE :  s = "is mostly female";     break;
       case IS_MALE          :  s = "is male";              break;
@@ -2890,9 +2903,11 @@ static int internal_search
   int  restarted = 0; /* whether the loop was already restarted once */
 
 
+  php_printf ("Entro en la funcion\n", search_name);
 
-  if (zgo->internal_mode & TRACE_GENDER)
-    {
+//search country dictionary
+  //if (zgo->internal_mode & TRACE_GENDER)
+//    {
       php_printf ("Searching for name '%s'", search_name);
  
       /****  check for country  ****/
@@ -2905,12 +2920,14 @@ static int internal_search
             }
         }
       php_printf ("\n");
-    }
- 
+   // }
+
   if (zgo->f_names == NULL)
     {
+      php_printf ("Conectando con el diccionario\n");
       if(gender_connect_to_source(zgo TSRMLS_CC) == INTERNAL_ERROR_GENDER)
         {
+        php_printf ("Error: could not open dictionary file '%s'\n", zgo->dsn);
           if (zgo->internal_mode & TRACE_GENDER)
             {
               php_printf ("Error: could not open dictionary file '%s'\n",
@@ -2918,6 +2935,7 @@ static int internal_search
             }
           return (INTERNAL_ERROR_GENDER);
         }
+      php_printf (":::::::::::Conectando::::::::::\n");
     }
  
   if (compare_mode & SEARCH_GENDER)
@@ -2925,6 +2943,7 @@ static int internal_search
      i = (int)strlen (search_name);
      if (i == 0)
        {
+         php_printf ("Retunr UNISEX Conectando::::::::::\n");
          return (IS_UNISEX_NAME);
        }
  
@@ -2949,9 +2968,10 @@ static int internal_search
         {
           return (INTERNAL_ERROR_GENDER);
         }
+        php_printf ("POS_F < 0::::::::::\n");
       return (NAME_NOT_FOUND);
     }
- 
+ php_printf ("read one or more first names in dictionary file\n");
   /****  read one or more first names in dictionary file  ****/
   res = NAME_NOT_FOUND;
   php_stream_seek(zgo->f_names, pos_f, SEEK_SET);
@@ -2993,6 +3013,7 @@ restart_loop:
 
           res = conv_internal_result (text, compare_mode);
 
+          trace_info ("evaluating name", temp,NULL, res, text, zgo TSRMLS_CC);
           if (zgo->internal_mode & TRACE_GENDER)
             {
               trace_info ("evaluating name", temp,NULL, res, text, zgo TSRMLS_CC);
@@ -3000,6 +3021,7 @@ restart_loop:
  
           if (compare_mode & COMPARE_ABBREVIATION)
             {
+               php_printf ("COMPARANDO COMPARE_ABBREVIATION\n", search_name);
               if (res == IS_FEMALE)  res = IS_MOSTLY_FEMALE;
               if (res == IS_MALE)  res = IS_MOSTLY_MALE;
  
@@ -3105,7 +3127,7 @@ restart_loop:
                     }
                 }
             }
- 
+ php_printf ("Pointer RES %d\n", res);
           switch (res)
             {
               case IS_FEMALE        :  i =  1;  x = 0;  break;
@@ -3113,6 +3135,8 @@ restart_loop:
               case IS_MALE          :  i =  4;  x = 2;  break;
               case IS_MOSTLY_MALE   :  i =  8;  x = 3;  break;
               case IS_UNISEX_NAME   :  i = 16;  x = 4;  break;
+              case IS_COUNTRY       :  i = 128;  x = 7;  break;
+              case IS_CITY          :  i = 256;  x = 8;  break;
               case EQUIVALENT_NAMES :  i = 32;  x = 5;  break;
               default               :  i = 64;  x = 6;  break;
             }
@@ -3269,7 +3293,7 @@ static int get_gender_internal
   compare_mode |= SEARCH_GENDER;
  
   copycut (temp, first_name, LENGTH_FIRST_NAME+51 TSRMLS_CC);
- 
+  php_printf ("Reset Statistics\n" );
   /****  reset statistics  ****/
   for (i=0; zgo->gc_data[i].country_text != NULL; i++)
     {
@@ -3279,7 +3303,8 @@ static int get_gender_internal
           zgo->gc_data[i].n |= 1024;
         }
     }
- 
+
+  php_printf ("Evaluate Name\n" );
   /****  evaluate name  ****/
   k = 0;
   while (temp[k] != '\0'  &&  temp[k] != ' '
@@ -3294,15 +3319,17 @@ static int get_gender_internal
  
   if (temp[k] != '\0')
     {
+     php_printf ("Search whole name\n" );
      /****  search whole name  ****/
      gender = internal_search (temp, compare_mode, country, zgo TSRMLS_CC);
- 
+     php_printf ("gender: %d\n", gender );
      if (gender != NAME_NOT_FOUND)
        {
          return (gender);
        }
     }
- 
+
+  php_printf ("evaluate multiple name\n");
   /****  evaluate "multiple" name  ****/
   n = 0;
   gender = NAME_NOT_FOUND;
@@ -3311,6 +3338,7 @@ static int get_gender_internal
  
   while (temp[n] != '\0')
     {
+      php_printf ("look for end of word\n");
       /****  look for end of word  ****/
       k = n;
       while (temp[k] != '\0'  &&  temp[k] != ' '
@@ -3327,6 +3355,7 @@ static int get_gender_internal
  
       if (k > n)
         {
+          php_printf ("check this name\n");
           /****  check this name  ****/
           if (zgo->internal_mode & TRACE_GENDER)
             {
@@ -3346,8 +3375,9 @@ static int get_gender_internal
                     }
                 }
             }
- 
+
           gender = internal_search (temp+n, compare_mode, country, zgo TSRMLS_CC);
+          trace_info ("result for", temp+n, NULL, gender, NULL, zgo TSRMLS_CC);
           if (zgo->internal_mode & TRACE_GENDER)
             {
               trace_info ("result for", temp+n, NULL, gender, NULL, zgo TSRMLS_CC);
@@ -3378,6 +3408,8 @@ static int get_gender_internal
               case IS_MOSTLY_MALE   :  res |=  8;  break;
               case IS_UNISEX_NAME   :  res |= 16;  break;
               case NAME_NOT_FOUND   :  res |= 32;  break;
+              case IS_COUNTRY       :  res |= 128;  break;
+              case IS_CITY          :  res |= 256;  break;
               default               :  res |= 64;  break;
             }
         }
@@ -3402,7 +3434,15 @@ static int get_gender_internal
       /****  error in mame  ****/
       return (ERROR_IN_NAME);
     }
- 
+
+  if (res & 128)
+     {
+       return (IS_COUNTRY);
+     }
+  if (res & 256)
+     {
+       return (IS_CITY);
+     }
   if (res & 1)
     {
       return (IS_FEMALE);

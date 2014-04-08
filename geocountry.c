@@ -168,9 +168,8 @@ php_geocountry_obj_init(zend_class_entry *ze TSRMLS_DC)
 /* {{{ client class methods[] */
 zend_function_entry Geocountry_methods[] = {
     PHP_ME(Geocountry, __construct, NULL, ZEND_ACC_PUBLIC)
-	/*PHP_ME(Gender, __construct, NULL, ZEND_ACC_PUBLIC)
-	PHP_ME(Gender, get, NULL, ZEND_ACC_PUBLIC)
-	PHP_ME(Gender, connect, NULL, ZEND_ACC_PUBLIC)
+	PHP_ME(Geocountry, get, NULL, ZEND_ACC_PUBLIC)
+	/*PHP_ME(Gender, connect, NULL, ZEND_ACC_PUBLIC)
 	PHP_ME(Gender, trace, NULL, ZEND_ACC_PUBLIC)
 	PHP_ME(Gender, country, NULL, ZEND_ACC_PUBLIC)
 	PHP_ME(Gender, similarNames, NULL, ZEND_ACC_PUBLIC)
@@ -237,81 +236,83 @@ PHP_MINIT_FUNCTION(geocountry)
     Geocountry_ce = zend_register_internal_class(&ce TSRMLS_CC);
 
 
-   /* zend_declare_class_constant_long(Gender_ce, "IS_FEMALE", sizeof("IS_FEMALE")-1, IS_FEMALE TSRMLS_CC);
-    zend_declare_class_constant_long(Gender_ce, "IS_MOSTLY_FEMALE", sizeof("IS_MOSTLY_FEMALE")-1, IS_MOSTLY_FEMALE TSRMLS_CC);
-    zend_declare_class_constant_long(Gender_ce, "IS_MALE", sizeof("IS_MALE")-1, IS_MALE TSRMLS_CC);
-    zend_declare_class_constant_long(Gender_ce, "IS_MOSTLY_MALE", sizeof("IS_MOSTLY_MALE")-1, IS_MOSTLY_MALE TSRMLS_CC);
-    zend_declare_class_constant_long(Gender_ce, "IS_UNISEX_NAME", sizeof("IS_UNISEX_NAME")-1, IS_UNISEX_NAME TSRMLS_CC);
-    zend_declare_class_constant_long(Gender_ce, "IS_A_COUPLE", sizeof("IS_A_COUPLE")-1, IS_A_COUPLE TSRMLS_CC);
-    zend_declare_class_constant_long(Gender_ce, "NAME_NOT_FOUND", sizeof("NAME_NOT_FOUND")-1, NAME_NOT_FOUND TSRMLS_CC);
-    zend_declare_class_constant_long(Gender_ce, "ERROR_IN_NAME", sizeof("ERROR_IN_NAME")-1, ERROR_IN_NAME TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "IS_COUNTRY", sizeof("IS_COUNTRY")-1, IS_COUNTRY TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "IS_CITY", sizeof("IS_CITY")-1, IS_CITY TSRMLS_CC);
 
-    zend_declare_class_constant_long(Gender_ce, "ANY_COUNTRY", sizeof("ANY_COUNTRY")-1, GC_ANY_COUNTRY TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "IS_FEMALE", sizeof("IS_FEMALE")-1, IS_FEMALE TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "IS_MOSTLY_FEMALE", sizeof("IS_MOSTLY_FEMALE")-1, IS_MOSTLY_FEMALE TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "IS_MALE", sizeof("IS_MALE")-1, IS_MALE TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "IS_MOSTLY_MALE", sizeof("IS_MOSTLY_MALE")-1, IS_MOSTLY_MALE TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "IS_UNISEX_NAME", sizeof("IS_UNISEX_NAME")-1, IS_UNISEX_NAME TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "IS_A_COUPLE", sizeof("IS_A_COUPLE")-1, IS_A_COUPLE TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "NAME_NOT_FOUND", sizeof("NAME_NOT_FOUND")-1, NAME_NOT_FOUND TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "ERROR_IN_NAME", sizeof("ERROR_IN_NAME")-1, ERROR_IN_NAME TSRMLS_CC);
 
-    zend_declare_class_constant_long(Gender_ce, "BRITAIN", sizeof("BRITAIN")-1, GC_BRITAIN TSRMLS_CC);
-    zend_declare_class_constant_long(Gender_ce, "IRELAND", sizeof("IRELAND")-1, GC_IRELAND TSRMLS_CC);
-    zend_declare_class_constant_long(Gender_ce, "USA", sizeof("USA")-1, GC_USA TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "ANY_COUNTRY", sizeof("ANY_COUNTRY")-1, GC_ANY_COUNTRY TSRMLS_CC);
 
-    zend_declare_class_constant_long(Gender_ce, "SPAIN", sizeof("SPAIN")-1, GC_SPAIN TSRMLS_CC);
-    zend_declare_class_constant_long(Gender_ce, "PORTUGAL", sizeof("PORTUGAL")-1, GC_PORTUGAL TSRMLS_CC);
-    zend_declare_class_constant_long(Gender_ce, "ITALY", sizeof("ITALY")-1, GC_ITALY TSRMLS_CC);
-    zend_declare_class_constant_long(Gender_ce, "MALTA", sizeof("MALTA")-1, GC_MALTA TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "BRITAIN", sizeof("BRITAIN")-1, GC_BRITAIN TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "IRELAND", sizeof("IRELAND")-1, GC_IRELAND TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "USA", sizeof("USA")-1, GC_USA TSRMLS_CC);
 
-    zend_declare_class_constant_long(Gender_ce, "FRANCE", sizeof("FRANCE")-1, GC_FRANCE TSRMLS_CC);
-    zend_declare_class_constant_long(Gender_ce, "BELGIUM", sizeof("BELGIUM")-1, GC_BELGIUM TSRMLS_CC);
-    zend_declare_class_constant_long(Gender_ce, "LUXEMBOURG", sizeof("LUXEMBOURG")-1, GC_LUXEMBOURG TSRMLS_CC);
-    zend_declare_class_constant_long(Gender_ce, "NETHERLANDS", sizeof("NETHERLANDS")-1, GC_NETHERLANDS TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "SPAIN", sizeof("SPAIN")-1, GC_SPAIN TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "PORTUGAL", sizeof("PORTUGAL")-1, GC_PORTUGAL TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "ITALY", sizeof("ITALY")-1, GC_ITALY TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "MALTA", sizeof("MALTA")-1, GC_MALTA TSRMLS_CC);
 
-    zend_declare_class_constant_long(Gender_ce, "GERMANY", sizeof("GERMANY")-1, GC_GERMANY TSRMLS_CC);
-    zend_declare_class_constant_long(Gender_ce, "EAST_FRISIA", sizeof("EAST_FRISIA")-1, GC_EAST_FRISIA TSRMLS_CC);
-    zend_declare_class_constant_long(Gender_ce, "AUSTRIA", sizeof("AUSTRIA")-1, GC_AUSTRIA TSRMLS_CC);
-    zend_declare_class_constant_long(Gender_ce, "SWISS", sizeof("SWISS")-1, GC_SWISS TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "FRANCE", sizeof("FRANCE")-1, GC_FRANCE TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "BELGIUM", sizeof("BELGIUM")-1, GC_BELGIUM TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "LUXEMBOURG", sizeof("LUXEMBOURG")-1, GC_LUXEMBOURG TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "NETHERLANDS", sizeof("NETHERLANDS")-1, GC_NETHERLANDS TSRMLS_CC);
 
-    zend_declare_class_constant_long(Gender_ce, "ICELAND", sizeof("ICELAND")-1, GC_ICELAND TSRMLS_CC);
-    zend_declare_class_constant_long(Gender_ce, "DENMARK", sizeof("DENMARK")-1, GC_DENMARK TSRMLS_CC);
-    zend_declare_class_constant_long(Gender_ce, "NORWAY", sizeof("NORWAY")-1, GC_NORWAY TSRMLS_CC);
-    zend_declare_class_constant_long(Gender_ce, "SWEDEN", sizeof("SWEDEN")-1, GC_SWEDEN TSRMLS_CC);
-    zend_declare_class_constant_long(Gender_ce, "FINLAND", sizeof("FINLAND")-1, GC_FINLAND TSRMLS_CC);
-    zend_declare_class_constant_long(Gender_ce, "ESTONIA", sizeof("ESTONIA")-1, GC_ESTONIA TSRMLS_CC);
-    zend_declare_class_constant_long(Gender_ce, "LATVIA", sizeof("LATVIA")-1, GC_LATVIA TSRMLS_CC);
-    zend_declare_class_constant_long(Gender_ce, "LITHUANIA", sizeof("LITHUANIA")-1, GC_LITHUANIA TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "GERMANY", sizeof("GERMANY")-1, GC_GERMANY TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "EAST_FRISIA", sizeof("EAST_FRISIA")-1, GC_EAST_FRISIA TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "AUSTRIA", sizeof("AUSTRIA")-1, GC_AUSTRIA TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "SWISS", sizeof("SWISS")-1, GC_SWISS TSRMLS_CC);
 
-    zend_declare_class_constant_long(Gender_ce, "POLAND", sizeof("POLAND")-1, GC_POLAND TSRMLS_CC);
-    zend_declare_class_constant_long(Gender_ce, "CZECH_REP", sizeof("CZECH_REP")-1, GC_CZECH_REP TSRMLS_CC);
-    zend_declare_class_constant_long(Gender_ce, "SLOVAKIA", sizeof("SLOVAKIA")-1, GC_SLOVAKIA TSRMLS_CC);
-    zend_declare_class_constant_long(Gender_ce, "HUNGARY", sizeof("HUNGARY")-1, GC_HUNGARY TSRMLS_CC);
-    zend_declare_class_constant_long(Gender_ce, "ROMANIA", sizeof("ROMANIA")-1, GC_ROMANIA TSRMLS_CC);
-    zend_declare_class_constant_long(Gender_ce, "BULGARIA", sizeof("BULGARIA")-1, GC_BULGARIA TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "ICELAND", sizeof("ICELAND")-1, GC_ICELAND TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "DENMARK", sizeof("DENMARK")-1, GC_DENMARK TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "NORWAY", sizeof("NORWAY")-1, GC_NORWAY TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "SWEDEN", sizeof("SWEDEN")-1, GC_SWEDEN TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "FINLAND", sizeof("FINLAND")-1, GC_FINLAND TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "ESTONIA", sizeof("ESTONIA")-1, GC_ESTONIA TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "LATVIA", sizeof("LATVIA")-1, GC_LATVIA TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "LITHUANIA", sizeof("LITHUANIA")-1, GC_LITHUANIA TSRMLS_CC);
 
-    zend_declare_class_constant_long(Gender_ce, "BOSNIA", sizeof("BOSNIA")-1, GC_BOSNIA TSRMLS_CC);
-    zend_declare_class_constant_long(Gender_ce, "CROATIA", sizeof("CROATIA")-1, GC_CROATIA TSRMLS_CC);
-    zend_declare_class_constant_long(Gender_ce, "KOSOVO", sizeof("KOSOVO")-1, GC_KOSOVO TSRMLS_CC);
-    zend_declare_class_constant_long(Gender_ce, "MACEDONIA", sizeof("MACEDONIA")-1, GC_MACEDONIA TSRMLS_CC);
-    zend_declare_class_constant_long(Gender_ce, "MONTENEGRO", sizeof("MONTENEGRO")-1, GC_MONTENEGRO TSRMLS_CC);
-    zend_declare_class_constant_long(Gender_ce, "SERBIA", sizeof("SERBIA")-1, GC_SERBIA TSRMLS_CC);
-    zend_declare_class_constant_long(Gender_ce, "SLOVENIA", sizeof("SLOVENIA")-1, GC_SLOVENIA TSRMLS_CC);
-    zend_declare_class_constant_long(Gender_ce, "ALBANIA", sizeof("ALBANIA")-1, GC_ALBANIA TSRMLS_CC);
-    zend_declare_class_constant_long(Gender_ce, "GREECE", sizeof("GREECE")-1, GC_GREECE TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "POLAND", sizeof("POLAND")-1, GC_POLAND TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "CZECH_REP", sizeof("CZECH_REP")-1, GC_CZECH_REP TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "SLOVAKIA", sizeof("SLOVAKIA")-1, GC_SLOVAKIA TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "HUNGARY", sizeof("HUNGARY")-1, GC_HUNGARY TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "ROMANIA", sizeof("ROMANIA")-1, GC_ROMANIA TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "BULGARIA", sizeof("BULGARIA")-1, GC_BULGARIA TSRMLS_CC);
 
-    zend_declare_class_constant_long(Gender_ce, "RUSSIA", sizeof("RUSSIA")-1, GC_RUSSIA TSRMLS_CC);
-    zend_declare_class_constant_long(Gender_ce, "BELARUS", sizeof("BELARUS")-1, GC_BELARUS TSRMLS_CC);
-    zend_declare_class_constant_long(Gender_ce, "MOLDOVA", sizeof("MOLDOVA")-1, GC_MOLDOVA TSRMLS_CC);
-    zend_declare_class_constant_long(Gender_ce, "UKRAINE", sizeof("UKRAINE")-1, GC_UKRAINE TSRMLS_CC);
-    zend_declare_class_constant_long(Gender_ce, "ARMENIA", sizeof("ARMENIA")-1, GC_ARMENIA TSRMLS_CC);
-    zend_declare_class_constant_long(Gender_ce, "AZERBAIJAN", sizeof("AZERBAIJAN")-1, GC_AZERBAIJAN TSRMLS_CC);
-    zend_declare_class_constant_long(Gender_ce, "GEORGIA", sizeof("GEORGIA")-1, GC_GEORGIA TSRMLS_CC);
-    zend_declare_class_constant_long(Gender_ce, "KAZAKH_UZBEK", sizeof("KAZAKH_UZBEK")-1, GC_KAZAKH_UZBEK TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "BOSNIA", sizeof("BOSNIA")-1, GC_BOSNIA TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "CROATIA", sizeof("CROATIA")-1, GC_CROATIA TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "KOSOVO", sizeof("KOSOVO")-1, GC_KOSOVO TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "MACEDONIA", sizeof("MACEDONIA")-1, GC_MACEDONIA TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "MONTENEGRO", sizeof("MONTENEGRO")-1, GC_MONTENEGRO TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "SERBIA", sizeof("SERBIA")-1, GC_SERBIA TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "SLOVENIA", sizeof("SLOVENIA")-1, GC_SLOVENIA TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "ALBANIA", sizeof("ALBANIA")-1, GC_ALBANIA TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "GREECE", sizeof("GREECE")-1, GC_GREECE TSRMLS_CC);
 
-    zend_declare_class_constant_long(Gender_ce, "TURKEY", sizeof("TURKEY")-1, GC_TURKEY TSRMLS_CC);
-    zend_declare_class_constant_long(Gender_ce, "ARABIA", sizeof("ARABIA")-1, GC_ARABIA TSRMLS_CC);
-    zend_declare_class_constant_long(Gender_ce, "ISRAEL", sizeof("ISRAEL")-1, GC_ISRAEL TSRMLS_CC);
-    zend_declare_class_constant_long(Gender_ce, "CHINA", sizeof("CHINA")-1, GC_CHINA TSRMLS_CC);
-    zend_declare_class_constant_long(Gender_ce, "INDIA", sizeof("INDIA")-1, GC_INDIA TSRMLS_CC);
-    zend_declare_class_constant_long(Gender_ce, "JAPAN", sizeof("JAPAN")-1, GC_JAPAN TSRMLS_CC);
-    zend_declare_class_constant_long(Gender_ce, "KOREA", sizeof("KOREA")-1, GC_KOREA TSRMLS_CC);
-    zend_declare_class_constant_long(Gender_ce, "VIETNAM", sizeof("VIETNAM")-1, GC_VIETNAM TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "RUSSIA", sizeof("RUSSIA")-1, GC_RUSSIA TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "BELARUS", sizeof("BELARUS")-1, GC_BELARUS TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "MOLDOVA", sizeof("MOLDOVA")-1, GC_MOLDOVA TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "UKRAINE", sizeof("UKRAINE")-1, GC_UKRAINE TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "ARMENIA", sizeof("ARMENIA")-1, GC_ARMENIA TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "AZERBAIJAN", sizeof("AZERBAIJAN")-1, GC_AZERBAIJAN TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "GEORGIA", sizeof("GEORGIA")-1, GC_GEORGIA TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "KAZAKH_UZBEK", sizeof("KAZAKH_UZBEK")-1, GC_KAZAKH_UZBEK TSRMLS_CC);
 
-    return SUCCESS;*/
+    zend_declare_class_constant_long(Geocountry_ce, "TURKEY", sizeof("TURKEY")-1, GC_TURKEY TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "ARABIA", sizeof("ARABIA")-1, GC_ARABIA TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "ISRAEL", sizeof("ISRAEL")-1, GC_ISRAEL TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "CHINA", sizeof("CHINA")-1, GC_CHINA TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "INDIA", sizeof("INDIA")-1, GC_INDIA TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "JAPAN", sizeof("JAPAN")-1, GC_JAPAN TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "KOREA", sizeof("KOREA")-1, GC_KOREA TSRMLS_CC);
+    zend_declare_class_constant_long(Geocountry_ce, "VIETNAM", sizeof("VIETNAM")-1, GC_VIETNAM TSRMLS_CC);
+
     return SUCCESS;
 }
 /* }}}
@@ -407,6 +408,7 @@ PHP_METHOD(Geocountry, get)
 			mode = IGNORE_OTHER_COUNTRIES;
         }
 
+        php_printf ("Searching Country... %s\n",firstname );
         ZVAL_LONG(return_value, get_gender(firstname, mode, gc_country, zgo TSRMLS_CC));
 
         return;

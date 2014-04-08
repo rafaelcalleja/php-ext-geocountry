@@ -41,7 +41,7 @@ struct ze_geocountry_obj;
 #define IS_MALE                'M'
 #define IS_MOSTLY_MALE         'm'
 #define IS_UNISEX_NAME         '?'
-#define IS_A_COUPLE            'C'
+#define IS_A_COUPLE            'c'
 
 #define EQUIVALENT_NAMES       '='
 #define NOT_EQUAL_NAMES        '!'
@@ -79,32 +79,30 @@ struct ze_geocountry_obj;
 /****  (char set = iso8859-1) - DO NOT CHANGE THESE MACROS    ****/
 #define letters_a_to_z   "abcdefghijklmnopqrstuvwxyz"
 #define letters_A_to_Z   "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-#define umlaut_lower   "Ã Ã¡Ã¢Ã£Ã¥Ã¤Ã¦Ã§Ã°Ã¨Ã©ÃªÃ«Ã¬Ã­Ã®Ã¯Ã±Ã²Ã³Ã´ÃµÃ¶Ã¸Å“Å¡ÃŸÃ¾Ã¹ÃºÃ»Ã¼Ã½Ã¿"
-#define umlaut_upper   "Ã€ÃÃ‚ÃƒÃ…Ã„Ã†Ã‡ÃÃˆÃ‰ÃŠÃ‹ÃŒÃÃÃÃ‘Ã’Ã“Ã”Ã•Ã–Ã˜Å’Å ÃŸÃÃ™ÃšÃ›ÃœÃÅ¸"
-
+#define umlaut_lower   "àáâãåäæçğèéêëìíîïñòóôõöøœšßşùúûüıÿ"
+#define umlaut_upper   "ÀÁÂÃÅÄÆÇĞÈÉÊËÌÍÎÏÑÒÓÔÕÖØŒŠßŞÙÚÛÜİŸ"
 
 /****  macro for "lev100.h"  ****/
-#define umlaut_conv    "AAAAAÃ„Ã„CDEEEEIIIINOOOOÃ–Ã–Ã–SÃŸÃUUUÃœYY"
+#define umlaut_conv    "AAAAAÄÄCDEEEEIIIINOOOOÖÖÖSßŞUUUÜYY"
 /****  macros for "gender.c"  ****/
 #define umlaut_sort    "AAAAAAACDEEEEIIIINOOOOOOOSSTUUUUYY"
 #define umlaut_sort2   "    AEE          H    EEE SH   E  "
 
 
 
-
 /****  TO-DO:  If you want to convert DOS umlauts to iso chars,   ****/
 /****     use the following macros to create a translation table  ****/
 /**
- #define DOS_chars  "â€¦ Æ’Ã†â€ â€˜â€â€¡ÃÅ â€šË†â€°ÂÂ¡Å’â€¹Â¤â€¢Â¢â€œÃ¤â€ºâ€Ã¡Ã¨â€”Â£â€“ÂÃ¬ËœÂ·ÂµÂ¶Ã‡Ââ€™Å½â‚¬Ã‘Ã”ÂÃ’Ã“ÃÃ–Ã—Ã˜Â¥Ã£Ã Ã¢Ã¥Ââ„¢Ã§Ã«Ã©ÃªÅ¡Ã­Ëœ"
- #define iso_chars  "Ã Ã¡Ã¢Ã£Ã¥Ã¦Ã¤Ã§Ã°Ã¨Ã©ÃªÃ«Ã¬Ã­Ã®Ã¯Ã±Ã²Ã³Ã´ÃµÃ¸Ã¶ÃŸÃ¾Ã¹ÃºÃ»Ã¼Ã½Ã¿Ã€ÃÃ‚ÃƒÃ…Ã†Ã„Ã‡ÃÃˆÃ‰ÃŠÃ‹ÃŒÃÃÃÃ‘Ã’Ã“Ã”Ã•Ã˜Ã–ÃÃ™ÃšÃ›ÃœÃÅ¸"
+ #define DOS_chars  "… ƒÆ†‘„‡ĞŠ‚ˆ‰¡Œ‹¤•¢“ä›”áè—£–ì˜·µ¶Ç’€ÑÔÒÓŞÖ×Ø¥ãàâå™çëéêší˜"
+ #define iso_chars  "àáâãåæäçğèéêëìíîïñòóôõøößşùúûüıÿÀÁÂÃÅÆÄÇĞÈÉÊËÌÍÎÏÑÒÓÔÕØÖŞÙÚÛÜİŸ"
 **/
 
 
 /****  TO-DO:  If you want to convert Mac umlauts to iso chars,   ****/
 /****     use the following macros to create a translation table  ****/
 /**
- #define Mac_chars  "Â¤Â¡Ë†â€¡â€°â€¹Å’Â¾Å ÂÂÅ½Ââ€˜â€œâ€™â€â€¢â€“Ëœâ€”â„¢â€ºÂ¿Å¡Â§ÂÅ“Å¾Å¸Ã˜Ã‹Ã§Ã¥ÃŒÂÂ®â‚¬â€šÃ©Æ’Ã¦Ã¨Ã­ÃªÃ«Ã¬â€Ã±Ã®Ã¯ÃÂ¯â€¦Ã´Ã²Ã³â€ Ã™"
- #define iso_chars  "Â§Â°Ã Ã¡Ã¢Ã£Ã¥Ã¦Ã¤Ã§Ã¨Ã©ÃªÃ«Ã¬Ã­Ã®Ã¯Ã±Ã²Ã³Ã´ÃµÃ¸Ã¶ÃŸÃ¹ÃºÃ»Ã¼Ã¿Ã€ÃÃ‚ÃƒÃ…Ã†Ã„Ã‡ÃˆÃ‰ÃŠÃ‹ÃŒÃÃÃÃ‘Ã’Ã“Ã”Ã•Ã˜Ã–Ã™ÃšÃ›ÃœÅ¸"
+ #define Mac_chars  "¤¡ˆ‡‰‹Œ¾Š‘“’”•–˜—™›¿š§œŸØËçåÌ®€‚éƒæèíêëì„ñîïÍ¯…ôòó†Ù"
+ #define iso_chars  "§°àáâãåæäçèéêëìíîïñòóôõøößùúûüÿÀÁÂÃÅÆÄÇÈÉÊËÌÍÎÏÑÒÓÔÕØÖÙÚÛÜŸ"
 **/
 
 
@@ -237,7 +235,7 @@ int find_similar_name_utf8 (char first_name[], int country,
 #define CHECK_STRING  "# DO NOT CHANGE:   FILE-FORMAT DEFINITION-DATE = 2008-11-16 "
 #define CACHE_LOOKBACK_COUNT       2
 
-#define CHARS_TO_IGNORE    "<>^,Â´'`~Â°/"
+#define CHARS_TO_IGNORE    "<>^,´'`~°/"
 #define IS_CHAR_TO_IGNORE      '\001'
 
 #define COMPRESSED_UMLAUTS_FOR_SORTING   '-'
@@ -265,7 +263,7 @@ int find_similar_name_utf8 (char first_name[], int country,
 
 #define MATCHES_ALL   -1000
 
-#define WORD_SEPARATORS   "+-/*( )&,'Â´`.:"
+#define WORD_SEPARATORS   "+-/*( )&,'´`.:"
 
 struct PHONETIC_RULES
 {
