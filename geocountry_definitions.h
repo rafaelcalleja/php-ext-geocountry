@@ -34,6 +34,8 @@ struct ze_geocountry_obj;
 /****  TO-DO: Change the following macros if necessary.        ****/
 /****  (NOTE: These macros are independent from corresponding  ****/
 /****   definitions in the file "FIRST_NAME_FILE")             ****/
+#define IS_COUNTRY             'P'
+#define IS_CITY                'C'
 #define IS_FEMALE              'F'
 #define IS_MOSTLY_FEMALE       'f'
 #define IS_MALE                'M'
