@@ -1,10 +1,10 @@
 --TEST--
-Check for gender presence
+Check for geocountry presence
 --SKIPIF--
-<?php if (!extension_loaded("gender")) print "skip"; ?>
+<?php if (!extension_loaded("geocountry")) print "skip"; ?>
 --FILE--
 <?php 
-echo "gender extension is available";
+echo "geocountry extension is available";
 /*
 	you can add regression tests for your extension here
 
@@ -18,4 +18,4 @@ echo "gender extension is available";
 */
 ?>
 --EXPECT--
-gender extension is available
+geocountry extension is available

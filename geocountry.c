@@ -41,7 +41,7 @@ extern struct gc_struct gc_data[];
  
 zend_object_handlers default_geocountry_handlers;
 
-#include "nam_dict.c"
+#include "country_dic.c"
 
 extern int initialize_gender (struct ze_geocountry_obj *zgo TSRMLS_DC);
 extern int get_gender (char first_name[], int compare_mode, int country, struct ze_geocountry_obj *zgo TSRMLS_DC);
@@ -60,7 +60,7 @@ int gender_connect_to_source(struct ze_geocountry_obj *zgo TSRMLS_DC)
 			zgo->f_names = php_stream_open_wrapper(zgo->dsn, "r",  STREAM_MUST_SEEK | USE_PATH, NULL);
 			zgo->internal_dict = 0;
 		} else {
-			zgo->dsn = (char*)php_gender_name_dict_data;
+			zgo->dsn = (char*)php_geocountry_name_dict_data;
 			zgo->f_names = php_stream_open_wrapper(zgo->dsn, "r",  0, NULL);
 			zgo->internal_dict = 1;
 		}

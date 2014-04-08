@@ -1,20 +1,20 @@
 --TEST--
-Check female name
+Check country name
 --SKIPIF--
-<?php if (!extension_loaded("gender")) print "skip"; ?>
+<?php if (!extension_loaded("geocountry")) print "skip"; ?>
 --FILE--
 <?php 
 
-namespace Gender;
+namespace Geocountry;
 
 include dirname(__FILE__) . "/func.inc";
 
-$name = "Milene";
-$g = new Gender; 
+$name = "Spain";
+$g = new Geocountry;
 
 eval_result($g->get($name), $name);
 ?>
 DONE
 --EXPECT--
-The name Milene is female in 0
+The name Spain is Country in 40.4165, -3.70256
 DONE

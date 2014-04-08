@@ -1,16 +1,17 @@
 <?php
 
-namespace Gender;
+namespace Geocountry;
 
-function eval_result($result, $name , $country = 0) {
+function eval_result($result, $name , $country = "40.4165, -3.70256") {
 
 	switch($result) {
-		case Gender::IS_FEMALE:
-			printf("The name %s is female in %s\n", $name, $country);
+
+		case Geocountry::IS_COUNTRY:
+			printf("The name %s is Country in %s\n", $name, $country);
 		break;
 
 	 
-		case Gender::IS_MOSTLY_FEMALE:
+		/*case Gender::IS_MOSTLY_FEMALE:
 			printf("The name %s is mostly female in %s\n", $name, $country);
 		break;
 
@@ -42,7 +43,7 @@ function eval_result($result, $name , $country = 0) {
 	 
 		case Gender::ERROR_IN_NAME:
 			echo "There is an error in the given name!\n";
-		break;
+		break;*/
 	 
 		default:
 			echo "An error occured!\n";

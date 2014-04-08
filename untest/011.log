@@ -1,0 +1,31 @@
+
+---- EXPECTED OUTPUT
+int(70)
+int(102)
+int(77)
+int(109)
+int(102)
+int(63)
+int(77)
+int(109)
+int(109)
+int(63)
+int(70)
+int(102)
+int(77)
+int(109)
+int(70)
+int(77)
+int(77)
+int(109)
+int(77)
+int(109)
+int(70)
+int(77)
+int(63)
+int(77)
+int(63)
++++DONE+++
+---- ACTUAL OUTPUT
+Fatal error: Class 'Gender\Gender' not found in /home/rafa/Desktop/gender/geocountry-0.0.1/tests/011.php on line 2
+---- FAILED
