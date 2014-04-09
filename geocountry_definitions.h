@@ -23,6 +23,7 @@
 #include <php.h>
 
 struct ze_geocountry_obj;
+struct GeoCoord;
 
 #define GEOCOUNTRY_VERSION  "version 0.0.1, 2014-04-02"
 
@@ -180,9 +181,9 @@ struct ze_geocountry_obj;
 /****  function prototypes  *********************************/
 /************************************************************/
 
-int get_gender (char first_name[], int compare_mode, int country, struct ze_geocountry_obj *zgo TSRMLS_DC);
-int get_gender_unicode (char first_name[], int compare_mode, int country, struct ze_geocountry_obj *zgo TSRMLS_DC);
-int get_gender_utf8 (char first_name[], int compare_mode, int country, struct ze_geocountry_obj *zgo TSRMLS_DC);
+int get_gender (char first_name[], int compare_mode, int country, struct ze_geocountry_obj *zgo TSRMLS_DC, struct GeoCoord *coords );
+int get_gender_unicode (char first_name[], int compare_mode, int country, struct ze_geocountry_obj *zgo TSRMLS_DC, struct GeoCoord *coords );
+int get_gender_utf8 (char first_name[], int compare_mode, int country, struct ze_geocountry_obj *zgo TSRMLS_DC, struct GeoCoord *coords );
 
 
 int check_nickname (char first_name_1[],
@@ -250,6 +251,13 @@ int find_similar_name_utf8 (char first_name[], int country,
 #define CHARSET_UNICODE       1
 #define CHARSET_UTF_8         2
 
+
+#define DATA_LATITUDE_POS      30
+#define DATA_LATITUDE_LENGTH   11
+#define DATA_LONGITUDE_POS      42
+#define DATA_LONGITUDE_LENGTH   11
+
+
 /****  position and length of first names in dictionary file  ****/
 #define DATA_NAME_POS           3
 #define DATA_NAME_LENGTH       26
@@ -286,5 +294,6 @@ struct gc_struct
 	char *country_short;
 	char *country_text;
 };
+
  
 #endif

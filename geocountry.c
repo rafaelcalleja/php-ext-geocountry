@@ -44,7 +44,7 @@ zend_object_handlers default_geocountry_handlers;
 #include "country_dic.c"
 
 extern int initialize_gender (struct ze_geocountry_obj *zgo TSRMLS_DC);
-extern int get_gender (char first_name[], int compare_mode, int country, struct ze_geocountry_obj *zgo TSRMLS_DC);
+extern int get_gender (char first_name[], int compare_mode, int country, struct ze_geocountry_obj *zgo TSRMLS_DC, struct GeoCoord *coords);
 extern int determine_country (char *text, struct ze_geocountry_obj *zgo TSRMLS_DC);
 
 /* Off set length for gender_parse_dsn */
@@ -113,6 +113,7 @@ php_geocountry_obj_destroy(void *obj TSRMLS_DC)
 	zgo->record_count = 0L;
 
 	efree(zgo);
+
 }/*}}}*/
 
 zend_object_value
@@ -147,6 +148,7 @@ php_geocountry_obj_init(zend_class_entry *ze TSRMLS_DC)
 
 
 	for (i=0; i < GENDER_GC_DATA_SIZE; i++) {
+	    php_printf ("GCDATA %s\n", gc_data[i].country_text);
 		zgo->gc_data[i].pos = gc_data[i].pos;
 		zgo->gc_data[i].n = gc_data[i].n;
 		zgo->gc_data[i].quality_of_statistics = gc_data[i].quality_of_statistics;
@@ -169,6 +171,7 @@ php_geocountry_obj_init(zend_class_entry *ze TSRMLS_DC)
 zend_function_entry Geocountry_methods[] = {
     PHP_ME(Geocountry, __construct, NULL, ZEND_ACC_PUBLIC)
 	PHP_ME(Geocountry, get, NULL, ZEND_ACC_PUBLIC)
+	PHP_ME(Geocountry, getCoords, NULL, ZEND_ACC_PUBLIC)
 	/*PHP_ME(Gender, connect, NULL, ZEND_ACC_PUBLIC)
 	PHP_ME(Gender, trace, NULL, ZEND_ACC_PUBLIC)
 	PHP_ME(Gender, country, NULL, ZEND_ACC_PUBLIC)
@@ -381,10 +384,82 @@ PHP_METHOD(Geocountry, __construct)
 /* }}} */
 
 
+/* {{{ proto integer Geocountry::getCoords(string $name) get coords for the country */
+PHP_METHOD(Geocountry, getCoords)
+{
+	struct ze_geocountry_obj *zgo;
+	struct GeoCoord *coords;
+
+    char *firstname;
+    int firstname_len;
+    zval *country = NULL;
+
+    if (zend_parse_parameters(ZEND_NUM_ARGS() TSRMLS_CC, "s|z", &firstname, &firstname_len) == FAILURE) {
+            return;
+    }
+
+	zgo = (struct ze_geocountry_obj *) zend_object_store_get_object(getThis() TSRMLS_CC);
+
+    if(firstname_len) {
+		int mode = 0;
+		int gc_country = GC_ANY_COUNTRY;
+
+        php_printf ("Searching Country... %s\n",firstname );
+        get_gender(firstname, mode, gc_country, zgo TSRMLS_CC, coords);
+
+        array_init(return_value);
+        add_assoc_double(return_value,"latitude",  atof(zgo->latitude));
+        add_assoc_double(return_value,"longitude", atof(zgo->longitude));
+
+        php_printf ("--------------------------------__%s-----------------------------------", zgo->latitude);
+        php_printf ("--------------------------------__%s-----------------------------------", zgo->longitude);
+
+        return;
+        /*buf = (char *) emalloc(sizeof(char)*2048);
+        array_init(return_value);
+
+        find_similar_name(name, (int)country, buf, 2048, zgo TSRMLS_CC);
+
+        if (strlen(buf) < 1) {
+            efree(buf);
+            return;
+        }
+
+        pch0 = buf;
+        pch1 = strchr(buf, ';');
+
+        if (NULL == pch1) {
+            add_next_index_string(return_value, buf, 1);
+        } else {
+            char *one;
+
+            while(NULL != pch1) {
+                int one_len = pch1 - pch0;
+
+                one = estrndup(pch0, one_len);
+                one[one_len] = '\0';
+                add_next_index_string(return_value, one, 0);
+
+                pch0 = pch1 + 2;
+                pch1 = strchr(pch0, ';');
+            }
+            add_next_index_string(return_value, pch0, 1);
+        }
+
+        efree(buf);*/
+
+
+    }
+
+    RETURN_FALSE;
+}
+/* }}} */
+
 /* {{{ proto integer Gender::get(string $name, string $country) get gender for the name in the country */
 PHP_METHOD(Geocountry, get)
 {
 	struct ze_geocountry_obj *zgo;
+	struct GeoCoord *coords;
     char *firstname;
     int firstname_len;
     zval *country = NULL;
@@ -394,6 +469,8 @@ PHP_METHOD(Geocountry, get)
     }
 
 	zgo = (struct ze_geocountry_obj *) zend_object_store_get_object(getThis() TSRMLS_CC);
+	//coords = (struct GeoCoord *) zend_object_store_get_object(getThis() TSRMLS_CC);
+
 
     if(firstname_len) {
 		int mode = 0;
@@ -409,7 +486,7 @@ PHP_METHOD(Geocountry, get)
         }
 
         php_printf ("Searching Country... %s\n",firstname );
-        ZVAL_LONG(return_value, get_gender(firstname, mode, gc_country, zgo TSRMLS_CC));
+        ZVAL_LONG(return_value, get_gender(firstname, mode, gc_country, zgo TSRMLS_CC, coords));
 
         return;
     }

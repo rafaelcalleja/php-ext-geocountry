@@ -3,7 +3,10 @@
 namespace Geocountry;
 
 function eval_result($result, $name , $country = "40.4165, -3.70256") {
-
+if(is_array($result)) {
+var_dump($result);
+return;
+}
 	switch($result) {
 
 		case Geocountry::IS_COUNTRY:
