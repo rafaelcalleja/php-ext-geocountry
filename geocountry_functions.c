@@ -2886,7 +2886,7 @@ static void trace_info
  
  
 static int internal_search
-     (char search_name[], int compare_mode, int country, struct ze_geocountry_obj *zgo TSRMLS_DC, struct GeoCoord *coords)
+     (char search_name[], int compare_mode, int country, struct ze_geocountry_obj *zgo TSRMLS_DC)
 /****  This function searches a single given name  ****/
 {
   int  i,n,x;
@@ -3140,11 +3140,6 @@ restart_loop:
  copycut (zgo->latitude, text+DATA_LATITUDE_POS, DATA_LATITUDE_LENGTH+1 TSRMLS_CC);
  copycut (zgo->longitude, text+DATA_LONGITUDE_POS, DATA_LONGITUDE_LENGTH+1 TSRMLS_CC);
 
-
-
- //coords->latitude = 1;
- //coords->latitude = atof(tempLat);
- //coords->longitude = atof(tempLon);
           switch (res)
             {
               case IS_FEMALE        :  i =  1;  x = 0;  break;
@@ -3284,7 +3279,7 @@ look_next:
  
  
 static int get_gender_internal
-    (char first_name[], int compare_mode, int country, struct ze_geocountry_obj *zgo TSRMLS_DC, struct GeoCoord *coords)
+    (char first_name[], int compare_mode, int country, struct ze_geocountry_obj *zgo TSRMLS_DC)
 /****  This function determines the gender of a given first name  ****/
  
 /****  Result: IS_FEMALE        :  female first name            ****/
@@ -3338,7 +3333,7 @@ static int get_gender_internal
     {
      php_printf ("Search whole name\n" );
      /****  search whole name  ****/
-     gender = internal_search (temp, compare_mode, country, zgo TSRMLS_CC, coords);
+     gender = internal_search (temp, compare_mode, country, zgo TSRMLS_CC );
      php_printf ("gender: %d\n", gender );
      if (gender != NAME_NOT_FOUND)
        {
@@ -3393,7 +3388,7 @@ static int get_gender_internal
                 }
             }
 
-          gender = internal_search (temp+n, compare_mode, country, zgo TSRMLS_CC, coords);
+          gender = internal_search (temp+n, compare_mode, country, zgo TSRMLS_CC);
           trace_info ("result for", temp+n, NULL, gender, NULL, zgo TSRMLS_CC);
           if (zgo->internal_mode & TRACE_GENDER)
             {
@@ -3500,7 +3495,6 @@ static int check_nickname_internal (char first_name_1[],
   int  i,k,n;
   char a_temp [LENGTH_FIRST_NAME+3];
   char a2_temp [LENGTH_FIRST_NAME+3];
-  struct GeoCoord *coords;
  
   n = copycut (a_temp, first_name_1, LENGTH_FIRST_NAME+3 TSRMLS_CC);
   k = copycut (a2_temp,first_name_2, LENGTH_FIRST_NAME+3 TSRMLS_CC);
@@ -3556,13 +3550,13 @@ static int check_nickname_internal (char first_name_1[],
   if (n <= k)
     {
       php_sprintf (a_temp+n, " %s", a2_temp);
-      i = internal_search (a_temp, compare_mode, country, zgo TSRMLS_CC, coords);
+      i = internal_search (a_temp, compare_mode, country, zgo TSRMLS_CC );
       a_temp[n] = '\0';
     }
   if (k <= n  &&  i == NAME_NOT_FOUND)
     {
       php_sprintf (a2_temp+k, " %s", a_temp);
-      i = internal_search (a2_temp, compare_mode, country, zgo TSRMLS_CC, coords);
+      i = internal_search (a2_temp, compare_mode, country, zgo TSRMLS_CC);
       a2_temp[k] = '\0';
     }
  
@@ -4185,10 +4179,10 @@ static int find_similar_name_internal
  
  
  
-int get_gender (char first_name[], int compare_mode, int country, struct ze_geocountry_obj *zgo TSRMLS_DC, struct GeoCoord *coords)
+int get_gender (char first_name[], int compare_mode, int country, struct ze_geocountry_obj *zgo TSRMLS_DC)
 {
   int i;
-  i = get_gender_internal (first_name, compare_mode, country, zgo TSRMLS_CC, coords);
+  i = get_gender_internal (first_name, compare_mode, country, zgo TSRMLS_CC );
   return (i);
 }
  
@@ -4235,12 +4229,12 @@ int find_similar_name (char first_name[],
  
  
 int get_gender_unicode
-   (char first_name[], int compare_mode, int country, struct ze_geocountry_obj *zgo TSRMLS_DC, struct GeoCoord *coords)
+   (char first_name[], int compare_mode, int country, struct ze_geocountry_obj *zgo TSRMLS_DC)
 {
   int i;
   conv_from_unicode_line (zgo->input_buffer_1, first_name, 101);
  
-  i = get_gender_internal (zgo->input_buffer_1, compare_mode, country, zgo TSRMLS_CC, coords);
+  i = get_gender_internal (zgo->input_buffer_1, compare_mode, country, zgo TSRMLS_CC);
   return (i);
 }
  
@@ -4290,11 +4284,11 @@ int find_similar_name_unicode (char first_name[],
  
  
  
-int get_gender_utf8 (char first_name[], int compare_mode, int country, struct ze_geocountry_obj *zgo TSRMLS_DC, struct GeoCoord *coords)
+int get_gender_utf8 (char first_name[], int compare_mode, int country, struct ze_geocountry_obj *zgo TSRMLS_DC)
 {
   int i;
   conv_from_utf8_line (zgo->input_buffer_1, first_name, 101);
-  i = get_gender_internal (zgo->input_buffer_1, compare_mode, country, zgo TSRMLS_CC, coords);
+  i = get_gender_internal (zgo->input_buffer_1, compare_mode, country, zgo TSRMLS_CC);
   return (i);
 }
  

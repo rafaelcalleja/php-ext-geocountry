@@ -23,7 +23,6 @@
 #include <php.h>
 
 struct ze_geocountry_obj;
-struct GeoCoord;
 
 #define GEOCOUNTRY_VERSION  "version 0.0.1, 2014-04-02"
 
@@ -181,9 +180,9 @@ struct GeoCoord;
 /****  function prototypes  *********************************/
 /************************************************************/
 
-int get_gender (char first_name[], int compare_mode, int country, struct ze_geocountry_obj *zgo TSRMLS_DC, struct GeoCoord *coords );
-int get_gender_unicode (char first_name[], int compare_mode, int country, struct ze_geocountry_obj *zgo TSRMLS_DC, struct GeoCoord *coords );
-int get_gender_utf8 (char first_name[], int compare_mode, int country, struct ze_geocountry_obj *zgo TSRMLS_DC, struct GeoCoord *coords );
+int get_gender (char first_name[], int compare_mode, int country, struct ze_geocountry_obj *zgo TSRMLS_DC);
+int get_gender_unicode (char first_name[], int compare_mode, int country, struct ze_geocountry_obj *zgo TSRMLS_DC);
+int get_gender_utf8 (char first_name[], int compare_mode, int country, struct ze_geocountry_obj *zgo TSRMLS_DC);
 
 
 int check_nickname (char first_name_1[],

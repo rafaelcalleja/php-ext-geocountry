@@ -1,0 +1,2341 @@
+P  Andorra                     +42.50779  +1.52109                                  1 $                           
+P  Afaganisitani               +34.52813  +69.17233                                 1 $
+P  Afeganistão                 +34.52813  +69.17233                                 1 $
+P  Afgaanistan                 +34.52813  +69.17233                                 1 $
+P  Afganistán                  +34.52813  +69.17233                                 1 $
+P  Afghanistan                 +34.52813  +69.17233                                 1 $
+P  afghanistaŋ                 +34.52813  +69.17233                                 1 $
+P  Afɣanistan                  +34.52813  +69.17233                                 1 $
+P  Afilika+Kusini              -25.74486  +28.18783                                 1 $
+P  África+do+Sul               -25.74486  +28.18783                                 1 $
+P  Afrika+du+Sulu              -25.74486  +28.18783                                 1 $
+P  Afrika+Kusini               -25.74486  +28.18783                                 1 $
+P  Afrika+nekǝsǝŋ              -25.74486  +28.18783                                 1 $
+P  Afuganisitani               +34.52813  +69.17233                                 1 $
+P  Afuganistani                +34.52813  +69.17233                                 1 $
+P  Aislandi                    +64.13548  -21.89541                                 1 $
+P  Ajentina                    -34.61315  -58.37723                                 1 $
+P  Albaani                     +41.3275   +19.81889                                 1 $
+P  Albaasalaama+Marganta       +51.50853  -0.12574                                  1 $
+P  Albania                     +41.3275   +19.81889                                 1 $
+P  Albanija                    +41.3275   +19.81889                                 1 $
+P  albaniya                    +41.3275   +19.81889                                 1 $
+P  Alemanha                    +52.52437  +13.41053                                 1 $
+P  Alemania                    +52.52437  +13.41053                                 1 $
+P  Algeria                     +36.7525   +3.04197                                  1 $
+P  algeriya                    +36.7525   +3.04197                                  1 $
+P  Alibaniya                   +41.3275   +19.81889                                 1 $
+P  Aligerya                    +36.7525   +3.04197                                  1 $
+P  Alijeliya                   +36.7525   +3.04197                                  1 $
+P  Alimeniya                   +40.18111  +44.51361                                 1 $
+P  Aljeria                     +36.7525   +3.04197                                  1 $
+P  Almaaɲe                     +52.52437  +13.41053                                 1 $
+P  Aluba                       +12.52398  -70.02703                                 1 $
+P  Alubaniya                   +41.3275   +19.81889                                 1 $
+P  Alujeria                    +36.7525   +3.04197                                  1 $
+P  Alžeeri                     +36.7525   +3.04197                                  1 $
+P  Alžir                       +36.7525   +3.04197                                  1 $
+P  Ameerik+Virgin+Gungey       +18.3419   -64.9307                                  1 $
+P  Amerika                     +40.70365  -89.40731                                 1 $
+P  Ameriki+Laabu+Margantey     +40.70365  -89.40731                                 1 $
+P  Andola                      +42.50779  +1.52109                                  1 $
+P  Andoora                     +42.50779  +1.52109                                  1 $
+P  Andora                      +42.50779  +1.52109                                  1 $
+P  Angola                      -8.83682   +13.23432                                 1 $
+P  Angoola                     -8.83682   +13.23432                                 1 $
+P  Aotearoa                    -41.28664  +174.77557                                1 $
+P  Arabia+Saudí                +24.68773  +46.72185                                 1 $
+P  Arábia+Saudita              +24.68773  +46.72185                                 1 $
+P  Arameniya                   +40.18111  +44.51361                                 1 $
+P  Argelia                     +36.7525   +3.04197                                  1 $
+P  Argentina                   -34.61315  -58.37723                                 1 $
+P  Argentine                   -34.61315  -58.37723                                 1 $
+P  Argentiniya                 -34.61315 -58.37723                                  1 $
+P  Arigentina                  -34.61315 -58.37723                                  1 $
+P  Arjuntin                    -34.61315 -58.37723                                  1 $
+P  Armeeni                     +40.18111 44.51361                                   1 $
+P  Armenia                     +40.18111 44.51361                                   1 $
+P  Armenija                    +40.18111 44.51361                                   1 $
+P  armeniya                    +40.18111 44.51361                                   1 $
+P  Arminya                     +40.18111 44.51361                                   1 $
+P  Aruba                       +12.52398 -70.02703                                  1 $
+P  Aruuba                      +12.52398 -70.02703                                  1 $
+P  Asabajani                   +40.37767 49.89201                                   1 $
+P  Aupuni+Mōʻī+Hui+Pū+ʻIa      +51.50853 -0.12574                                   1 $
+P  Australia                   -35.28346 149.12807                                  1 $
+P  Australija                  -35.28346 149.12807                                  1 $
+P  australiya                  -35.28346 149.12807                                  1 $
+P  Austria                     +48.20849 16.37208                                   1 $
+P  Austrija                    +48.20849 16.37208                                   1 $
+P  austriya                    +48.20849 16.37208                                   1 $
+P  Avganistan                  +34.52813 69.17233                                   1 $
+P  Awusitilaliya               -35.28346 149.12807                                  1 $
+P  Awusitiliya                 +48.20849 16.37208                                   1 $
+P  Awusitureliya               -35.28346 149.12807                                  1 $
+P  Awusituriya                 +48.20849 16.37208                                   1 $
+P  Ayalandi                    +53.33306 -6.24889                                   1 $
+P  Ayceland                    +64.13548 -21.89541                                  1 $
+P  Ayisilendi                  +64.13548 -21.89541                                  1 $
+P  Ayisirandi                  +64.13548 -21.89541                                  1 $
+P  Azabajani                   +40.37767 49.89201                                   1 $
+P  Azerbaayijaŋ                +40.37767 49.89201                                   1 $
+P  Azerbaijan                  +40.37767 49.89201                                   1 $
+P  azerbaijaŋ                  +40.37767 49.89201                                   1 $
+P  Azerbaijão                  +40.37767 49.89201                                   1 $
+P  Azerbaiyán                  +40.37767 49.89201                                   1 $
+P  Azerbejdžan                 +40.37767 49.89201                                   1 $
+P  Azerebayijaani              +40.37767 49.89201                                   1 $
+P  Azrabijan 40.37767 49.89201
+P  Baareeni 26.21536 50.5832
+P  Babadosi 13.1 -59.61667
+P  Bahaleni 26.21536 50.5832
+P  Bahama 25.05823 -77.34306
+P  Bahamas 25.05823 -77.34306
+P  Bahamasi 25.05823 -77.34306
+P  Bahami 25.05823 -77.34306
+P  Bahareen 26.21536 50.5832
+P  Bahareni 26.21536 50.5832
+P  Bahrain 26.21536 50.5832
+P  bahraiŋ 26.21536 50.5832
+P  Bahréin 26.21536 50.5832
+P  Baḥrin 26.21536 50.5832
+P  Bangaladesi 23.7104 90.40744
+P  Bangiladeshi 23.7104 90.40744
+P  Bangladac 23.7104 90.40744
+P  Bangladeš 23.7104 90.40744
+P  Bangladesh 23.7104 90.40744
+P  Bangladeshi 23.7104 90.40744
+P  bangladeshiya 23.7104 90.40744
+P  Bangladeši 23.7104 90.40744
+P  Barabadosi 13.1 -59.61667
+P  Barbaados 13.1 -59.61667
+P  barbadiya 13.1 -59.61667
+P  Barbados 13.1 -59.61667
+P  Barbadus 13.1 -59.61667
+P  Belalusi 53.9 27.56667
+P  Belarus 53.9 27.56667
+P  Belarusi 53.9 27.56667
+P  belarussiya 53.9 27.56667
+P  Bélgica 50.85045 4.34878
+P  Belgiiki 50.85045 4.34878
+P  Belgija 50.85045 4.34878
+P  Belǧik 50.85045 4.34878
+P  belgika 50.85045 4.34878
+P  Belgium 50.85045 4.34878
+P  Belorusija 53.9 27.56667
+P  Benin 6.49646 2.60359
+P  Benini 6.49646 2.60359
+P  beniŋ 6.49646 2.60359
+P  Bhutan 27.46609 89.64191
+P  Bielorrusia 53.9 27.56667
+P  Bilarus 53.9 27.56667
+P  Biloriši 53.9 27.56667
+P  Binin 6.49646 2.60359
+P  Bizanga byeSolomooni -9.43333 159.95
+P  Bizinga bye Kepu Veredi 14.93152 -23.51254
+P  Bizinga byeKomoro -11.70216 43.25506
+P  Bizinga byeMalidive 4.1748 73.50888
+P  Bizinga bya Firipino 14.6042 120.9822
+P  Bizinga bya Mariso 7.08971 171.38027
+P  Bizinga bya Mariyana ebyomumambuka 15.21233 145.7545
+P  Bizinga bya Virigini ebyAmerika 18.3419 -64.9307
+P  Bizinga ebya Kayimaani 19.2866 -81.37436
+P  Bocvana -24.65451 25.90859
+P  Bolivia -19.03332 -65.26274
+P  Bolivija -19.03332 -65.26274
+P  Boliviya -19.03332 -65.26274
+P  Boolivi -19.03332 -65.26274
+P  Bosiniya ni Hesegovina 43.84864 18.35644
+P  Bosna i Hercegovina 43.84864 18.35644
+P  Bosni nda Herzegovine 43.84864 18.35644
+P  Bosnia and Herzegovina 43.84864 18.35644
+P  Bosnia na Hezegovina 43.84864 18.35644
+P  Bosnia-Herzegovina 43.84864 18.35644
+P  bosniya ne Herzegovina 43.84864 18.35644
+P  Botiswana -24.65451 25.90859
+P  Botsuana -24.65451 25.90859
+P  Botswaana -24.65451 25.90859
+P  Botswana -24.65451 25.90859
+P  Boziniya Hezegovina 43.84864 18.35644
+P  Brasil -15.77972 -47.92972
+P  Brazil -15.77972 -47.92972
+P  Brazili -15.77972 -47.92972
+P  brazilya -15.77972 -47.92972
+P  Breezil -15.77972 -47.92972
+P  Brizil -15.77972 -47.92972
+P  Brunei 4.94029 114.94806
+P  Brunej 4.94029 114.94806
+P  Bruney 4.94029 114.94806
+P  bruniya 4.94029 114.94806
+P  Bruunee 4.94029 114.94806
+P  Bubirigi 50.85045 4.34878
+P  Budaaki 52.52437 13.41053
+P  Bufalansa 48.85341 2.3488
+P  Bugarska 42.69751 23.32415
+P  Bugereeki/Buyonaani 37.97945 23.71622
+P  Bukinafaso 12.36566 -1.53388
+P  Bukini -18.91368 47.53613
+P  Bulasili -15.77972 -47.92972
+P  Bulgaari 42.69751 23.32415
+P  Bulgari 42.69751 23.32415
+P  Bulgaria 42.69751 23.32415
+P  bulgariya 42.69751 23.32415
+P  Buligaliya 42.69751 23.32415
+P  Bulivi -19.03332 -65.26274
+P  Bulugariya 42.69751 23.32415
+P  Bulundi -3.3822 29.3644
+P  Buluneyi 4.94029 114.94806
+P  Bungereza 51.50853 -0.12574
+P  Burandi -3.3822 29.3644
+P  Buraziiri -15.77972 -47.92972
+P  Burkina Faso 12.36566 -1.53388
+P  Burkina Fasu 12.36566 -1.53388
+P  Burquina Faso 12.36566 -1.53388
+P  Burukina Faso 12.36566 -1.53388
+P  Burunayi 4.94029 114.94806
+P  Burundi -3.3822 29.3644
+P  Busna d Hersek 43.84864 18.35644
+P  Bustwana -24.65451 25.90859
+P  Butaani 27.46609 89.64191
+P  Bután 27.46609 89.64191
+P  Butani 27.46609 89.64191
+P  butaŋ 27.46609 89.64191
+P  Butão 27.46609 89.64191
+P  Buutaŋ 27.46609 89.64191
+P  Buyindi 28.63576 77.22445
+P  Caadi 12.10672 15.0444
+P  Caadu 12.10672 15.0444
+P  Cabo Verde 14.93152 -23.51254
+P  Čad 12.10672 15.0444
+P  Cambodia 11.56245 104.91601
+P  Camboja 11.56245 104.91601
+P  Camboya 11.56245 104.91601
+P  Cambudya 11.56245 104.91601
+P  Cameroon 3.86667 11.51667
+P  Camerún 3.86667 11.51667
+P  Canada 45.41117 -75.69812
+P  Cape Verde 14.93152 -23.51254
+P  Casaquistão 51.1801 71.44598
+P  Catar 25.27932 51.52245
+P  Cayina 39.9075 116.39723
+P  Cayman Islands 19.2866 -81.37436
+P  Čček 50.08804 14.42076
+P  Cek labo 50.08804 14.42076
+P  Centraafriki koyra 4.36122 18.55496
+P  centrafrika 4.36122 18.55496
+P  Central African Republic 4.36122 18.55496
+P  Centralno Afrička Republika 4.36122 18.55496
+P  Češka 50.08804 14.42076
+P  Chad 12.10672 15.0444
+P  Chade 12.10672 15.0444
+P  Chadi 12.10672 15.0444
+P  Chaina 39.9075 116.39723
+P  Chile -33.45694 -70.64827
+P  China 39.9075 116.39723
+P  Chipre 35.16667 33.36667
+P  Cile -33.45694 -70.64827
+P  Cili -33.45694 -70.64827
+P  Cipr 35.16667 33.36667
+P  Colombia 4.60971 -74.08175
+P  Comoras -11.70216 43.25506
+P  Comores -11.70216 43.25506
+P  Comoros -11.70216 43.25506
+P  Comorosu -11.70216 43.25506
+P  Congo - Brazzaville -4.26613 15.28318
+P  Congo - Kinshasa -4.32758 15.31357
+P  Congo-Kinshasa -4.32758 15.31357
+P  Congo -4.26613 15.28318
+P  Corea del Norte 39.03385 125.75432
+P  Corea del Sur 37566 126.9784
+P  Coréia do Norte 39.03385 125.75432
+P  Coréia do Sul 37566 126.9784
+P  Costa de Marfil 6.82055 -5.27674
+P  Costa do Marfim 6.82055 -5.27674
+P  Costa Rica 10.95173 -85.1361
+P  Côte dIvoire 6.82055 -5.27674
+P  Crna Gora 42.44111 19.26361
+P  Croacia 45.81444 15.97798
+P  Croatia 45.81444 15.97798
+P  Cuba 23.13302 -82.38304
+P  Cyprus 35.16667 33.36667
+P  Czech Republic 50.08804 14.42076
+P  Danemark 55.67594 12.56553
+P  Danska 55.67594 12.56553
+P  Daŋmark 55.67594 12.56553
+P  Democratic Republic of the Congo -4.32758 15.31357
+P  Demokratska Republika Kongo -4.32758 15.31357
+P  Denimaaka 55.67594 12.56553
+P  Denimaki 55.67594 12.56553
+P  Denmaki 55.67594 12.56553
+P  Denmark 55.67594 12.56553
+P  Dinamarca 55.67594 12.56553
+P  Djibouti 11.58901 43.14503
+P  Djibuti 11.58901 43.14503
+P  Dominica 15.30174 -61.38808
+P  Dominican Republic 18.50012 -69.98857
+P  Dominik 15.30174 -61.38808
+P  Dominika 15.30174 -61.38808
+P  Dominikanska Republika 18.50012 -69.98857
+P  Doominiki laboo 18.50012 -69.98857
+P  Doominiki 15.30174 -61.38808
+P  Duminik 15.30174 -61.38808
+P  Džersi 49.18804 -2.10491
+P  Džibuti 11.58901 43.14503
+P  East Timor -8.55861 125.57361
+P  Ecioopi 9.02497 38.74689
+P  Ecuador -0.22985 -78.52495
+P  Egipat 30.06263 31.24967
+P  Egipto 30.06263 31.24967
+P  Egito 30.06263 31.24967
+P  Egypt 30.06263 31.24967
+P  Ekvador -0.22985 -78.52495
+P  Ekvatorijalna Gvineja 3.75 8.78333
+P  Ekwado -0.22985 -78.52495
+P  Ekwateer -0.22985 -78.52495
+P  Ekwatǝr -0.22985 -78.52495
+P  El salivado 13.68935 -89.18718
+P  El Salvador 13.68935 -89.18718
+P  Elisavado 13.68935 -89.18718
+P  Elitileya 15.33805 38.93184
+P  Elsavado 13.68935 -89.18718
+P  Emirados Árabes Unidos 24.46667 54.36667
+P  Emiratos Árabes Unidos 24.46667 54.36667
+P  Emireeti 24.46667 54.36667
+P  Equador -0.22985 -78.52495
+P  Equatorial Guinea 3.75 8.78333
+P  Eritrea 15.33805 38.93184
+P  Eritree 15.33805 38.93184
+P  Eritréia 15.33805 38.93184
+P  Eritreja 15.33805 38.93184
+P  Eritureya 15.33805 38.93184
+P  Esitoniya 59.43696 24.75353
+P  Eslovaquia 48.14816 17.10674
+P  Eslovenia 46.05108 14.50513
+P  Espaaɲe 40.4165 -3.70256
+P  España 40.4165 -3.70256
+P  Espanha 40.4165 -3.70256
+P  Espanya 40.4165 -3.70256
+P  Espaŋiya 40.4165 -3.70256
+P  Estados Unidos 40.70365 -89.40731
+P  Estonia 59.43696 24.75353
+P  Estonija 59.43696 24.75353
+P  Estoniya 59.43696 24.75353
+P  Estooni 59.43696 24.75353
+P  Esyopya 9.02497 38.74689
+P  Ethiopia 9.02497 38.74689
+P  Etiopía 9.02497 38.74689
+P  Etiopija 9.02497 38.74689
+P  Ɛuman 23.61387 58.5922
+P  Falisṭin d Ɣezza 31.78336 35.23388
+P  Falme za Kiarabu 24.46667 54.36667
+P  Faransi Guyaan 4.93333 -52.33333
+P  Faransi Polineezi -17.53733 -149.5665
+P  Faransi 48.85341 2.3488
+P  Fidži -18.14161 178.44149
+P  Figunguli fya Maliyana ifya luvala lwa Kunyamande 15.21233 145.7545
+P  Figunguli fya Solomoni -9.43333 159.95
+P  Figunguli fya Viliginiya ifya Malekani 18.3419 -64.9307
+P  Figunguli ifya Kayimayi 19.2866 -81.37436
+P  Figunguli ifya Malishali 7.08971 171.38027
+P  Fiji -18.14161 178.44149
+P  Filipin 14.6042 120.9822
+P  Filipinas 14.6042 120.9822
+P  Filipine 14.6042 120.9822
+P  Filipini 14.6042 120.9822
+P  Filipino 14.6042 120.9822
+P  Filipiŋ 14.6042 120.9822
+P  Finilandi 60.16952 24.93545
+P  Finland 60.16952 24.93545
+P  Finlandia 60.16952 24.93545
+P  Finlandu 60.16952 24.93545
+P  Finlund 60.16952 24.93545
+P  Finska 60.16952 24.93545
+P  Fiyi -18.14161 178.44149
+P  França 48.85341 2.3488
+P  France 48.85341 2.3488
+P  Francia 48.85341 2.3488
+P  Francuska Gvajana 4.93333 -52.33333
+P  Francuska Polinezija -17.53733 -149.5665
+P  Francuska 48.85341 2.3488
+P  Fransa 48.85341 2.3488
+P  Franssǝ 48.85341 2.3488
+P  French Guiana 4.93333 -52.33333
+P  French Polynesia -17.53733 -149.5665
+P  Gaabon 0.39241 9.45356
+P  Gaana 5.55602 -0.1969
+P  Gabão 0.39241 9.45356
+P  Gabon 0.39241 9.45356
+P  Gaboni 0.39241 9.45356
+P  Gaboŋ 0.39241 9.45356
+P  Gabun 0.39241 9.45356
+P  Gambi 13.45274 -16.57803
+P  Gambia 13.45274 -16.57803
+P  Gambija 13.45274 -16.57803
+P  Gambiya 13.45274 -16.57803
+P  Gambya 13.45274 -16.57803
+P  Gana 5.55602 -0.1969
+P  Gayana eyoku ekweta 3.75 8.78333
+P  Gayana 6.80448 -58.15527
+P  Georgia 41.69411 44.83368
+P  Georgiya 41.69411 44.83368
+P  Germaniya 52.52437 13.41053
+P  Germany 52.52437 13.41053
+P  Ghana 5.55602 -0.1969
+P  Gibraltar 36.14474 -5.35257
+P  Giburalita 36.14474 -5.35257
+P  Ǧibuti 11.58901 43.14503
+P  Gine-Bisso 11.86357 -15.59767
+P  Gine 9.53795 -13.67729
+P  Ginebisau 11.86357 -15.59767
+P  Ginebisawu 11.86357 -15.59767
+P  Ginee Ekwatorial 3.75 8.78333
+P  Ginekweta 3.75 8.78333
+P  Gini-Bisawu 11.86357 -15.59767
+P  Gini 9.53795 -13.67729
+P  Gorgi 41.69411 44.83368
+P  Grčka 37.97945 23.71622
+P  Grecia 37.97945 23.71622
+P  Greece 37.97945 23.71622
+P  Gruzija 41.69411 44.83368
+P  Guatemala 14.64072 -90.51327
+P  Guayana Francesa 4.93333 -52.33333
+P  Guiana Francesa 4.93333 -52.33333
+P  Guiana 6.80448 -58.15527
+P  Guiné Bissau 11.86357 -15.59767
+P  Guiné Equatorial 3.75 8.78333
+P  Guine ma Bissao 11.86357 -15.59767
+P  Guine 9.53795 -13.67729
+P  Guinea Ecuatorial 3.75 8.78333
+P  Guinea-Bissau 11.86357 -15.59767
+P  Guinea 9.53795 -13.67729
+P  Guwana 6.80448 -58.15527
+P  Guyaane 6.80448 -58.15527
+P  Guyana enfalansa 4.93333 -52.33333
+P  Guyana 6.80448 -58.15527
+P  Gvajana 6.80448 -58.15527
+P  Gvatemala 14.64072 -90.51327
+P  Gvineja-Bisao 11.86357 -15.59767
+P  Gvineja 9.53795 -13.67729
+P  Gwatemaala 14.64072 -90.51327
+P  Gwatemala 14.64072 -90.51327
+P  Gwatimala 14.64072 -90.51327
+P  Gwiyana ya Ufaransa 4.93333 -52.33333
+P  Gwiyana ya Wufalansa 4.93333 -52.33333
+P  Gyogya 41.69411 44.83368
+P  Ɣana tafransist 4.93333 -52.33333
+P  Ɣana 5.55602 -0.1969
+P  Ɣinya Tamaynut Tapaput -9.44314 147.17972
+P  Ɣinya Tasebgast 3.75 8.78333
+P  Ɣinya-Bisaw 11.86357 -15.59767
+P  Ɣinya 9.53795 -13.67729
+P  Haiti 18.53917 -72335
+P  Hangare 47.49801 19.03991
+P  Hati 18.53917 -72335
+P  Hawsa Afriki Laboo -25.74486 28.18783
+P  Hayiti 18.53917 -72335
+P  Hayti 18.53917 -72335
+P  Helene 37.97945 23.71622
+P  Hisipaniya 40.4165 -3.70256
+P  Hispania 40.4165 -3.70256
+P  Holanda 52.37403 4.88969
+P  Holandi 52.37403 4.88969
+P  Holandija 52.37403 4.88969
+P  Hōlani 52.37403 4.88969
+P  Hollandu 52.37403 4.88969
+P  Hondulasi 14.0818 -87.20681
+P  Honduras 14.0818 -87.20681
+P  Hondurasi 14.0818 -87.20681
+P  Hong Kong (S. A. R. Kina) 22.28552 114.15769
+P  Hong Kong SAR China 22.28552 114.15769
+P  Hong Kong 22.28552 114.15769
+P  Hrvatska 45.81444 15.97798
+P  Hunduras 14.0818 -87.20681
+P  Hundurasi 14.0818 -87.20681
+P  Hungaari 47.49801 19.03991
+P  Hungaliya 47.49801 19.03991
+P  Hungaria 47.49801 19.03991
+P  Hungary 47.49801 19.03991
+P  Hungri 47.49801 19.03991
+P  Hungría 47.49801 19.03991
+P  Hungriya 47.49801 19.03991
+P  ʻĀina Pilipino 14.6042 120.9822
+P  ʻAmelika Hui Pū ʻIa 40.70365 -89.40731
+P  ʻĪkālia 41.89474 12.4839
+P  ʻIlelani 53.33306 -6.24889
+P  ʻĪnia 28.63576 77.22445
+P  ʻIseraʻela 31.76904 35.21633
+P  Iāpana 35.6895 139.69171
+P  Iceland 64.13548 -21.89541
+P  Iêmen 15.35472 44.20667
+P  Ikwaṭur -0.22985 -78.52495
+P  Ilaki 33.34058 44.40088
+P  Ilhas Caiman 19.2866 -81.37436
+P  Ilhas Marianas do Norte 15.21233 145.7545
+P  Ilhas Marshall 7.08971 171.38027
+P  Ilhas Salomão -9.43333 159.95
+P  Ilhas Virgens dos EUA 18.3419 -64.9307
+P  India 28.63576 77.22445
+P  Indija 28.63576 77.22445
+P  Indiya 28.63576 77.22445
+P  Indoneezi -6.21462 106.84513
+P  Indonesia -6.21462 106.84513
+P  Indonesiya -6.21462 106.84513
+P  Indonezija -6.21462 106.84513
+P  Indu laboo 28.63576 77.22445
+P  Indunizi -6.21462 106.84513
+P  Irã 35.69439 51.42151
+P  Iraak 33.34058 44.40088
+P  Iraan 35.69439 51.42151
+P  Irak 33.34058 44.40088
+P  Iraki 33.34058 44.40088
+P  Iran 35.69439 51.42151
+P  Iraŋ 35.69439 51.42151
+P  Iraq 33.34058 44.40088
+P  Iraque 33.34058 44.40088
+P  Ireland 53.33306 -6.24889
+P  Iriši laboo 55.75222 37.61556
+P  Iritiria 15.33805 38.93184
+P  Irlanda 53.33306 -6.24889
+P  Irlandu 53.33306 -6.24889
+P  Irska 53.33306 -6.24889
+P  Isilaeli 31.76904 35.21633
+P  Isla de Man 54.15 -4.48333
+P  Island 64.13548 -21.89541
+P  Islandia 64.13548 -21.89541
+P  Islas Caimán 19.2866 -81.37436
+P  Islas Marianas del Norte 15.21233 145.7545
+P  Islas Marshall 7.08971 171.38027
+P  Islas Salomón -9.43333 159.95
+P  Islas Vírgenes de los Estados Unidos 18.3419 -64.9307
+P  Isle of Man 54.15 -4.48333
+P  Israel 31.76904 35.21633
+P  Israeli 31.76904 35.21633
+P  Israyel 31.76904 35.21633
+P  Istunya 59.43696 24.75353
+P  Itaali 41.89474 12.4839
+P  Italia 41.89474 12.4839
+P  Italija 41.89474 12.4839
+P  Italiya 41.89474 12.4839
+P  Italy 41.89474 12.4839
+P  Italya 41.89474 12.4839
+P  Ivory Coast 6.82055 -5.27674
+P  Izrael 31.76904 35.21633
+P  Izrayil 31.76904 35.21633
+P  Jaapoŋ 35.6895 139.69171
+P  Jamaayik 17.99702 -76.79358
+P  Jamaica 17.99702 -76.79358
+P  Jamaika 17.99702 -76.79358
+P  Jamajka 17.99702 -76.79358
+P  Jamayika 17.99702 -76.79358
+P  Jamhuri ya Afrika ya Kati 4.36122 18.55496
+P  Jamhuri ya Cheki 50.08804 14.42076
+P  Jamhuri ya Dominika 18.50012 -69.98857
+P  Jamhuri ya Kidemokrasia ya Kongo -4.32758 15.31357
+P  Jamuhuli ya Afilika ya Pakhati 4.36122 18.55496
+P  Jamuhuli ya Dominika 18.50012 -69.98857
+P  Jamuhuli ya Kidemokilasiya ya Kongo -4.32758 15.31357
+P  Jamuhuli ya Sheki 50.08804 14.42076
+P  Jamyika 17.99702 -76.79358
+P  Japan 35.6895 139.69171
+P  Japani 35.6895 139.69171
+P  Japaŋ 35.6895 139.69171
+P  Japão 35.6895 139.69171
+P  Japón 35.6895 139.69171
+P  Jappu 35.6895 139.69171
+P  Jemen 15.35472 44.20667
+P  Jersey 49.18804 -2.10491
+P  Jibralta 36.14474 -5.35257
+P  Jibraltar 36.14474 -5.35257
+P  Jibulalita 36.14474 -5.35257
+P  Jibuti 11.58901 43.14503
+P  Jibuuti 11.58901 43.14503
+P  Jiyurji 41.69411 44.83368
+P  Jjibuti 11.58901 43.14503
+P  Jojia 41.69411 44.83368
+P  Jojiya 41.69411 44.83368
+P  Jordan 31.95522 35.94503
+P  Jordania 31.95522 35.94503
+P  Jordaniya 31.95522 35.94503
+P  Južna Koreja 37566 126.9784
+P  Južnoafrička Republika -25.74486 28.18783
+P  Kaaledooni Taagaa -22.27631 166.4572
+P  Kaazakstan 51.1801 71.44598
+P  Kajmanska Ostrva 19.2866 -81.37436
+P  Kaledoniya mafuu -22.27631 166.4572
+P  Kaledonya mupya -22.27631 166.4572
+P  Kalidunya Tamaynut -22.27631 166.4572
+P  Kambodia 11.56245 104.91601
+P  kambodiya 11.56245 104.91601
+P  Kambodya 11.56245 104.91601
+P  Kambodža 11.56245 104.91601
+P  Kamboogi 11.56245 104.91601
+P  Kamerun 3.86667 11.51667
+P  Kameruni 3.86667 11.51667
+P  kameruŋ 3.86667 11.51667
+P  Kameruun 3.86667 11.51667
+P  Kameruuni 3.86667 11.51667
+P  Kamirun 3.86667 11.51667
+P  Kanaada 45.41117 -75.69812
+P  Kanada 45.41117 -75.69812
+P  Kanakā 45.41117 -75.69812
+P  kap ma laŋne 14.93152 -23.51254
+P  Kape Verde 14.93152 -23.51254
+P  Kapuver gungey 14.93152 -23.51254
+P  Kasakisitani 51.1801 71.44598
+P  Kataa 25.27932 51.52245
+P  Kataar 25.27932 51.52245
+P  Katali 25.27932 51.52245
+P  Katar 25.27932 51.52245
+P  Katari 25.27932 51.52245
+P  Kayman gungey 19.2866 -81.37436
+P  kayman ma laŋne 19.2866 -81.37436
+P  Kazahstan 51.1801 71.44598
+P  Kazajistán 51.1801 71.44598
+P  Kazakhstan 51.1801 71.44598
+P  Kazakisitaani 51.1801 71.44598
+P  Kazakistani 51.1801 71.44598
+P  Kazakstaŋ 51.1801 71.44598
+P  Kazaxistan 51.1801 71.44598
+P  Keeniya -1.28333 36.81667
+P  Kelemānia 52.52437 13.41053
+P  Kenemaka 55.67594 12.56553
+P  Kenia -1.28333 36.81667
+P  Kenija -1.28333 36.81667
+P  Kenya -1.28333 36.81667
+P  Kepania 40.4165 -3.70256
+P  Kepuvede 14.93152 -23.51254
+P  Kerwasya 45.81444 15.97798
+P  Khana 5.55602 -0.1969
+P  Kilibati 1.3278 172.97696
+P  Kiligisisitani 42.87 74.59
+P  Kina 39.9075 116.39723
+P  Kinya -1.28333 36.81667
+P  Kipar 35.16667 33.36667
+P  Kirgizstan 42.87 74.59
+P  Kirgizstaŋ 42.87 74.59
+P  Kirguistán 42.87 74.59
+P  Kiribaati 1.3278 172.97696
+P  Kiribati 1.3278 172.97696
+P  Kirigistan 42.87 74.59
+P  Kirigizisitaani 42.87 74.59
+P  Kirigizistani 42.87 74.59
+P  Kodivaa 6.82055 -5.27674
+P  Kodivaya 6.82055 -5.27674
+P  Kolasiya 45.81444 15.97798
+P  Koleya ya Kusini 37566 126.9784
+P  Koleya ya luvala lwa Kunyamande 39.03385 125.75432
+P  Kolombi 4.60971 -74.08175
+P  Kolombia 4.60971 -74.08175
+P  kolombiya 4.60971 -74.08175
+P  Kolombya 4.60971 -74.08175
+P  Kolumbija 4.60971 -74.08175
+P  Komolo -11.70216 43.25506
+P  Komoor -11.70216 43.25506
+P  komora -11.70216 43.25506
+P  Komoro -11.70216 43.25506
+P  Komorska Ostrva -11.70216 43.25506
+P  Kongo - Zayire -4.32758 15.31357
+P  Kongo -4.26613 15.28318
+P  Kongoo demookaratiki laboo -4.32758 15.31357
+P  Kongoo -4.26613 15.28318
+P  Kooree 39.03385 125.75432
+P  Kooree 37566 126.9784
+P  Korasia 45.81444 15.97798
+P  Korea Kaskazini 39.03385 125.75432
+P  Korea Kusini 37566 126.9784
+P  Koreya eyomumambuka 39.03385 125.75432
+P  Koreya eyomumaserengeta 37566 126.9784
+P  Kosita Rika 10.95173 -85.1361
+P  Kositalika 10.95173 -85.1361
+P  Kosovo 42.67272 21.16688
+P  kosta Rika 10.95173 -85.1361
+P  Kostarika 10.95173 -85.1361
+P  Kote Divwa 6.82055 -5.27674
+P  kroatiya 45.81444 15.97798
+P  Krwaasi 45.81444 15.97798
+P  Kuba 23.13302 -82.38304
+P  Kudwar 6.82055 -5.27674
+P  Kulumbi 4.60971 -74.08175
+P  Kumur -11.70216 43.25506
+P  Kungu -4.26613 15.28318
+P  Kupilosi 35.16667 33.36667
+P  Kuprosi 35.16667 33.36667
+P  Kurowesya 45.81444 15.97798
+P  Kurya 39.03385 125.75432
+P  Kurya 37566 126.9784
+P  Kusta Rika 10.95173 -85.1361
+P  Kuṭ Divwar 6.82055 -5.27674
+P  Kuuba 23.13302 -82.38304
+P  Kuvajt 29.36972 47.97833
+P  Kuwait 29.36972 47.97833
+P  Kuwaiti 29.36972 47.97833
+P  Kuwayt 29.36972 47.97833
+P  Kuweet 29.36972 47.97833
+P  Kuweti 29.36972 47.97833
+P  Kyrgyzstan 42.87 74.59
+P  Laaraw Imaarawey Margantey 24.46667 54.36667
+P  Laawos 17.96667 102.6
+P  Lacin 39.9075 116.39723
+P  Lagris 37.97945 23.71622
+P  Lajurdani 31.95522 35.94503
+P  Lalbani 41.3275 19.81889
+P  Lalman 52.52437 13.41053
+P  Laos 17.96667 102.6
+P  Laosi 17.96667 102.6
+P  Lasa 55.75222 37.61556
+P  Lasembagi 49.61167 6.13
+P  Lativia 56946 24.10589
+P  Lativiya 56946 24.10589
+P  Lativya 56946 24.10589
+P  Latvia 56946 24.10589
+P  Lawosi 17.96667 102.6
+P  Laws 17.96667 102.6
+P  Layosi 17.96667 102.6
+P  Lebanon 33.88894 35.49442
+P  Lebanoni 33.88894 35.49442
+P  Leesoto -29.31667 27.48333
+P  Lesoso -29.31667 27.48333
+P  Lesotho -29.31667 27.48333
+P  Lesoto -29.31667 27.48333
+P  Letonia 56946 24.10589
+P  Letonija 56946 24.10589
+P  Letoniya 56946 24.10589
+P  Letooni 56946 24.10589
+P  Leyunyoni -20.88231 55.4504
+P  Lezzayer 36.7525 3.04197
+P  Lɛiraq 33.34058 44.40088
+P  Lhend 28.63576 77.22445
+P  Liban 33.88894 35.49442
+P  Líbano 33.88894 35.49442
+P  Libaŋ 33.88894 35.49442
+P  Libeliya 6.30054 -10.7969
+P  Liberia 6.30054 -10.7969
+P  Liberija 6.30054 -10.7969
+P  Liberiya 6.30054 -10.7969
+P  Liberya 6.30054 -10.7969
+P  Libirya 6.30054 -10.7969
+P  Lipubulika eya Senturafiriki 4.36122 18.55496
+P  Lipubulika ya Ceeka 50.08804 14.42076
+P  Lipubulika ya Dominika 18.50012 -69.98857
+P  Lirlund 53.33306 -6.24889
+P  Lisuwenya 54.68916 25.2798
+P  Lithuania 54.68916 25.2798
+P  Lituaani 54.68916 25.2798
+P  Lituania 54.68916 25.2798
+P  Lituaniya 54.68916 25.2798
+P  Litvanija 54.68916 25.2798
+P  Litwania 54.68916 25.2798
+P  Litwaniya 54.68916 25.2798
+P  Liṭwanya 54.68916 25.2798
+P  Liyunioni -20.88231 55.4504
+P  Lizuṭu -29.31667 27.48333
+P  Lmerruk 34.01325 -6.83255
+P  Lomaniya 44.43225 26.10626
+P  Lubnaan 33.88894 35.49442
+P  Lubnan 33.88894 35.49442
+P  Lūkia 55.75222 37.61556
+P  Lukisembaaga 49.61167 6.13
+P  Luksamburg 49.61167 6.13
+P  Luksemburg 49.61167 6.13
+P  Luxembourg 49.61167 6.13
+P  Luxemburgo 49.61167 6.13
+P  Lwanda -1.94995 30.05885
+P  Lyamen 15.35472 44.20667
+P  Maacedooni 41.99646 21.43141
+P  Maali 12.65 -8
+P  Maarok 34.01325 -6.83255
+P  Macedonia 41.99646 21.43141
+P  Macedoniya 41.99646 21.43141
+P  Madagascar -18.91368 47.53613
+P  Madagasika -18.91368 47.53613
+P  Madagaskar -18.91368 47.53613
+P  Madaɣecqer -18.91368 47.53613
+P  Mađarska 47.49801 19.03991
+P  Majote -12.78234 45.22878
+P  Makedonija 41.99646 21.43141
+P  Malaawi -13.96692 33.78725
+P  Malasia 3.1412 101.68653
+P  Malaui -13.96692 33.78725
+P  Malavi -13.96692 33.78725
+P  Malawi -13.96692 33.78725
+P  Malaysia 3.1412 101.68653
+P  Malaysiya 3.1412 101.68653
+P  Maldib 4.1748 73.50888
+P  Maldiivu 4.1748 73.50888
+P  Maldivas 4.1748 73.50888
+P  Maldives 4.1748 73.50888
+P  Maldivesa 4.1748 73.50888
+P  Maldivǝ 4.1748 73.50888
+P  Maldivi 4.1748 73.50888
+P  Maleezi 3.1412 101.68653
+P  Malekani 40.70365 -89.40731
+P  Malesia 3.1412 101.68653
+P  Malesiya 3.1412 101.68653
+P  Malezija 3.1412 101.68653
+P  Malezya 3.1412 101.68653
+P  Mali 12.65 -8
+P  Malitiniki 14.60892 -61.07334
+P  Malizya 3.1412 101.68653
+P  Marekani 40.70365 -89.40731
+P  Mariana Gurma Gungey 15.21233 145.7545
+P  Maritiniiki 14.60892 -61.07334
+P  Marok 34.01325 -6.83255
+P  Maroko 34.01325 -6.83255
+P  Marrocos 34.01325 -6.83255
+P  Marruecos 34.01325 -6.83255
+P  Maršal gungey 7.08971 171.38027
+P  Maršalska Ostrva 7.08971 171.38027
+P  Marshall Islands 7.08971 171.38027
+P  Martinica 14.60892 -61.07334
+P  Martiniiki 14.60892 -61.07334
+P  Martinik 14.60892 -61.07334
+P  Martinika 14.60892 -61.07334
+P  Martiniki 14.60892 -61.07334
+P  Martinique 14.60892 -61.07334
+P  Masedonia 41.99646 21.43141
+P  Masedoniya 41.99646 21.43141
+P  Masidwan 41.99646 21.43141
+P  Maṣr 30.06263 31.24967
+P  Mauricio -20.16194 57.49889
+P  Mauricius -20.16194 57.49889
+P  Mauritania 18.08581 -15.9785
+P  Mauritanija 18.08581 -15.9785
+P  Mauritaniya 18.08581 -15.9785
+P  Mauritius -20.16194 57.49889
+P  Mawulisyasi -20.16194 57.49889
+P  Mawulitenya 18.08581 -15.9785
+P  Maynamar 19745 96.12972
+P  Mayooti -12.78234 45.22878
+P  Mayot -12.78234 45.22878
+P  Mayote -12.78234 45.22878
+P  Mayotte -12.78234 45.22878
+P  Mayuṭ -12.78234 45.22878
+P  Mekiko 19.42847 -99.12766
+P  Mekisiko 19.42847 -99.12766
+P  Meksik 19.42847 -99.12766
+P  Meksiko 19.42847 -99.12766
+P  Mexico 19.42847 -99.12766
+P  Mexiki 19.42847 -99.12766
+P  Mexiko 19.42847 -99.12766
+P  Mianmar 19745 96.12972
+P  Mijanmar 19745 96.12972
+P  Misili 30.06263 31.24967
+P  Misiri 30.06263 31.24967
+P  Misra 30.06263 31.24967
+P  Misri 30.06263 31.24967
+P  Moçambique -25.96553 32.58322
+P  Modivu 4.1748 73.50888
+P  Moldavia 47.00556 28.8575
+P  Moldavija 47.00556 28.8575
+P  Moldova 47.00556 28.8575
+P  Moldovi 47.00556 28.8575
+P  Moldoviya 47.00556 28.8575
+P  Molidova 47.00556 28.8575
+P  Molisi -20.16194 57.49889
+P  Molitaniya 18.08581 -15.9785
+P  Molodova 47.00556 28.8575
+P  Moloko 34.01325 -6.83255
+P  Monaco 43.73333 7.41667
+P  Monako 43.73333 7.41667
+P  Montenegro 42.44111 19.26361
+P  Mooris gungey -20.16194 57.49889
+P  Mooritaani 18.08581 -15.9785
+P  Morisi -20.16194 57.49889
+P  Moritania 18.08581 -15.9785
+P  Morocco 34.01325 -6.83255
+P  Moroko 34.01325 -6.83255
+P  Mozambiiki -25.96553 32.58322
+P  Mozambik -25.96553 32.58322
+P  Mozambika -25.96553 32.58322
+P  Mozambique -25.96553 32.58322
+P  Msumbiji -25.96553 32.58322
+P  Muldabi 47.00556 28.8575
+P  Munaku 43.73333 7.41667
+P  Munjema gwa Kusikha nu Luvala lwa Gasa lwa Palesit 31.78336 35.23388
+P  Muris -20.16194 57.49889
+P  Muriṭanya 18.08581 -15.9785
+P  Musumbiji -25.96553 32.58322
+P  Muyama 19745 96.12972
+P  Muzembiq -25.96553 32.58322
+P  Myama 19745 96.12972
+P  Myanima 19745 96.12972
+P  Myanmar [Birmania] 19745 96.12972
+P  Myanmar 19745 96.12972
+P  Naajiriia 9.05785 7.49508
+P  Naamibi -22.55941 17.08323
+P  Namibia -22.55941 17.08323
+P  Namibija -22.55941 17.08323
+P  Namibiya -22.55941 17.08323
+P  Namibya -22.55941 17.08323
+P  Nayijerya 9.05785 7.49508
+P  Neepal 27.70169 85.3206
+P  Nemačka 52.52437 13.41053
+P  Nepal 27.70169 85.3206
+P  Nepali 27.70169 85.3206
+P  Nepalo 27.70169 85.3206
+P  Netherlands 52.37403 4.88969
+P  New Caledonia -22.27631 166.4572
+P  New Zealand -41.28664 174.77557
+P  Nicaragua 12.13282 -86.2504
+P  Niger 13.51366 2.1098
+P  Nigeria 9.05785 7.49508
+P  Nigerija 9.05785 7.49508
+P  Nigeriya 9.05785 7.49508
+P  Nije 13.51366 2.1098
+P  Nijeli 13.51366 2.1098
+P  Nijeliya 9.05785 7.49508
+P  Nijer 13.51366 2.1098
+P  Nijeri 13.51366 2.1098
+P  Nijeria 9.05785 7.49508
+P  Nijirya 9.05785 7.49508
+P  Nikalagwa 12.13282 -86.2504
+P  Nikaraguwa 12.13282 -86.2504
+P  Nikaragva 12.13282 -86.2504
+P  Nikaragwa 12.13282 -86.2504
+P  Nipal 27.70169 85.3206
+P  Niyuziirandi -41.28664 174.77557
+P  Nižer 13.51366 2.1098
+P  Nolwe 59.91273 10.74609
+P  North Korea 39.03385 125.75432
+P  Northern Mariana Islands 15.21233 145.7545
+P  Noruega 59.91273 10.74609
+P  Norveej 59.91273 10.74609
+P  Norvegǝ 59.91273 10.74609
+P  Norveška 59.91273 10.74609
+P  Norway 59.91273 10.74609
+P  Norwe 59.91273 10.74609
+P  Nova Caledônia -22.27631 166.4572
+P  Nova Kaledonija -22.27631 166.4572
+P  Nova Zelândia -41.28664 174.77557
+P  Novi Zeland -41.28664 174.77557
+P  Nowe 59.91273 10.74609
+P  Nueva Caledonia -22.27631 166.4572
+P  Nueva Zelanda -41.28664 174.77557
+P  Nūhōlani -35.28346 149.12807
+P  Nurvij 59.91273 10.74609
+P  Nyukaledonia -22.27631 166.4572
+P  Nyukaledoniya -22.27631 166.4572
+P  Nyusilendi -41.28664 174.77557
+P  Nyuzilandi -41.28664 174.77557
+P  Obala Slonovače 6.82055 -5.27674
+P  Omã 23.61387 58.5922
+P  Omaan 23.61387 58.5922
+P  Omaani 23.61387 58.5922
+P  Oman 23.61387 58.5922
+P  Omani 23.61387 58.5922
+P  Omaŋ 23.61387 58.5922
+P  Ostraali -35.28346 149.12807
+P  Ostrvo Man 54.15 -4.48333
+P  Otriši 48.20849 16.37208
+P  Paakistan 33.72148 73.04329
+P  Países Bajos 52.37403 4.88969
+P  Pakisitaani 33.72148 73.04329
+P  Pakisitani 33.72148 73.04329
+P  Pakistan 33.72148 73.04329
+P  Pakistani 33.72148 73.04329
+P  Pakistaŋ 33.72148 73.04329
+P  Palagwayi -25.30066 -57.63591
+P  Palani 48.85341 2.3488
+P  Palesitayini 31.78336 35.23388
+P  Palestine Dangay nda Gaaza 31.78336 35.23388
+P  Palestinian Territory 31.78336 35.23388
+P  Palestinska Teritorija 31.78336 35.23388
+P  Papua Ginee Taaga -9.44314 147.17972
+P  Papua New Guinea -9.44314 147.17972
+P  Papua Nova Gvineja -9.44314 147.17972
+P  Papúa Nueva Guinea -9.44314 147.17972
+P  Papua-Nova Guiné -9.44314 147.17972
+P  Papua -9.44314 147.17972
+P  Papuasiya Guine mafuu -9.44314 147.17972
+P  Papuwa -9.44314 147.17972
+P  Papwa Nyugini -9.44314 147.17972
+P  Paquistão 33.72148 73.04329
+P  Paraguai -25.30066 -57.63591
+P  Paraguay -25.30066 -57.63591
+P  Paraguwey -25.30066 -57.63591
+P  Paragvaj -25.30066 -57.63591
+P  Paragwai -25.30066 -57.63591
+P  Paragway -25.30066 -57.63591
+P  Paragwayi -25.30066 -57.63591
+P  Peeru -12.04318 -77.02824
+P  Pelu -12.04318 -77.02824
+P  Peru -12.04318 -77.02824
+P  Philippines 14.6042 120.9822
+P  Pilipinas 14.6042 120.9822
+P  Piru -12.04318 -77.02824
+P  Poland 52.22977 21.01178
+P  Polandi 52.22977 21.01178
+P  Polinesia Francesa -17.53733 -149.5665
+P  Polinesia ya Ufaransa -17.53733 -149.5665
+P  Polinesiya enfalansa -17.53733 -149.5665
+P  Polinesiya ya Wufalansa -17.53733 -149.5665
+P  Poljska 52.22977 21.01178
+P  Pologŋ 52.22977 21.01178
+P  Polonia 52.22977 21.01178
+P  Poloɲe 52.22977 21.01178
+P  Porto Rico 18.46633 -66.10572
+P  Porto Riko 18.46633 -66.10572
+P  Portugaal 38.71667 -9.13333
+P  Portugal 38.71667 -9.13333
+P  Potoriko 18.46633 -66.10572
+P  Potugaali 38.71667 -9.13333
+P  Puerto Rico 18.46633 -66.10572
+P  Pulund 52.22977 21.01178
+P  Pulunizi tafransist -17.53733 -149.5665
+P  Purtu Riku 18.46633 -66.10572
+P  Purtugal 38.71667 -9.13333
+P  Pwetoliko 18.46633 -66.10572
+P  Pwetoriko 18.46633 -66.10572
+P  Qatar 25.27932 51.52245
+P  Quênia -1.28333 36.81667
+P  Quirguistão 42.87 74.59
+P  Quiribati 1.3278 172.97696
+P  Reenioŋ -20.88231 55.4504
+P  Región Administrativa Especial de Hong Kong de la República Popular China 22.28552 114.15769
+P  Reino Unido 51.50853 -0.12574
+P  Rejunion -20.88231 55.4504
+P  Republic of the Congo -4.26613 15.28318
+P  República Centro-Africana 4.36122 18.55496
+P  República Centroafricana 4.36122 18.55496
+P  República Checa 50.08804 14.42076
+P  República Democrática del Congo -4.32758 15.31357
+P  República Dominicana 18.50012 -69.98857
+P  República dos Camarões 3.86667 11.51667
+P  República Tcheca 50.08804 14.42076
+P  Reunião -20.88231 55.4504
+P  Reunion -20.88231 55.4504
+P  Riyunioni -20.88231 55.4504
+P  Romania 44.43225 26.10626
+P  Romaniya 44.43225 26.10626
+P  Romênia 44.43225 26.10626
+P  Rrus 55.75222 37.61556
+P  Ruanda -1.94995 30.05885
+P  Rumaani 44.43225 26.10626
+P  Rumani 44.43225 26.10626
+P  Rumanía 44.43225 26.10626
+P  Rumunija 44.43225 26.10626
+P  Rusia 55.75222 37.61556
+P  Rusija 55.75222 37.61556
+P  Russia 55.75222 37.61556
+P  Russian Federation 55.75222 37.61556
+P  Russiya 55.75222 37.61556
+P  Ruwanda -1.94995 30.05885
+P  Rwanda -1.94995 30.05885
+P  S.A.D. Devičanska Ostrva 18.3419 -64.9307
+P  Saichel -4.61667 55.45
+P  Saint Lucia 13.9957 -61.00614
+P  Saint Vincent and the Grenadines 13.15872 -61.22475
+P  Salvador laboo 13.68935 -89.18718
+P  Salvador 13.68935 -89.18718
+P  Salvadur 13.68935 -89.18718
+P  Sambiya -15.40669 28.28713
+P  Samoa -13.83333 -171.76666
+P  Samowa -13.83333 -171.76666
+P  Samoya -13.83333 -171.76666
+P  Samwa -13.83333 -171.76666
+P  San Lučya 13.9957 -61.00614
+P  San Vansu d Grunadin 13.15872 -61.22475
+P  San Vicente y las Granadinas 13.15872 -61.22475
+P  Sanitome ne Purincipe 0.33654 6.72732
+P  Santa Lucía 13.9957 -61.00614
+P  Santalusia 13.9957 -61.00614
+P  Santalusiya 13.9957 -61.00614
+P  Santavisenti na Gilenadini 13.15872 -61.22475
+P  Santavisenti na Grenadini 13.15872 -61.22475
+P  Santo Tomé y Príncipe 0.33654 6.72732
+P  Sao Tome and Principe 0.33654 6.72732
+P  São Tomé e Príncipe 0.33654 6.72732
+P  Sao Tome i Principe 0.33654 6.72732
+P  Sao Tome na Principe 0.33654 6.72732
+P  Sao Tome nda Prinsipe 0.33654 6.72732
+P  Sao Tome ne Principe 0.33654 6.72732
+P  São Vicente e Granadinas 13.15872 -61.22475
+P  Saudi Arabia 24.68773 46.72185
+P  Saudi 24.68773 46.72185
+P  Saudijska Arabija 24.68773 46.72185
+P  Saudiya 24.68773 46.72185
+P  Saw Tumi d Pransip 0.33654 6.72732
+P  Sawudarebya - Buwarabu 24.68773 46.72185
+P  Sawudi 24.68773 46.72185
+P  Sawusafirika -25.74486 28.18783
+P  Sayo Tome ni Pilinikipe 0.33654 6.72732
+P  Seera Leon 8484 -13.22994
+P  Seešel -4.61667 55.45
+P  Sejšeli -4.61667 55.45
+P  Senegaalo 14.6937 -17.44406
+P  Senegal 14.6937 -17.44406
+P  Senegali 14.6937 -17.44406
+P  Sent Lucija 13.9957 -61.00614
+P  Sent Vinsent i Grenadini 13.15872 -61.22475
+P  Senti Luciya 13.9957 -61.00614
+P  Senti Vinsenti ne Gurendadiini 13.15872 -61.22475
+P  Seŋ Lussia 13.9957 -61.00614
+P  Seŋvinsaŋ nda Grenadine 13.15872 -61.22475
+P  ser Ivoiriya 6.82055 -5.27674
+P  Serbia 44.80401 20.46513
+P  Serra Leoa 8484 -13.22994
+P  Sesere -4.61667 55.45
+P  Severna Koreja 39.03385 125.75432
+P  Severna Marijanska Ostrva 15.21233 145.7545
+P  Seycel -4.61667 55.45
+P  Seychelles -4.61667 55.45
+P  Sǝr amerika ma laŋne 18.3419 -64.9307
+P  Sǝr Anglofoŋ 51.50853 -0.12574
+P  Sǝr Arabiya ma taini 24.46667 54.36667
+P  Sǝr Arabiya 24.68773 46.72185
+P  Sǝr Dominik ma lii 18.50012 -69.98857
+P  Sǝr Egypt 30.06263 31.24967
+P  Sǝr Eritre 15.33805 38.93184
+P  Sǝr Fiji -18.14161 178.44149
+P  Sǝr Finland 60.16952 24.93545
+P  Sǝr Gibraltar 36.14474 -5.35257
+P  Sǝr Grek 37.97945 23.71622
+P  Sǝr Guine 3.75 8.78333
+P  Sǝr Guyana ma Franssǝ 4.93333 -52.33333
+P  Sǝr Haiti 18.53917 -72335
+P  Sǝr Honduras 14.0818 -87.20681
+P  Sǝr Indǝ 28.63576 77.22445
+P  Sǝr Ireland 53.33306 -6.24889
+P  Sǝr Island 64.13548 -21.89541
+P  Sǝr Israel 31.76904 35.21633
+P  Sǝr Kenya -1.28333 36.81667
+P  Sǝr Kiribati 1.3278 172.97696
+P  Sǝr Kongo ma dii ne zair -4.32758 15.31357
+P  Sǝr Kore fah sǝŋ 39.03385 125.75432
+P  Sǝr Kore nekǝsǝŋ 37566 126.9784
+P  Sǝr Kowait 29.36972 47.97833
+P  Sǝr Lanka 6.93194 79.84778
+P  Sǝr Laos 17.96667 102.6
+P  Sǝr Lesotho -29.31667 27.48333
+P  Sǝr Lucia 13.9957 -61.00614
+P  Sǝr Luxemburg 49.61167 6.13
+P  Sǝr ma kasǝŋ 52.37403 4.88969
+P  Sǝr Malawi -13.96692 33.78725
+P  Sǝr Mali 12.65 -8
+P  Sǝr Maria ma laŋne 15.21233 145.7545
+P  Sǝr Marshall ma laŋne 7.08971 171.38027
+P  Sǝr Mauricǝ -20.16194 57.49889
+P  Sǝr Myanmar 19745 96.12972
+P  Sǝr Nepal 27.70169 85.3206
+P  Sǝr Niger 13.51366 2.1098
+P  Sǝr Palestiniya 31.78336 35.23388
+P  Sǝr Polynesiya ma Franssǝ -17.53733 -149.5665
+P  Sǝr Portugal 38.71667 -9.13333
+P  Sǝr Reunion -20.88231 55.4504
+P  Sǝr Salomon ma laŋne -9.43333 159.95
+P  Sǝr Salvador 13.68935 -89.18718
+P  Sǝr Samoa -13.83333 -171.76666
+P  Sǝr Sued 59.33258 18.0649
+P  Sǝr Surinam 5.86638 -55.16682
+P  Sǝr Swaziland -26.31667 31.13333
+P  Sǝr Syek 50.08804 14.42076
+P  Sǝr Togo 6.13748 1.21227
+P  Sǝr Venezuela 10.48801 -66.87919
+P  Sǝr Vietnam 21.0245 105.84117
+P  Sǝr Vinceŋ ne Grenadiŋ 13.15872 -61.22475
+P  Shadi 12.10672 15.0444
+P  Shelisheli -4.61667 55.45
+P  Shile -33.45694 -70.64827
+P  Shina 39.9075 116.39723
+P  Siela Liyoni 8484 -13.22994
+P  Siera Leoni 8484 -13.22994
+P  Sierra Leona 8484 -13.22994
+P  Sierra Leone 8484 -13.22994
+P  Sierra Leonǝ 8484 -13.22994
+P  Šiili -33.45694 -70.64827
+P  Šiin 39.9075 116.39723
+P  Šiipur 35.16667 33.36667
+P  Sijera Leone 8484 -13.22994
+P  Sililanka 6.93194 79.84778
+P  Siliya 33.5102 36.29128
+P  Silovakiya 48.14816 17.10674
+P  Siloveniya 46.05108 14.50513
+P  Simbabwe -17.82772 31.05337
+P  Sinigal 14.6937 -17.44406
+P  Sipeyini 40.4165 -3.70256
+P  Sipuriya 35.16667 33.36667
+P  Sira Lyun 8484 -13.22994
+P  Siria 33.5102 36.29128
+P  Sirija 33.5102 36.29128
+P  Sirilanka 6.93194 79.84778
+P  Siriya 33.5102 36.29128
+P  Sirovakya 48.14816 17.10674
+P  Sirovenya 46.05108 14.50513
+P  Siyeralewone 8484 -13.22994
+P  Sjedinjene Američke Države 40.70365 -89.40731
+P  Slovaaki 48.14816 17.10674
+P  Slovačka 48.14816 17.10674
+P  Slovakia 48.14816 17.10674
+P  Slovakiya 48.14816 17.10674
+P  Sloveeni 46.05108 14.50513
+P  Slovenia 46.05108 14.50513
+P  Slovenija 46.05108 14.50513
+P  Sloveniya 46.05108 14.50513
+P  Sluvakya 48.14816 17.10674
+P  Sluvinya 46.05108 14.50513
+P  Solomon Gungey -9.43333 159.95
+P  Solomon Islands -9.43333 159.95
+P  Solomonska Ostrva -9.43333 159.95
+P  Somaali 2.03711 45.34375
+P  Somalia 2.03711 45.34375
+P  Somalija 2.03711 45.34375
+P  Somaliya 2.03711 45.34375
+P  South Africa -25.74486 28.18783
+P  South Korea 37566 126.9784
+P  South Sudan 4.85165 31.58247
+P  Spain 40.4165 -3.70256
+P  Španija 40.4165 -3.70256
+P  Spanya 40.4165 -3.70256
+P  Srbija 44.80401 20.46513
+P  Sri Lanka 6.93194 79.84778
+P  Srilanka 6.93194 79.84778
+P  Suazilandia -26.31667 31.13333
+P  Sudaani 15.55177 32.53241
+P  Sudáfrica -25.74486 28.18783
+P  Sudan 15.55177 32.53241
+P  Sudani 15.55177 32.53241
+P  Sudaŋ 15.55177 32.53241
+P  Sudão 15.55177 32.53241
+P  Suecia 59.33258 18.0649
+P  Suɛudiya Taɛrabt 24.68773 46.72185
+P  Sulinamu 5.86638 -55.16682
+P  Ṣumal 2.03711 45.34375
+P  Surinaam 5.86638 -55.16682
+P  Surinaamu 5.86638 -55.16682
+P  Surinam 5.86638 -55.16682
+P  Suriname 5.86638 -55.16682
+P  Surinamu 5.86638 -55.16682
+P  Surya 33.5102 36.29128
+P  Suudaŋ 15.55177 32.53241
+P  Suuria 33.5102 36.29128
+P  Svazilend -26.31667 31.13333
+P  Švedska 59.33258 18.0649
+P  Swaziland -26.31667 31.13333
+P  Swazilund -26.31667 31.13333
+P  Swazirandi -26.31667 31.13333
+P  Sweden 59.33258 18.0649
+P  Sweede 59.33258 18.0649
+P  Swid 59.33258 18.0649
+P  Swideni 59.33258 18.0649
+P  syad 12.10672 15.0444
+P  syili -33.45694 -70.64827
+P  syiŋ 39.9075 116.39723
+P  Syipriya 35.16667 33.36667
+P  Syria 33.5102 36.29128
+P  Taayiland 13.75398 100.50144
+P  Taayiwan 25.04776 121.53185
+P  Taažikistan 38.53575 68.77905
+P  Tadjiquistão 38.53575 68.77905
+P  Tadžikistan 38.53575 68.77905
+P  Tafriqt Wadda -25.74486 28.18783
+P  Tagelda Yedduklen 51.50853 -0.12574
+P  Tailand 13.75398 100.50144
+P  Tailandi 13.75398 100.50144
+P  Tailandia 13.75398 100.50144
+P  Taiwan 25.04776 121.53185
+P  Taiwani 25.04776 121.53185
+P  Taiwaŋ 25.04776 121.53185
+P  Tajikisitaani 38.53575 68.77905
+P  Tajikisitani 38.53575 68.77905
+P  Tajikistan 38.53575 68.77905
+P  Tajikistani 38.53575 68.77905
+P  Tajikistaŋ 38.53575 68.77905
+P  Tajland 13.75398 100.50144
+P  Tajvan 25.04776 121.53185
+P  Takimenesitaani 37.95 58.38333
+P  Tansaniya -6.17221 35.73947
+P  Tanzaani -6.17221 35.73947
+P  Tanzania -6.17221 35.73947
+P  Tanzanija -6.17221 35.73947
+P  Tanzaniya -6.17221 35.73947
+P  Ṭanzanya -6.17221 35.73947
+P  Tayikistán 38.53575 68.77905
+P  Tayirandi 13.75398 100.50144
+P  Tayiwani 25.04776 121.53185
+P  Ṭayland 13.75398 100.50144
+P  Ṭaywan 25.04776 121.53185
+P  Ṭelyan 41.89474 12.4839
+P  Território da Palestina 31.78336 35.23388
+P  Territorios Palestinos 31.78336 35.23388
+P  Thailand 13.75398 100.50144
+P  Tigduda n Tefriqt Talemmast 4.36122 18.55496
+P  Tigduda Taduminikit 18.50012 -69.98857
+P  Tigduda Tagdudant n Kungu -4.32758 15.31357
+P  Tigeldunin Yedduklen Taɛrabin 24.46667 54.36667
+P  Tigzirin n Kamyan 19.2866 -81.37436
+P  Tigzirin n Marcal 7.08971 171.38027
+P  Tigzirin n Maryan Ufella 15.21233 145.7545
+P  Tigzirin n Sulumun -9.43333 159.95
+P  Tigzirin n yixef azegzaw 14.93152 -23.51254
+P  Timlilit -20.88231 55.4504
+P  Timoli ya kunena -8.55861 125.57361
+P  Timoor hawsa -8.55861 125.57361
+P  Timor Leste -8.55861 125.57361
+P  Timor Oriental -8.55861 125.57361
+P  Timor-Leste -8.55861 125.57361
+P  Timori ya Mashariki -8.55861 125.57361
+P  Timoriya -8.55861 125.57361
+P  Timowa -8.55861 125.57361
+P  Timura-Yessakesren 52.37403 4.88969
+P  Togo 6.13748 1.21227
+P  Ttake 39.91987 32.85427
+P  Ṭugu 6.13748 1.21227
+P  Tulukimenisitani 37.95 58.38333
+P  Tumur Asamar -8.55861 125.57361
+P  Tunes 36.81897 10.16579
+P  Túnez 36.81897 10.16579
+P  Tunis 36.81897 10.16579
+P  Tunisia 36.81897 10.16579
+P  Tunisiya 36.81897 10.16579
+P  Tunisya 36.81897 10.16579
+P  Tunizi 36.81897 10.16579
+P  Turcomenistão 37.95 58.38333
+P  Ṭurk 39.91987 32.85427
+P  Turkey 39.91987 32.85427
+P  Turki 39.91987 32.85427
+P  Turkiya 39.91987 32.85427
+P  Ṭurkmanistan 37.95 58.38333
+P  Turkmenistan 37.95 58.38333
+P  Turkmenistaŋ 37.95 58.38333
+P  Turquía 39.91987 32.85427
+P  Turska 39.91987 32.85427
+P  Turukimenistani 37.95 58.38333
+P  U.S. Virgin Islands 18.3419 -64.9307
+P  Uajemi 35.69439 51.42151
+P  Ualbania 41.3275 19.81889
+P  Uandora 42.50779 1.52109
+P  Uayalandi 53.33306 -6.24889
+P  Uazabajani 40.37767 49.89201
+P  Ubelgiji 50.85045 4.34878
+P  Ubeligiji 50.85045 4.34878
+P  Ubelin 6.49646 2.60359
+P  Ubukini -18.91368 47.53613
+P  Uchadi 12.10672 15.0444
+P  Ucheki 50.08804 14.42076
+P  Uchile -33.45694 -70.64827
+P  Uchina 39.9075 116.39723
+P  Ucrania 50.45466 30.5238
+P  Udenimaka 55.67594 12.56553
+P  Udominika 15.30174 -61.38808
+P  Ufaransa yo Gwaya 4.93333 -52.33333
+P  Ufaransa yo Potina -17.53733 -149.5665
+P  Ufaransa 48.85341 2.3488
+P  Ufiji -18.14161 178.44149
+P  Ufilipino 14.6042 120.9822
+P  Ufini 60.16952 24.93545
+P  Ufugustani 34.52813 69.17233
+P  Ugaboni 0.39241 9.45356
+P  Ugambia 13.45274 -16.57803
+P  Ugana 5.55602 -0.1969
+P  Uganda 0.31628 32.58219
+P  Ugine 9.53795 -13.67729
+P  Uginebisau 11.86357 -15.59767
+P  Ugiriki 37.97945 23.71622
+P  Uguyana 6.80448 -58.15527
+P  Ugwatemala 14.64072 -90.51327
+P  Uɣanda 0.31628 32.58219
+P  Uhabeshi 9.02497 38.74689
+P  Uhaiti 18.53917 -72335
+P  Uhindini 28.63576 77.22445
+P  Uhispania 40.4165 -3.70256
+P  Uholanzi 52.37403 4.88969
+P  Uhondurasi 14.0818 -87.20681
+P  Uhungaria 47.49801 19.03991
+P  Uingereza 51.50853 -0.12574
+P  Uisraeli 31.76904 35.21633
+P  Ujamaika 17.99702 -76.79358
+P  Ujapani 35.6895 139.69171
+P  Ujedinjeni Arapski Emirati 24.46667 54.36667
+P  Ujerumani 52.52437 13.41053
+P  Ujibralta 36.14474 -5.35257
+P  Ujibuti 11.58901 43.14503
+P  Ujikistani 38.53575 68.77905
+P  Ujojia 41.69411 44.83368
+P  Ukambodia 11.56245 104.91601
+P  Ukanada 45.41117 -75.69812
+P  Ukatari 25.27932 51.52245
+P  Ukazakistani 51.1801 71.44598
+P  Ukenya -1.28333 36.81667
+P  Ukingo wa Magharibi na Ukanda wa Gaza wa Palestina 31.78336 35.23388
+P  Ukodiva 6.82055 -5.27674
+P  Ukolombia 4.60971 -74.08175
+P  Ukomoro -11.70216 43.25506
+P  Ukongo -4.26613 15.28318
+P  Ukorasia 45.81444 15.97798
+P  Ukorea Kaskazini 39.03385 125.75432
+P  Ukorea Kusini 37566 126.9784
+P  Ukraine 50.45466 30.5238
+P  Ukraini 50.45466 30.5238
+P  Ukraiŋ 50.45466 30.5238
+P  Ukrajina 50.45466 30.5238
+P  Ukran 50.45466 30.5238
+P  Ukreen 50.45466 30.5238
+P  Ukuba 23.13302 -82.38304
+P  Ukuprosi 35.16667 33.36667
+P  Ulativia 56946 24.10589
+P  Ulebanoni 33.88894 35.49442
+P  Ulesoto -29.31667 27.48333
+P  Uliberia 6.30054 -10.7969
+P  Ulugwayi -34.90328 -56.18816
+P  Umalawi -13.96692 33.78725
+P  Umantegro 42.44111 19.26361
+P  Umarekani 40.70365 -89.40731
+P  Umasedonia 41.99646 21.43141
+P  Umisiri 30.06263 31.24967
+P  Umozambiki -25.96553 32.58322
+P  Undonesia -6.21462 106.84513
+P  Undura 42.50779 1.52109
+P  Ungula -8.83682 13.23432
+P  Unijeri 13.51366 2.1098
+P  Unijeria 9.05785 7.49508
+P  United Arab Emirates 24.46667 54.36667
+P  United Kingdom 51.50853 -0.12574
+P  United States 40.70365 -89.40731
+P  Unorwe 59.91273 10.74609
+P  Uomani 23.61387 58.5922
+P  Upakistani 33.72148 73.04329
+P  Upapua -9.44314 147.17972
+P  Uperuu -12.04318 -77.02824
+P  Upolandi 52.22977 21.01178
+P  Upwetoriko 18.46633 -66.10572
+P  Urdun 31.95522 35.94503
+P  Ureno 38.71667 -9.13333
+P  Uriterea 15.33805 38.93184
+P  Uriyunioni -20.88231 55.4504
+P  Uromania 44.43225 26.10626
+P  Uruguai -34.90328 -56.18816
+P  Uruguay -34.90328 -56.18816
+P  Uruguwey -34.90328 -56.18816
+P  Urugvaj -34.90328 -56.18816
+P  Urugwai -34.90328 -56.18816
+P  Urugway -34.90328 -56.18816
+P  Urundi -3.3822 29.3644
+P  Urusi 55.75222 37.61556
+P  Urwanda -1.94995 30.05885
+P  Usalavado 13.68935 -89.18718
+P  Usamoa -13.83333 -171.76666
+P  Usantalusia 13.9957 -61.00614
+P  Usantavisenti na Grenadini 13.15872 -61.22475
+P  Usao Tome na Principe 0.33654 6.72732
+P  Usaudi 24.68773 46.72185
+P  Usembaji 49.61167 6.13
+P  Usenegali 14.6937 -17.44406
+P  Ushelisheli -4.61667 55.45
+P  Usibekisitani 41.26465 69.21627
+P  Usiria 33.5102 36.29128
+P  Usirilanka 6.93194 79.84778
+P  Uslovakia 48.14816 17.10674
+P  Uslovenia 46.05108 14.50513
+P  Usomalia 2.03711 45.34375
+P  Ustrali -35.28346 149.12807
+P  Ustriya 48.20849 16.37208
+P  Usudani 15.55177 32.53241
+P  Usurinamu 5.86638 -55.16682
+P  Uswasi -26.31667 31.13333
+P  Uswazi -26.31667 31.13333
+P  Uswidi 59.33258 18.0649
+P  Utailandi 13.75398 100.50144
+P  Utanzania -6.17221 35.73947
+P  Utimo Mashariki -8.55861 125.57361
+P  Utogo 6.13748 1.21227
+P  Utuki 39.91987 32.85427
+P  Utuluki 39.91987 32.85427
+P  Utunisia 36.81897 10.16579
+P  Uturuki 39.91987 32.85427
+P  Uturukimenistani 37.95 58.38333
+P  Utwania 54.68916 25.2798
+P  Utyupi 9.02497 38.74689
+P  Uvenezuela 10.48801 -66.87919
+P  Uvietinamu 21.0245 105.84117
+P  Uwajemi 35.69439 51.42151
+P  Uwingelesa 51.50853 -0.12574
+P  Uyemeni 15.35472 44.20667
+P  Uyordani 31.95522 35.94503
+P  Uzambia -15.40669 28.28713
+P  Uzbaxistan 41.26465 69.21627
+P  Uzbeekistan 41.26465 69.21627
+P  Uzbekistan 41.26465 69.21627
+P  Uzbekistaŋ 41.26465 69.21627
+P  Uzbequistão 41.26465 69.21627
+P  Uzibekistani 41.26465 69.21627
+P  Uzimbabwe -17.82772 31.05337
+P  Velika Britanija 51.50853 -0.12574
+P  Venecuela 10.48801 -66.87919
+P  Veneezuyeela 10.48801 -66.87919
+P  Venesuela 10.48801 -66.87919
+P  Venezuela 10.48801 -66.87919
+P  Venzwera 10.48801 -66.87919
+P  Venzwila 10.48801 -66.87919
+P  Vietinamu 21.0245 105.84117
+P  Vietnã 21.0245 105.84117
+P  Vietnaam 21.0245 105.84117
+P  Vietnam 21.0245 105.84117
+P  Vijetnam 21.0245 105.84117
+P  Visiwa vya Kayman 19.2866 -81.37436
+P  Visiwa vya Mariana vya Kaskazini 15.21233 145.7545
+P  Visiwa vya Marshal 7.08971 171.38027
+P  Visiwa vya Solomon -9.43333 159.95
+P  Visiwa vya Virgin vya Marekani 18.3419 -64.9307
+P  Vyetinaamu 21.0245 105.84117
+P  Vyeṭnam 21.0245 105.84117
+P  W.D. Tigzirin n Virginya 18.3419 -64.9307
+P  WDM 40.70365 -89.40731
+P  Wiraki 33.34058 44.40088
+P  Wufalansa 48.85341 2.3488
+P  Wufini 60.16952 24.93545
+P  Wugiliki 37.97945 23.71622
+P  Wuholansi 52.37403 4.88969
+P  Wujelumani 52.52437 13.41053
+P  Wuleno 38.71667 -9.13333
+P  Wulusi 55.75222 37.61556
+P  Wurugwayi -34.90328 -56.18816
+P  Wutwa wa shiyalabu 24.46667 54.36667
+P  Wuzibekisitaani 41.26465 69.21627
+P  Yaman 15.35472 44.20667
+P  Yemen 15.35472 44.20667
+P  Yemeni 15.35472 44.20667
+P  Yemeŋ 15.35472 44.20667
+P  Yibuti 11.58901 43.14503
+P  Yindonezya -6.21462 106.84513
+P  Yiraaka 33.34058 44.40088
+P  Yiraani 35.69439 51.42151
+P  Yisirayeri 31.76904 35.21633
+P  Yitale 41.89474 12.4839
+P  Yolodani 31.95522 35.94503
+P  Yordani 31.95522 35.94503
+P  Yorodani 31.95522 35.94503
+P  Yuganda 0.31628 32.58219
+P  Yukileini 50.45466 30.5238
+P  Yukurayine 50.45466 30.5238
+P  Zambi -15.40669 28.28713
+P  Zambia -15.40669 28.28713
+P  Zambija -15.40669 28.28713
+P  Zambiya -15.40669 28.28713
+P  Zambya -15.40669 28.28713
+P  Zeelandu Taaga -41.28664 174.77557
+P  Zeland mafuu -41.28664 174.77557
+P  Ziland Tamaynut -41.28664 174.77557
+P  Zimbabue -17.82772 31.05337
+P  Zimbabve -17.82772 31.05337
+P  Zimbabwe -17.82772 31.05337
+P  Zimbabwi -17.82772 31.05337
+P  Австралия -35.28346 149.12807
+P  Австрия 48.20849 16.37208
+P  Азербайджан 40.37767 49.89201
+P  Албания 41.3275 19.81889
+P  Алжир 36.7525 3.04197
+P  Американские Виргинские острова 18.3419 -64.9307
+P  Ангола -8.83682 13.23432
+P  Андорра 42.50779 1.52109
+P  Аргентина -34.61315 -58.37723
+P  Армения 40.18111 44.51361
+P  Аруба 12.52398 -70.02703
+P  Афганистан 34.52813 69.17233
+P  Багамские острова 25.05823 -77.34306
+P  Бангладеш 23.7104 90.40744
+P  Барбадос 13.1 -59.61667
+P  Бахрейн 26.21536 50.5832
+P  Беларусь 53.9 27.56667
+P  Бельгия 50.85045 4.34878
+P  Бенин 6.49646 2.60359
+P  Болгария 42.69751 23.32415
+P  Боливия -19.03332 -65.26274
+P  Босния и Герцеговина 43.84864 18.35644
+P  Ботсвана -24.65451 25.90859
+P  Бразилия -15.77972 -47.92972
+P  Бруней Даруссалам 4.94029 114.94806
+P  Буркина Фасо 12.36566 -1.53388
+P  Бурунди -3.3822 29.3644
+P  Бутан 27.46609 89.64191
+P  Великобритания 51.50853 -0.12574
+P  Венгрия 47.49801 19.03991
+P  Венесуэла 10.48801 -66.87919
+P  Восточный Тимор -8.55861 125.57361
+P  Вьетнам 21.0245 105.84117
+P  Габон 0.39241 9.45356
+P  Гаити 18.53917 -72335
+P  Гайана 6.80448 -58.15527
+P  Гамбия 13.45274 -16.57803
+P  Гана 5.55602 -0.1969
+P  Гватемала 14.64072 -90.51327
+P  Гвинея-Биссау 11.86357 -15.59767
+P  Гвинея 9.53795 -13.67729
+P  Германия 52.52437 13.41053
+P  Гибралтар 36.14474 -5.35257
+P  Гондурас 14.0818 -87.20681
+P  Гонконг 22.28552 114.15769
+P  Греция 37.97945 23.71622
+P  Грузия 41.69411 44.83368
+P  Дания 55.67594 12.56553
+P  Демократическая Республика Конго -4.32758 15.31357
+P  Джерси 49.18804 -2.10491
+P  Джибути 11.58901 43.14503
+P  Доминиканская Республика 18.50012 -69.98857
+P  Египет 30.06263 31.24967
+P  Замбия -15.40669 28.28713
+P  Зимбабве -17.82772 31.05337
+P  Израиль 31.76904 35.21633
+P  Индия 28.63576 77.22445
+P  Индонезия -6.21462 106.84513
+P  Иордания 31.95522 35.94503
+P  Ирак 33.34058 44.40088
+P  Иран 35.69439 51.42151
+P  Ирландия 53.33306 -6.24889
+P  Исландия 64.13548 -21.89541
+P  Испания 40.4165 -3.70256
+P  Италия 41.89474 12.4839
+P  Йемен 15.35472 44.20667
+P  Казахстан 51.1801 71.44598
+P  Каймановы острова 19.2866 -81.37436
+P  Камбоджа 11.56245 104.91601
+P  Камерун 3.86667 11.51667
+P  Канада 45.41117 -75.69812
+P  Катар 25.27932 51.52245
+P  Кения -1.28333 36.81667
+P  Кипр 35.16667 33.36667
+P  Кирибати 1.3278 172.97696
+P  Китай 39.9075 116.39723
+P  Колумбия 4.60971 -74.08175
+P  Коморские Острова -11.70216 43.25506
+P  Конго -4.26613 15.28318
+P  Корейская Народно-Демократическая Республика 39.03385 125.75432
+P  Коста-Рика 10.95173 -85.1361
+P  Кот д’Ивуар 6.82055 -5.27674
+P  Куба 23.13302 -82.38304
+P  Кувейт 29.36972 47.97833
+P  Кыргызстан 42.87 74.59
+P  Лаос 17.96667 102.6
+P  Латвия 56946 24.10589
+P  Лесото -29.31667 27.48333
+P  Либерия 6.30054 -10.7969
+P  Ливан 33.88894 35.49442
+P  Литва 54.68916 25.2798
+P  Люксембург 49.61167 6.13
+P  Маврикий -20.16194 57.49889
+P  Мавритания 18.08581 -15.9785
+P  Мадагаскар -18.91368 47.53613
+P  Майотта -12.78234 45.22878
+P  Македония 41.99646 21.43141
+P  Малави -13.96692 33.78725
+P  Малайзия 3.1412 101.68653
+P  Мали 12.65 -8
+P  Мальдивы 4.1748 73.50888
+P  Марокко 34.01325 -6.83255
+P  Мартиник 14.60892 -61.07334
+P  Маршалловы Острова 7.08971 171.38027
+P  Мексика 19.42847 -99.12766
+P  Мозамбик -25.96553 32.58322
+P  Молдова 47.00556 28.8575
+P  Монако 43.73333 7.41667
+P  Мьянма 19745 96.12972
+P  Намибия -22.55941 17.08323
+P  Непал 27.70169 85.3206
+P  Нигер 13.51366 2.1098
+P  Нигерия 9.05785 7.49508
+P  Нидерланды 52.37403 4.88969
+P  Никарагуа 12.13282 -86.2504
+P  Новая Зеландия -41.28664 174.77557
+P  Новая Каледония -22.27631 166.4572
+P  Норвегия 59.91273 10.74609
+P  Объединенные Арабские Эмираты 24.46667 54.36667
+P  Оман 23.61387 58.5922
+P  Остров Доминика 15.30174 -61.38808
+P  Остров Мэн 54.15 -4.48333
+P  Острова Зеленого Мыса 14.93152 -23.51254
+P  Пакистан 33.72148 73.04329
+P  Палестинская автономия 31.78336 35.23388
+P  Папуа-Новая Гвинея -9.44314 147.17972
+P  Парагвай -25.30066 -57.63591
+P  Перу -12.04318 -77.02824
+P  Польша 52.22977 21.01178
+P  Португалия 38.71667 -9.13333
+P  Пуэрто-Рико 18.46633 -66.10572
+P  Республика Корея 37566 126.9784
+P  Реюньон -20.88231 55.4504
+P  Россия 55.75222 37.61556
+P  Руанда -1.94995 30.05885
+P  Румыния 44.43225 26.10626
+P  Сальвадор 13.68935 -89.18718
+P  Самоа -13.83333 -171.76666
+P  Сан-Томе и Принсипи 0.33654 6.72732
+P  Саудовская Аравия 24.68773 46.72185
+P  Свазиленд -26.31667 31.13333
+P  Северные Марианские Острова 15.21233 145.7545
+P  Сейшельские Острова -4.61667 55.45
+P  Сенегал 14.6937 -17.44406
+P  Сент-Винсент и Гренадины 13.15872 -61.22475
+P  Сент-Люсия 13.9957 -61.00614
+P  Сербия 44.80401 20.46513
+P  Сирийская Арабская Республика 33.5102 36.29128
+P  Словакия 48.14816 17.10674
+P  Словения 46.05108 14.50513
+P  Соломоновы Острова -9.43333 159.95
+P  Сомали 2.03711 45.34375
+P  Судан 15.55177 32.53241
+P  Суринам 5.86638 -55.16682
+P  США 40.70365 -89.40731
+P  Сьерра-Леоне 8484 -13.22994
+P  Таджикистан 38.53575 68.77905
+P  Таиланд 13.75398 100.50144
+P  Тайвань 25.04776 121.53185
+P  Танзания -6.17221 35.73947
+P  Того 6.13748 1.21227
+P  Тунис 36.81897 10.16579
+P  Туркменистан 37.95 58.38333
+P  Турция 39.91987 32.85427
+P  Уганда 0.31628 32.58219
+P  Узбекистан 41.26465 69.21627
+P  Украина 50.45466 30.5238
+P  Уругвай -34.90328 -56.18816
+P  Фиджи -18.14161 178.44149
+P  Филиппины 14.6042 120.9822
+P  Финляндия 60.16952 24.93545
+P  Франция 48.85341 2.3488
+P  Французская Гвиана 4.93333 -52.33333
+P  Французская Полинезия -17.53733 -149.5665
+P  Хорватия 45.81444 15.97798
+P  Центрально-Африканская Республика 4.36122 18.55496
+P  Чад 12.10672 15.0444
+P  Черногория 42.44111 19.26361
+P  Чешская республика 50.08804 14.42076
+P  Чили -33.45694 -70.64827
+P  Швеция 59.33258 18.0649
+P  Шри-Ланка 6.93194 79.84778
+P  Эквадор -0.22985 -78.52495
+P  Экваториальная Гвинея 3.75 8.78333
+P  Эритрея 15.33805 38.93184
+P  Эстония 59.43696 24.75353
+P  Эфиопия 9.02497 38.74689
+P  Южная Африка -25.74486 28.18783
+P  Ямайка 17.99702 -76.79358
+P  Япония 35.6895 139.69171
+P  آیسلینډ 64.13548 -21.89541
+P  اتریش 48.20849 16.37208
+P  افغانستان 34.52813 69.17233
+P  البانیه 41.3275 19.81889
+P  الجزایر 36.7525 3.04197
+P  المان 52.52437 13.41053
+P  اندونیزیا -6.21462 106.84513
+P  انګولا -8.83682 13.23432
+P  ایټالیه 41.89474 12.4839
+P  برتانیه 51.50853 -0.12574
+P  بلغاریه 42.69751 23.32415
+P  بنګله‌دیش 23.7104 90.40744
+P  پاکستان 33.72148 73.04329
+P  پورتګال 38.71667 -9.13333
+P  پولنډ 52.22977 21.01178
+P  تاجکستان 38.53575 68.77905
+P  تنزانیا -6.17221 35.73947
+P  جاپان 35.6895 139.69171
+P  جمیکا 17.99702 -76.79358
+P  چین 39.9075 116.39723
+P  حبشه 9.02497 38.74689
+P  ډنمارک 55.67594 12.56553
+P  روسیه 55.75222 37.61556
+P  روندا -1.94995 30.05885
+P  سالوېډور 13.68935 -89.18718
+P  سعودی عربستان 24.68773 46.72185
+P  سوریه 33.5102 36.29128
+P  سویډن 59.33258 18.0649
+P  عراق 33.34058 44.40088
+P  فرانسه 48.85341 2.3488
+P  فلسطین 31.78336 35.23388
+P  فنلینډ 60.16952 24.93545
+P  کاناډا 45.41117 -75.69812
+P  کمبودیا 11.56245 104.91601
+P  کولمبیا 4.60971 -74.08175
+P  کویټ 29.36972 47.97833
+P  کیوبا 23.13302 -82.38304
+P  ګانا 5.55602 -0.1969
+P  ګواتیمالا 14.64072 -90.51327
+P  ګیانا 9.53795 -13.67729
+P  لاوس 17.96667 102.6
+P  لایبریا 6.30054 -10.7969
+P  لبنان 33.88894 35.49442
+P  مالیزیا 3.1412 101.68653
+P  مجارستان 47.49801 19.03991
+P  مراکش 34.01325 -6.83255
+P  مصر 30.06263 31.24967
+P  ناروې 59.91273 10.74609
+P  نایجیریا 9.05785 7.49508
+P  نکاراګوا 12.13282 -86.2504
+P  نیپال 27.70169 85.3206
+P  نیوزیلنډ -41.28664 174.77557
+P  هالېنډ 52.37403 4.88969
+P  هانډوراس 14.0818 -87.20681
+P  هسپانیه 40.4165 -3.70256
+P  هند 28.63576 77.22445
+P  یمن 15.35472 44.20667
+P  یوروګوای -34.90328 -56.18816
+P  یونان 37.97945 23.71622
+P  ਭਾਰਤ 28.63576 77.22445
+P  అంగోలా -8.83682 13.23432
+P  అజర్బైజాన్ 40.37767 49.89201
+P  అన్డోరా 42.50779 1.52109
+P  అరుబా 12.52398 -70.02703
+P  అల్జీరియా 36.7525 3.04197
+P  అల్బేనియా 41.3275 19.81889
+P  ఆఫ్ఘానిస్తాన్ 34.52813 69.17233
+P  ఆర్జెంటినా -34.61315 -58.37723
+P  ఆర్మేనియా 40.18111 44.51361
+P  ఆస్ట్రియా 48.20849 16.37208
+P  ఆస్ట్రేలియా -35.28346 149.12807
+P  ఇటలి 41.89474 12.4839
+P  ఇండోనేషియా -6.21462 106.84513
+P  ఇథియోపియా 9.02497 38.74689
+P  ఇరాక్ 33.34058 44.40088
+P  ఇరాన్ 35.69439 51.42151
+P  ఇస్రాయేల్ 31.76904 35.21633
+P  ఈక్వడోర్ -0.22985 -78.52495
+P  ఈజిప్ట్ 30.06263 31.24967
+P  ఉజ్బెకిస్తాన్ 41.26465 69.21627
+P  ఉత్తర కొరియా 39.03385 125.75432
+P  ఉత్తర మరియానా దీవులు 15.21233 145.7545
+P  ఉరుగువే -34.90328 -56.18816
+P  ఎక్వేటోరియాల్ గినియా 3.75 8.78333
+P  ఎరిట్రియా 15.33805 38.93184
+P  ఎల్ సాల్వడోర్ 13.68935 -89.18718
+P  ఎస్టోనియా 59.43696 24.75353
+P  ఐర్ లాండ్ 53.33306 -6.24889
+P  ఐల్ ఆఫ్ మాన్ 54.15 -4.48333
+P  ఐవరీ కోస్ట్ 6.82055 -5.27674
+P  ఐస్లాండ్ 64.13548 -21.89541
+P  ఒమాన్ 23.61387 58.5922
+P  కజాఖస్తాన్ 51.1801 71.44598
+P  కతర్ 25.27932 51.52245
+P  కంబోడియా 11.56245 104.91601
+P  కాంగో- కిన్షాసా -4.32758 15.31357
+P  కాంగో- బ్రాజావిల్లి -4.26613 15.28318
+P  కిరిబాటి 1.3278 172.97696
+P  కిర్జిస్తాన్ 42.87 74.59
+P  కువైట్ 29.36972 47.97833
+P  కెనడా 45.41117 -75.69812
+P  కెన్యా -1.28333 36.81667
+P  కెమరూన్ 3.86667 11.51667
+P  కేప్ వెర్డే 14.93152 -23.51254
+P  కేమాన్ దీవులు 19.2866 -81.37436
+P  కొమొరోస్ -11.70216 43.25506
+P  కొలంబియా 4.60971 -74.08175
+P  కోస్టారికా 10.95173 -85.1361
+P  క్యూబా 23.13302 -82.38304
+P  క్రొత్త కాలెడోనియా -22.27631 166.4572
+P  క్రోయేషియా 45.81444 15.97798
+P  గయానా 6.80448 -58.15527
+P  గాంబియా 13.45274 -16.57803
+P  గినియా-బిస్సావ్ 11.86357 -15.59767
+P  గినియా 9.53795 -13.67729
+P  గేబన్ 0.39241 9.45356
+P  గ్రీస్ 37.97945 23.71622
+P  గ్వాటిమాల 14.64072 -90.51327
+P  ఘానా 5.55602 -0.1969
+P  ఙర్మని 52.52437 13.41053
+P  చాద్ 12.10672 15.0444
+P  చిలి -33.45694 -70.64827
+P  చెక్ గణరాజ్యం 50.08804 14.42076
+P  చైనా యొక్క హాంగ్కాంగ్ 22.28552 114.15769
+P  చైనా 39.9075 116.39723
+P  జపాన్ 35.6895 139.69171
+P  జమైకా 17.99702 -76.79358
+P  జర్సి 49.18804 -2.10491
+P  జాంబియా -15.40669 28.28713
+P  జార్జియా 41.69411 44.83368
+P  జార్డాన్ 31.95522 35.94503
+P  జింబాబ్వే -17.82772 31.05337
+P  జిబౌటి 11.58901 43.14503
+P  జిబ్రాల్టార్ 36.14474 -5.35257
+P  టర్కీ 39.91987 32.85427
+P  టాంజానియా -6.17221 35.73947
+P  టాజీకిస్తాన్ 38.53575 68.77905
+P  టిమోర్-లెస్టె -8.55861 125.57361
+P  టైవాన్ 25.04776 121.53185
+P  టోగో 6.13748 1.21227
+P  ట్యునీషియా 36.81897 10.16579
+P  డెన్మార్క్ 55.67594 12.56553
+P  డొమినికన్ గణ రాజ్యం 18.50012 -69.98857
+P  డోమెనిక 15.30174 -61.38808
+P  తుర్కమెస్తాన్ 37.95 58.38333
+P  థాయ్ లాండ్ 13.75398 100.50144
+P  దక్షిణ ఆఫ్రికా రాజ్యం -25.74486 28.18783
+P  దక్షిణ కొరియా 37566 126.9784
+P  నమీబియా -22.55941 17.08323
+P  నారవే 59.91273 10.74609
+P  నికరాగువా 12.13282 -86.2504
+P  నేదర్లాండ్స్ 52.37403 4.88969
+P  నేపాల్ 27.70169 85.3206
+P  నైజర్ 13.51366 2.1098
+P  నైజీరియా 9.05785 7.49508
+P  న్యుజిలేండ్ -41.28664 174.77557
+P  పాకిస్తాన్ 33.72148 73.04329
+P  పాపువా న్యు గినియా -9.44314 147.17972
+P  పాలిస్తినియాన్ ప్రాంతం 31.78336 35.23388
+P  పెరగువే -25.30066 -57.63591
+P  పెరూ -12.04318 -77.02824
+P  పోటోరికో 18.46633 -66.10572
+P  పోర్చుగల్ 38.71667 -9.13333
+P  పోలాండ్ 52.22977 21.01178
+P  ఫిజి -18.14161 178.44149
+P  ఫిన్లాండ్ 60.16952 24.93545
+P  ఫిలి పైన్స్ 14.6042 120.9822
+P  ఫ్రాన్స్‌ 48.85341 2.3488
+P  ఫ్రెంచ్ గియానా 4.93333 -52.33333
+P  ఫ్రెంచ్ పోలినిషియా -17.53733 -149.5665
+P  బల్గేరియా 42.69751 23.32415
+P  బహరేన్ 26.21536 50.5832
+P  బహామాస్ 25.05823 -77.34306
+P  బాంగ్లాదేష్ 23.7104 90.40744
+P  బార్బడోస్ 13.1 -59.61667
+P  బాస్నియా మరియు హీర్జిగోవినా 43.84864 18.35644
+P  బురుండి -3.3822 29.3644
+P  బుర్కినా ఫాసో 12.36566 -1.53388
+P  బెనిన్ 6.49646 2.60359
+P  బెలారస్ 53.9 27.56667
+P  బెల్జియం 50.85045 4.34878
+P  బొలీవియా -19.03332 -65.26274
+P  బోట్స్వానా -24.65451 25.90859
+P  బ్రజిల్ -15.77972 -47.92972
+P  బ్రిటన్ 51.50853 -0.12574
+P  బ్రునై 4.94029 114.94806
+P  భారత దేశం 28.63576 77.22445
+P  భూటాన్ 27.46609 89.64191
+P  మధ్యమ ఆఫ్రికా రిపబ్లిక్ 4.36122 18.55496
+P  మలేషియా 3.1412 101.68653
+P  మాడ్గాస్కార్ -18.91368 47.53613
+P  మాయొట్టి -12.78234 45.22878
+P  మారిషస్ -20.16194 57.49889
+P  మార్టినిక్ 14.60892 -61.07334
+P  మార్షల్ దీవులు 7.08971 171.38027
+P  మాలావి -13.96692 33.78725
+P  మాలి 12.65 -8
+P  మాల్దీవులు 4.1748 73.50888
+P  మెక్సికో 19.42847 -99.12766
+P  మేసెడోనియా 41.99646 21.43141
+P  మొజాంబిక్ -25.96553 32.58322
+P  మొనాకో 43.73333 7.41667
+P  మొరాక్కో 34.01325 -6.83255
+P  మోంటేనేగ్రో 42.44111 19.26361
+P  మోల్ డోవ 47.00556 28.8575
+P  మౌరిటేనియా 18.08581 -15.9785
+P  మ్యాన్మార్ 19745 96.12972
+P  యు.ఎస్. వర్జిన్ దీవులు 18.3419 -64.9307
+P  యుక్రెన్ 50.45466 30.5238
+P  యుగాండా 0.31628 32.58219
+P  యునైటెడ్ ఆరబ్ ఎమిరేట్స్ 24.46667 54.36667
+P  యెమెన్ 15.35472 44.20667
+P  రష్య 55.75222 37.61556
+P  రియూనియన్ -20.88231 55.4504
+P  రోమానియా 44.43225 26.10626
+P  ర్వాండా -1.94995 30.05885
+P  లక్సంబర్గ్ 49.61167 6.13
+P  లాట్వియ 56946 24.10589
+P  లావోస్ 17.96667 102.6
+P  లిథుయేనియా 54.68916 25.2798
+P  లెబనాన్ 33.88894 35.49442
+P  లెసోతో -29.31667 27.48333
+P  లైబీరియా 6.30054 -10.7969
+P  వియట్నాం 21.0245 105.84117
+P  వెనుజువేలా 10.48801 -66.87919
+P  శ్రీలంక 6.93194 79.84778
+P  సమోవా -13.83333 -171.76666
+P  సంయుక్త రాజ్య అమెరికా 40.70365 -89.40731
+P  సావోటోమ్ మరియు ప్రిన్సిపే 0.33654 6.72732
+P  సియెర్రా లియాన్ 8484 -13.22994
+P  సిరియా 33.5102 36.29128
+P  సీషెల్స్ -4.61667 55.45
+P  సుడాన్ 15.55177 32.53241
+P  సురినామ్ 5.86638 -55.16682
+P  సెంట్ లూసియా 13.9957 -61.00614
+P  సెంట్ విన్సెంట్ మరియు గ్రెనడీన్స్ 13.15872 -61.22475
+P  సెనెగల్ 14.6937 -17.44406
+P  సెర్బియా 44.80401 20.46513
+P  సైప్రస్ 35.16667 33.36667
+P  సోమాలియా 2.03711 45.34375
+P  సోలోమన్ దీవులు -9.43333 159.95
+P  సౌదీ అరేబియా 24.68773 46.72185
+P  స్పేన్ 40.4165 -3.70256
+P  స్లోవేకియా 48.14816 17.10674
+P  స్లోవేనియా 46.05108 14.50513
+P  స్వాజీలేండ్ -26.31667 31.13333
+P  స్వీడన్ 59.33258 18.0649
+P  హన్గేరి 47.49801 19.03991
+P  హైటి 18.53917 -72335
+P  హోండోరాస్ 14.0818 -87.20681
+P  アイスランド 64.13548 -21.89541
+P  アイルランド 53.33306 -6.24889
+P  アゼルバイジャン 40.37767 49.89201
+P  アフガニスタン 34.52813 69.17233
+P  アメリカ合衆国 40.70365 -89.40731
+P  アメリカ領ヴァージン諸島 18.3419 -64.9307
+P  アラブ首長国連邦 24.46667 54.36667
+P  アルジェリア 36.7525 3.04197
+P  アルゼンチン -34.61315 -58.37723
+P  アルバニア 41.3275 19.81889
+P  アルバ島 12.52398 -70.02703
+P  アルメニア 40.18111 44.51361
+P  アンゴラ -8.83682 13.23432
+P  アンドラ 42.50779 1.52109
+P  イエメン 15.35472 44.20667
+P  イギリス 51.50853 -0.12574
+P  イスラエル 31.76904 35.21633
+P  イタリア 41.89474 12.4839
+P  イラク 33.34058 44.40088
+P  イラン 35.69439 51.42151
+P  インド 28.63576 77.22445
+P  インドネシア -6.21462 106.84513
+P  ウガンダ 0.31628 32.58219
+P  ウクライナ 50.45466 30.5238
+P  ウズベキスタン 41.26465 69.21627
+P  ウルグアイ -34.90328 -56.18816
+P  エクアドル -0.22985 -78.52495
+P  エジプト 30.06263 31.24967
+P  エストニア 59.43696 24.75353
+P  エチオピア 9.02497 38.74689
+P  エリトリア 15.33805 38.93184
+P  エルサルバドル 13.68935 -89.18718
+P  オーストラリア -35.28346 149.12807
+P  オーストリア 48.20849 16.37208
+P  オマーン 23.61387 58.5922
+P  オランダ 52.37403 4.88969
+P  ガーナ 5.55602 -0.1969
+P  カーボベルデ 14.93152 -23.51254
+P  ガイアナ 6.80448 -58.15527
+P  カザフスタン 51.1801 71.44598
+P  カタール 25.27932 51.52245
+P  カナダ 45.41117 -75.69812
+P  ガボン 0.39241 9.45356
+P  カメルーン 3.86667 11.51667
+P  ガンビア 13.45274 -16.57803
+P  カンボジア 11.56245 104.91601
+P  ギニア 9.53795 -13.67729
+P  ギニアビサウ 11.86357 -15.59767
+P  キプロス 35.16667 33.36667
+P  キューバ 23.13302 -82.38304
+P  ギリシャ 37.97945 23.71622
+P  キリバス 1.3278 172.97696
+P  キルギスタン 42.87 74.59
+P  グアテマラ 14.64072 -90.51327
+P  クウェート 29.36972 47.97833
+P  グルジア 41.69411 44.83368
+P  クロアチア 45.81444 15.97798
+P  ケイマン諸島 19.2866 -81.37436
+P  ケニア -1.28333 36.81667
+P  コートジボワール 6.82055 -5.27674
+P  コスタリカ 10.95173 -85.1361
+P  コモロ -11.70216 43.25506
+P  コロンビア 4.60971 -74.08175
+P  コンゴ共和国 (ブラザビル) -4.26613 15.28318
+P  コンゴ民主共和国 (キンシャサ) -4.32758 15.31357
+P  サウジアラビア 24.68773 46.72185
+P  サモア -13.83333 -171.76666
+P  サントメ・プリンシペ 0.33654 6.72732
+P  ザンビア -15.40669 28.28713
+P  シエラレオネ 8484 -13.22994
+P  ジブチ 11.58901 43.14503
+P  ジブラルタル 36.14474 -5.35257
+P  ジャージー 49.18804 -2.10491
+P  ジャマイカ 17.99702 -76.79358
+P  シリア 33.5102 36.29128
+P  ジンバブエ -17.82772 31.05337
+P  スーダン 15.55177 32.53241
+P  スウェーデン 59.33258 18.0649
+P  スペイン 40.4165 -3.70256
+P  スリナム 5.86638 -55.16682
+P  スリランカ 6.93194 79.84778
+P  スロバキア 48.14816 17.10674
+P  スロベニア 46.05108 14.50513
+P  スワジランド -26.31667 31.13333
+P  セーシェル -4.61667 55.45
+P  セネガル 14.6937 -17.44406
+P  セルビア 44.80401 20.46513
+P  セントビンセント・グレナディーン諸島 13.15872 -61.22475
+P  セントルシア 13.9957 -61.00614
+P  ソマリア 2.03711 45.34375
+P  ソロモン諸島 -9.43333 159.95
+P  タイ 13.75398 100.50144
+P  タジキスタン 38.53575 68.77905
+P  タンザニア -6.17221 35.73947
+P  チェコ共和国 50.08804 14.42076
+P  チャド 12.10672 15.0444
+P  チュニジア 36.81897 10.16579
+P  チリ -33.45694 -70.64827
+P  デンマーク 55.67594 12.56553
+P  トーゴ 6.13748 1.21227
+P  ドイツ 52.52437 13.41053
+P  ドミニカ共和国 18.50012 -69.98857
+P  ドミニカ国 15.30174 -61.38808
+P  トルクメニスタン 37.95 58.38333
+P  トルコ 39.91987 32.85427
+P  ナイジェリア 9.05785 7.49508
+P  ナミビア -22.55941 17.08323
+P  ニカラグア 12.13282 -86.2504
+P  ニジェール 13.51366 2.1098
+P  ニューカレドニア -22.27631 166.4572
+P  ニュージーランド -41.28664 174.77557
+P  ネパール 27.70169 85.3206
+P  ノルウェー 59.91273 10.74609
+P  バーレーン 26.21536 50.5832
+P  ハイチ 18.53917 -72335
+P  パキスタン 33.72148 73.04329
+P  バハマ 25.05823 -77.34306
+P  パプアニューギニア -9.44314 147.17972
+P  パラグアイ -25.30066 -57.63591
+P  バルバドス 13.1 -59.61667
+P  パレスチナ領土 31.78336 35.23388
+P  ハンガリー 47.49801 19.03991
+P  バングラデシュ 23.7104 90.40744
+P  ブータン 27.46609 89.64191
+P  フィジー -18.14161 178.44149
+P  フィリピン 14.6042 120.9822
+P  フィンランド 60.16952 24.93545
+P  プエルトリコ 18.46633 -66.10572
+P  ブラジル -15.77972 -47.92972
+P  フランス 48.85341 2.3488
+P  ブルガリア 42.69751 23.32415
+P  ブルキナファソ 12.36566 -1.53388
+P  ブルネイ 4.94029 114.94806
+P  ブルンジ -3.3822 29.3644
+P  ベトナム 21.0245 105.84117
+P  ベニン 6.49646 2.60359
+P  ベネズエラ 10.48801 -66.87919
+P  ベラルーシ 53.9 27.56667
+P  ペルー -12.04318 -77.02824
+P  ベルギー 50.85045 4.34878
+P  ポーランド 52.22977 21.01178
+P  ボスニア・ヘルツェゴビナ 43.84864 18.35644
+P  ボツワナ -24.65451 25.90859
+P  ボリビア -19.03332 -65.26274
+P  ポルトガル 38.71667 -9.13333
+P  ホンジュラス 14.0818 -87.20681
+P  マーシャル諸島共和国 7.08971 171.38027
+P  マケドニア 41.99646 21.43141
+P  マダガスカル -18.91368 47.53613
+P  マヨット島 -12.78234 45.22878
+P  マラウィ -13.96692 33.78725
+P  マリ 12.65 -8
+P  マルティニーク島 14.60892 -61.07334
+P  マレーシア 3.1412 101.68653
+P  マン島 54.15 -4.48333
+P  ミャンマー 19745 96.12972
+P  メキシコ 19.42847 -99.12766
+P  モーリシャス -20.16194 57.49889
+P  モーリタニア 18.08581 -15.9785
+P  モザンビーク -25.96553 32.58322
+P  モナコ 43.73333 7.41667
+P  モルジブ 4.1748 73.50888
+P  モルドバ 47.00556 28.8575
+P  モロッコ 34.01325 -6.83255
+P  モンテネグロ 42.44111 19.26361
+P  ヨルダン 31.95522 35.94503
+P  ラオス 17.96667 102.6
+P  ラトビア 56946 24.10589
+P  リトアニア 54.68916 25.2798
+P  リベリア 6.30054 -10.7969
+P  ルーマニア 44.43225 26.10626
+P  ルクセンブルグ 49.61167 6.13
+P  ルワンダ -1.94995 30.05885
+P  レソト -29.31667 27.48333
+P  レバノン 33.88894 35.49442
+P  レユニオン島 -20.88231 55.4504
+P  ロシア 55.75222 37.61556
+P  不丹 27.46609 89.64191
+P  东帝汶 -8.55861 125.57361
+P  中国 39.9075 116.39723
+P  中国 39.9075 116.39723
+P  中国香港特别行政区 22.28552 114.15769
+P  中央アフリカ共和国 4.36122 18.55496
+P  中華人民共和国香港特別行政区 22.28552 114.15769
+P  中非共和国 4.36122 18.55496
+P  丹麦 55.67594 12.56553
+P  乌克兰 50.45466 30.5238
+P  乌兹别克斯坦 41.26465 69.21627
+P  乌干达 0.31628 32.58219
+P  乌拉圭 -34.90328 -56.18816
+P  乍得 12.10672 15.0444
+P  也门 15.35472 44.20667
+P  亚美尼亚 40.18111 44.51361
+P  仏領ギアナ 4.93333 -52.33333
+P  仏領ポリネシア -17.53733 -149.5665
+P  以色列 31.76904 35.21633
+P  伊拉克 33.34058 44.40088
+P  伊朗 35.69439 51.42151
+P  佛得角 14.93152 -23.51254
+P  俄罗斯 55.75222 37.61556
+P  保加利亚 42.69751 23.32415
+P  克罗地亚 45.81444 15.97798
+P  冈比亚 13.45274 -16.57803
+P  冰岛 64.13548 -21.89541
+P  几内亚 9.53795 -13.67729
+P  几内亚比绍 11.86357 -15.59767
+P  刚果（布） -4.26613 15.28318
+P  刚果（金） -4.32758 15.31357
+P  利比里亚 6.30054 -10.7969
+P  加拿大 45.41117 -75.69812
+P  加纳 5.55602 -0.1969
+P  加蓬 0.39241 9.45356
+P  匈牙利 47.49801 19.03991
+P  北マリアナ諸島 15.21233 145.7545
+P  北马里亚纳群岛 15.21233 145.7545
+P  南アフリカ -25.74486 28.18783
+P  南非 -25.74486 28.18783
+P  博茨瓦纳 -24.65451 25.90859
+P  卡塔尔 25.27932 51.52245
+P  卢旺达 -1.94995 30.05885
+P  卢森堡 49.61167 6.13
+P  印度 28.63576 77.22445
+P  印度尼西亚 -6.21462 106.84513
+P  危地马拉 14.64072 -90.51327
+P  厄瓜多尔 -0.22985 -78.52495
+P  厄立特里亚 15.33805 38.93184
+P  叙利亚 33.5102 36.29128
+P  古巴 23.13302 -82.38304
+P  台湾 25.04776 121.53185
+P  台湾 25.04776 121.53185
+P  吉尔吉斯斯坦 42.87 74.59
+P  吉布提 11.58901 43.14503
+P  哈萨克斯坦 51.1801 71.44598
+P  哥伦比亚 4.60971 -74.08175
+P  哥斯达黎加 10.95173 -85.1361
+P  喀麦隆 3.86667 11.51667
+P  土库曼斯坦 37.95 58.38333
+P  土耳其 39.91987 32.85427
+P  圣卢西亚 13.9957 -61.00614
+P  圣多美和普林西比 0.33654 6.72732
+P  圣文森特和格林纳丁斯 13.15872 -61.22475
+P  圭亚那 6.80448 -58.15527
+P  坦桑尼亚 -6.17221 35.73947
+P  埃及 30.06263 31.24967
+P  埃塞俄比亚 9.02497 38.74689
+P  基里巴斯 1.3278 172.97696
+P  塔吉克斯坦 38.53575 68.77905
+P  塞内加尔 14.6937 -17.44406
+P  塞尔维亚 44.80401 20.46513
+P  塞拉利昂 8484 -13.22994
+P  塞浦路斯 35.16667 33.36667
+P  塞舌尔群岛 -4.61667 55.45
+P  墨西哥 19.42847 -99.12766
+P  多哥 6.13748 1.21227
+P  多米尼加 15.30174 -61.38808
+P  多米尼加共和国 18.50012 -69.98857
+P  大韓民国 37566 126.9784
+P  奥地利 48.20849 16.37208
+P  委内瑞拉 10.48801 -66.87919
+P  孟加拉国 23.7104 90.40744
+P  安哥拉 -8.83682 13.23432
+P  安道尔 42.50779 1.52109
+P  尼加拉瓜 12.13282 -86.2504
+P  尼日利亚 9.05785 7.49508
+P  尼日尔 13.51366 2.1098
+P  尼泊尔 27.70169 85.3206
+P  巴勒斯坦领土 31.78336 35.23388
+P  巴哈马 25.05823 -77.34306
+P  巴基斯坦 33.72148 73.04329
+P  巴巴多斯 13.1 -59.61667
+P  巴布亚新几内亚 -9.44314 147.17972
+P  巴拉圭 -25.30066 -57.63591
+P  巴林 26.21536 50.5832
+P  巴西 -15.77972 -47.92972
+P  布基纳法索 12.36566 -1.53388
+P  布隆迪 -3.3822 29.3644
+P  希腊 37.97945 23.71622
+P  开曼群岛 19.2866 -81.37436
+P  德国 52.52437 13.41053
+P  意大利 41.89474 12.4839
+P  所罗门群岛 -9.43333 159.95
+P  拉脱维亚 56946 24.10589
+P  挪威 59.91273 10.74609
+P  捷克共和国 50.08804 14.42076
+P  摩尔多瓦 47.00556 28.8575
+P  摩洛哥 34.01325 -6.83255
+P  摩纳哥 43.73333 7.41667
+P  文莱 4.94029 114.94806
+P  斐济 -18.14161 178.44149
+P  斯威士兰 -26.31667 31.13333
+P  斯洛伐克 48.14816 17.10674
+P  斯洛文尼亚 46.05108 14.50513
+P  斯里兰卡 6.93194 79.84778
+P  新喀里多尼亚 -22.27631 166.4572
+P  新西兰 -41.28664 174.77557
+P  日本 35.6895 139.69171
+P  日本 35.6895 139.69171
+P  智利 -33.45694 -70.64827
+P  曼岛 54.15 -4.48333
+P  朝鮮民主主義人民共和国 39.03385 125.75432
+P  朝鲜 39.03385 125.75432
+P  東ティモール -8.55861 125.57361
+P  柬埔寨 11.56245 104.91601
+P  格鲁吉亚 41.69411 44.83368
+P  比利时 50.85045 4.34878
+P  毛里塔尼亚 18.08581 -15.9785
+P  毛里求斯 -20.16194 57.49889
+P  沙特阿拉伯 24.68773 46.72185
+P  法国 48.85341 2.3488
+P  法属圭亚那 4.93333 -52.33333
+P  法属波利尼西亚 -17.53733 -149.5665
+P  波兰 52.22977 21.01178
+P  波多黎各 18.46633 -66.10572
+P  波斯尼亚和黑塞哥维那 43.84864 18.35644
+P  泰国 13.75398 100.50144
+P  泽西岛 49.18804 -2.10491
+P  津巴布韦 -17.82772 31.05337
+P  洪都拉斯 14.0818 -87.20681
+P  海地 18.53917 -72335
+P  澳大利亚 -35.28346 149.12807
+P  爱尔兰 53.33306 -6.24889
+P  爱沙尼亚 59.43696 24.75353
+P  牙买加 17.99702 -76.79358
+P  玻利维亚 -19.03332 -65.26274
+P  瑞典 59.33258 18.0649
+P  留尼汪 -20.88231 55.4504
+P  白俄罗斯 53.9 27.56667
+P  直布罗陀 36.14474 -5.35257
+P  科威特 29.36972 47.97833
+P  科摩罗 -11.70216 43.25506
+P  科特迪瓦 6.82055 -5.27674
+P  秘鲁 -12.04318 -77.02824
+P  突尼斯 36.81897 10.16579
+P  立陶宛 54.68916 25.2798
+P  索马里 2.03711 45.34375
+P  约旦 31.95522 35.94503
+P  纳米比亚 -22.55941 17.08323
+P  缅甸 19745 96.12972
+P  罗马尼亚 44.43225 26.10626
+P  美国 40.70365 -89.40731
+P  美属维京群岛 18.3419 -64.9307
+P  老挝人民民主共和国 17.96667 102.6
+P  肯尼亚 -1.28333 36.81667
+P  芬兰 60.16952 24.93545
+P  苏丹 15.55177 32.53241
+P  苏里南 5.86638 -55.16682
+P  英国 51.50853 -0.12574
+P  荷兰 52.37403 4.88969
+P  莫桑比克 -25.96553 32.58322
+P  莱索托 -29.31667 27.48333
+P  菲律宾 14.6042 120.9822
+P  萨尔瓦多 13.68935 -89.18718
+P  萨摩亚 -13.83333 -171.76666
+P  葡萄牙 38.71667 -9.13333
+P  西班牙 40.4165 -3.70256
+P  贝宁 6.49646 2.60359
+P  赞比亚 -15.40669 28.28713
+P  赤道ギニア 3.75 8.78333
+P  赤道几内亚 3.75 8.78333
+P  越南 21.0245 105.84117
+P  阿塞拜疆 40.37767 49.89201
+P  阿富汗 34.52813 69.17233
+P  阿尔及利亚 36.7525 3.04197
+P  阿尔巴尼亚 41.3275 19.81889
+P  阿拉伯联合酋长国 24.46667 54.36667
+P  阿曼 23.61387 58.5922
+P  阿根廷 -34.61315 -58.37723
+P  阿鲁巴 12.52398 -70.02703
+P  韩国 37566 126.9784
+P  马其顿 41.99646 21.43141
+P  马尔代夫 4.1748 73.50888
+P  马拉维 -13.96692 33.78725
+P  马提尼克群岛 14.60892 -61.07334
+P  马来西亚 3.1412 101.68653
+P  马约特 -12.78234 45.22878
+P  马绍尔群岛 7.08971 171.38027
+P  马达加斯加 -18.91368 47.53613
+P  马里 12.65 -8
+P  黎巴嫩 33.88894 35.49442
+P  黑山共和国 42.44111 19.26361

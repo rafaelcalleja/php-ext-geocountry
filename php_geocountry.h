@@ -69,13 +69,6 @@ ZEND_EXTERN_MODULE_GLOBALS(geocountry)
 
 #define GENDER_GC_DATA_SIZE 56
 
-struct GeoCoord {
-
-    char latitude;
-    char longitude;
-
-};
-
 struct ze_geocountry_obj {
 	zend_object zo;
     int  internal_mode;
@@ -102,10 +95,10 @@ struct ze_geocountry_obj {
 
     int data_mode;
     char *dsn;
-	int internal_dict;
-	struct gc_struct gc_data[GENDER_GC_DATA_SIZE];
-	char latitude[DATA_LATITUDE_LENGTH+1];
-	char longitude[DATA_LONGITUDE_LENGTH+1];
+    int internal_dict;
+    struct gc_struct gc_data[GENDER_GC_DATA_SIZE];
+    char latitude[DATA_LATITUDE_LENGTH+1];
+    char longitude[DATA_LONGITUDE_LENGTH+1];
 
 };
 
