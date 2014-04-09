@@ -1002,7 +1002,7 @@ static long binary_search (php_stream *fr, char search_name[],
   int  i,n;
   char text [MAX_LINE_SIZE+1];
   char temp [MAX_LINE_SIZE+1];
- 
+   php_printf ("Binary Search\n");
   if (zgo->line_size == 0  ||  zgo->record_count == 0L)
     {
       /****  determine length of first line  ****/
@@ -1127,15 +1127,18 @@ static long binary_search (php_stream *fr, char search_name[],
           php_printf ("Range = line %ld - %ld,  guess = %ld ('%s')\n",
               p1+1L, p2+1L, p+1L, temp);
         }
- 
+
+
       /****  compare first names  ****/
       i = strcmp_search (search_name, temp, (compare_mode | IGNORE_SEPARATOR),
               text[POS_UMLAUT_INFO], NULL, zgo TSRMLS_CC);
- 
+  php_printf ("compare first names %d\n", i == 0);
+  php_printf ("P == P1 %d == %d ::: %d\n", p, p1, p == p1);
       if (i == 0)
         {
           if (p == p1)
             {
+                php_printf ("first match has been found\n");
               /****  first match has been found  ****/
               break;
             }
