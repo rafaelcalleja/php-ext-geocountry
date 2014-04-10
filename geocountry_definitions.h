@@ -36,12 +36,6 @@ struct ze_geocountry_obj;
 /****   definitions in the file "FIRST_NAME_FILE")             ****/
 #define IS_COUNTRY             'P'
 #define IS_CITY                'C'
-#define IS_FEMALE              'F'
-#define IS_MOSTLY_FEMALE       'f'
-#define IS_MALE                'M'
-#define IS_MOSTLY_MALE         'm'
-#define IS_UNISEX_NAME         '?'
-#define IS_A_COUPLE            'c'
 
 #define EQUIVALENT_NAMES       '='
 #define NOT_EQUAL_NAMES        '!'
@@ -112,70 +106,6 @@ struct ze_geocountry_obj;
 
 #define GC_ANY_COUNTRY   0
 
-#define GC_BRITAIN       1
-#define GC_IRELAND       2
-#define GC_USA           3
-
-#define GC_SPAIN         4
-#define GC_PORTUGAL      5
-#define GC_ITALY         6
-#define GC_MALTA         7
-
-#define GC_FRANCE        8
-#define GC_BELGIUM       9
-#define GC_LUXEMBOURG   10
-#define GC_NETHERLANDS  11
-
-#define GC_GERMANY      12
-#define GC_EAST_FRISIA  13
-#define GC_AUSTRIA      14
-#define GC_SWISS        15
-
-#define GC_ICELAND      16
-#define GC_DENMARK      17
-#define GC_NORWAY       18
-#define GC_SWEDEN       19
-#define GC_FINLAND      20
-#define GC_ESTONIA      21
-#define GC_LATVIA       22
-#define GC_LITHUANIA    23
-
-#define GC_POLAND       24
-#define GC_CZECH_REP    25
-#define GC_SLOVAKIA     26
-#define GC_HUNGARY      27
-#define GC_ROMANIA      28
-#define GC_BULGARIA     29
-
-#define GC_BOSNIA       30
-#define GC_CROATIA      31
-#define GC_KOSOVO       32
-#define GC_MACEDONIA    33
-#define GC_MONTENEGRO   34
-#define GC_SERBIA       35
-#define GC_SLOVENIA     36
-#define GC_ALBANIA      37
-#define GC_GREECE       38
-
-#define GC_RUSSIA       39
-#define GC_BELARUS      40
-#define GC_MOLDOVA      41
-#define GC_UKRAINE      42
-#define GC_ARMENIA      43
-#define GC_AZERBAIJAN   44
-#define GC_GEORGIA      45
-#define GC_KAZAKH_UZBEK 46
-
-#define GC_TURKEY       47
-#define GC_ARABIA       48
-#define GC_ISRAEL       49
-#define GC_CHINA        50
-#define GC_INDIA        51
-#define GC_JAPAN        52
-#define GC_KOREA        53
-#define GC_VIETNAM      54
-
-
 /************************************************************/
 /****  function prototypes  *********************************/
 /************************************************************/
@@ -227,10 +157,6 @@ int get_gender_utf8 (char first_name[], int compare_mode, int country, struct ze
 #define COMPRESSED_UMLAUTS_FOR_SORTING   '-'
 #define EXPANDED_UMLAUTS_FOR_SORTING     '+'
 #define PSEUDO_VOWEL_FOR_ARABIC_NAMES    '_'
-
-#define VERY_GOOD       1
-#define GOOD            2
-#define MEDIUM          3
 
 #define CHARSET_ISO_8859_1    0
 #define CHARSET_UNICODE       1

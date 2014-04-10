@@ -39,66 +39,6 @@ extern int gender_connect_to_source(struct ze_geocountry_obj *zgo TSRMLS_DC);
 /* NOTE In PHP we have to put this into the gender object to have it
 thread safe. */
 struct gc_struct gc_data[] = {
-    { 30, 0, VERY_GOOD, 60, GC_BRITAIN,   "LS",   "Latitude Sig" },
-    { 31, 0, GOOD,       4, GC_IRELAND,   "L1",   "Latitude 1"     },
-    { 32, 0, VERY_GOOD,150, GC_USA,       "L2",   "Latitude 2"      },
-    { 33, 0, VERY_GOOD, 60, GC_ITALY,     "L3",   "Latitude 3"       },
-    { 34, 0, MEDIUM,     1, GC_MALTA,     "L4",   "Latitude 4"       },
-    { 35, 0, GOOD,      10, GC_PORTUGAL,  "L5",   "Latitude 5"    },
-    { 36, 0, VERY_GOOD, 40, GC_SPAIN,     "L6",   "Latitude 6"       },
-    { 37, 0, VERY_GOOD, 60, GC_FRANCE,    "L7",   "Latitude 7"      },
-    { 38, 0, VERY_GOOD, 10, GC_BELGIUM,   "L8",   "Latitude 8"     },
-    { 39, 0, VERY_GOOD,  1, GC_LUXEMBOURG,"L9",   "Latitude 9"  },
-    { 40, 0, VERY_GOOD, 14, GC_NETHERLANDS,"L10",  "Latitude 10" },
-
-    { 41, 0, GOOD,       1, GC_EAST_FRISIA,"LOS", "Longitude Sig" },
-    { 42, 0, VERY_GOOD, 80, GC_GERMANY,    "LO1",   "Longitude 1"     },
-    { 43, 0, VERY_GOOD,  8, GC_AUSTRIA,    "LO2",   "Longitude 2"     },
-    { 44, 0, VERY_GOOD,  7, GC_SWISS,      "LO3",  "Longitude 3"       },
-    { 45, 0, VERY_GOOD,  1, GC_ICELAND,    "LO4", "Longitude 4"     },
-    { 46, 0, VERY_GOOD,  5, GC_DENMARK,    "LO5",  "Longitude 5"     },
-    { 47, 0, GOOD,       4, GC_NORWAY,     "LO6",   "Longitude 6"      },
-    { 48, 0, VERY_GOOD,  8, GC_SWEDEN,     "LO7",   "Longitude 7"      },
-    { 49, 0, GOOD,       5, GC_FINLAND,    "LO8", "Longitude 8"     },
-    { 50, 0, GOOD,       2, GC_ESTONIA,    "LO9", "Longitude 9"     },
-    { 51, 0, GOOD,       2, GC_LATVIA,     "L010", "Longitude 10"      },
-
-    { 52, 0, GOOD,       3, GC_LITHUANIA,  "LIT", "Lithuania"   }, 
-    { 53, 0, GOOD,      35, GC_POLAND,     "PL",  "Poland"      }, 
-    { 54, 0, GOOD,       8, GC_CZECH_REP,  "CZ",  "Czech Republic" }, 
-    { 55, 0, GOOD,       7, GC_SLOVAKIA,   "SK",  "Slovakia"    }, 
-    { 56, 0, GOOD,      11, GC_HUNGARY,    "H",   "Hungary"     }, 
-    { 57, 0, VERY_GOOD, 22, GC_ROMANIA,    "RO",  "Romania"     }, 
-    { 58, 0, GOOD,       9, GC_BULGARIA,   "BG",  "Bulgaria"    }, 
-
-    { 59, 0, MEDIUM,     4, GC_BOSNIA,     "BIH","Bosnia and Herzegovina" }, 
-    { 60, 0, GOOD,       5, GC_CROATIA,    "CRO", "Croatia"     }, 
-    { 61, 0, MEDIUM,     1, GC_KOSOVO,     "KOS", "Kosovo"      }, 
-    { 62, 0, MEDIUM,     2, GC_MACEDONIA,  "MK",  "Macedonia"   }, 
-    { 63, 0, MEDIUM,     1, GC_MONTENEGRO, "MON", "Montenegro"  }, 
-    { 64, 0, MEDIUM,     9, GC_SERBIA,     "SER", "Serbia"      }, 
-    { 65, 0, MEDIUM,     2, GC_SLOVENIA,   "SLO", "Slovenia"    }, 
-    { 66, 0, GOOD,       3, GC_ALBANIA,    "AL",  "Albania"     }, 
-    { 67, 0, GOOD,      10, GC_GREECE,     "GR",  "Greece"      }, 
-
-    { 68, 0, GOOD,     100, GC_RUSSIA,     "RUS", "Russia"      }, 
-    { 69, 0, MEDIUM,    10, GC_BELARUS,    "BY",  "Belarus"     }, 
-    { 70, 0, MEDIUM,     4, GC_MOLDOVA,    "MOL", "Moldova"     }, 
-    { 71, 0, MEDIUM,    45, GC_UKRAINE,    "UKR", "Ukraine"     }, 
-    { 72, 0, MEDIUM,     3, GC_ARMENIA,    "ARM", "Armenia"     }, 
-    { 73, 0, MEDIUM,     4, GC_AZERBAIJAN, "AZE", "Azerbaijan"  }, 
-    { 74, 0, MEDIUM,     5, GC_GEORGIA,    "GEO", "Georgia"     }, 
-    { 75, 0, MEDIUM,    15,GC_KAZAKH_UZBEK,"KAZ", "Kazakhstan/Uzbekistan" }, 
-
-    { 76, 0, GOOD,      55, GC_TURKEY,     "TR",  "Turkey"      }, 
-    { 77, 0, GOOD,      80, GC_ARABIA,     "AR",  "Arabia/Persia" }, 
-    { 78, 0, MEDIUM,     4, GC_ISRAEL,     "ISR", "Israel"      }, 
-    { 79, 0, VERY_GOOD,300, GC_CHINA,      "CHN", "China"       }, 
-    { 80, 0, GOOD,     250, GC_INDIA,      "IND", "India/Sri Lanka" }, 
-    { 81, 0, GOOD,      35, GC_JAPAN,      "JAP", "Japan"       }, 
-    { 82, 0, GOOD,      12, GC_KOREA,      "KOR", "Korea"       }, 
-    { 83, 0, GOOD,      17, GC_VIETNAM,    "VN",  "Vietnam"     }, 
-    { 84, 0, MEDIUM,     1,    -1L,        "XX",  "other countries" }, 
     {  0, 0,  0,         0,    -1L,        NULL,    NULL        }
 }; 
 
@@ -2594,23 +2534,8 @@ static int conv_internal_result (char *text, int compare_mode)
 {
   if (compare_mode & SEARCH_GENDER)
     {
-      if (compare_mode & SEARCH_FIRST)
-        {
-          if (strncmp (text,"1F",2) == 0)  return (IS_FEMALE);
-          if (strncmp (text,"1M",2) == 0)  return (IS_MALE);
-        }
- 
       if (strncmp (text,"P ",2) == 0)  return (IS_COUNTRY);
       if (strncmp (text,"C ",2) == 0)  return (IS_CITY);
-      if (strncmp (text,"F ",2) == 0)  return (IS_FEMALE);
-      if (strncmp (text,"1F",2) == 0)  return (IS_MOSTLY_FEMALE);
-      if (strncmp (text,"?F",2) == 0)  return (IS_MOSTLY_FEMALE);
- 
-      if (strncmp (text,"M ",2) == 0)  return (IS_MALE);
-      if (strncmp (text,"1M",2) == 0)  return (IS_MOSTLY_MALE);
-      if (strncmp (text,"?M",2) == 0)  return (IS_MOSTLY_MALE);
- 
-      if (strncmp (text,"? ",2) == 0)  return (IS_UNISEX_NAME);
  
       return (NAME_NOT_FOUND);
     }
@@ -2697,13 +2622,6 @@ static void trace_info_into_buffer
  
   switch (res)
     {
-      case IS_FEMALE        :  s = "is female";            break;
-      case IS_MOSTLY_FEMALE :  s = "is mostly female";     break;
-      case IS_MALE          :  s = "is male";              break;
-      case IS_MOSTLY_MALE   :  s = "is mostly male";       break;
-      case IS_A_COUPLE      :  s = "is a couple";          break;
-      case IS_UNISEX_NAME   :  s = "is unisex name";       break;
- 
       case EQUIVALENT_NAMES :  s = "names are equivalent"; break;
       case NOT_EQUAL_NAMES  :  s = "names are not equal";  break;
       case NAME_NOT_FOUND   :  s = "name not found";       break;
@@ -2914,21 +2832,6 @@ static int internal_search
         }
     }
  
-  if (compare_mode & SEARCH_GENDER)
-    {
-     i = (int)strlen (search_name);
-     if (i == 0)
-       {
-         return (IS_UNISEX_NAME);
-       }
- 
-     if (i >= 2  &&  search_name[i-1] == '.')
-       {
-         compare_mode |= COMPARE_ABBREVIATION;
-         zgo->internal_mode &= ~GENDER_GET_COUNTRY;
-       }
-    }
- 
   if (compare_mode & UMLAUT_EXPAND)
     {
       compare_mode |= EXPAND_PARAM_1;
@@ -2990,20 +2893,6 @@ restart_loop:
           if (zgo->internal_mode & TRACE_GENDER)
             {
               trace_info ("evaluating name", temp,NULL, res, text, zgo TSRMLS_CC);
-            }
- 
-          if (compare_mode & COMPARE_ABBREVIATION)
-            {
-              if (res == IS_FEMALE)  res = IS_MOSTLY_FEMALE;
-              if (res == IS_MALE)  res = IS_MOSTLY_MALE;
- 
-              i = (int)strlen (search_name);
- 
-              if (i <= 3
-              || (i == 4  &&  ((n & 16)  ||  ((n & 2)  &&  (n & 8)))))
-                {
-                  return (IS_UNISEX_NAME);
-                }
             }
  
           /****  check country  ****/
@@ -3106,12 +2995,6 @@ copycut (zgo->longitude, text+DATA_LONGITUDE_POS, DATA_LONGITUDE_LENGTH+1 TSRMLS
  
           switch (res)
             {
-              case IS_FEMALE        :  i =  1;  x = 0;  break;
-              case IS_MOSTLY_FEMALE :  i =  2;  x = 1;  break;
-              case IS_MALE          :  i =  4;  x = 2;  break;
-              case IS_MOSTLY_MALE   :  i =  8;  x = 3;  break;
-              case IS_UNISEX_NAME   :  i = 16;  x = 4;  break;
-              case EQUIVALENT_NAMES :  i = 32;  x = 5;  break;
 	      case IS_COUNTRY       :  i = 128;  x = 7;  break;
               case IS_CITY          :  i = 256;  x = 8;  break;
               default               :  i = 64;  x = 6;  break;
@@ -3212,30 +3095,6 @@ look_next:
             }
         }
     }
- 
-  if ((n & (1|2|16))  &&  (n & (4|8|16)))
-    {
-      return (IS_UNISEX_NAME);
-    }
- 
-  if (n & 2)
-    {
-      return (IS_MOSTLY_FEMALE);
-    }
-  if (n & 8)
-    {
-      return (IS_MOSTLY_MALE);
-    }
- 
-  if (n == 1)
-    {
-      return (IS_FEMALE);
-    }
-  if (n == 4)
-    {
-      return (IS_MALE);
-    }
- 
   return (res);
 }
  
@@ -3259,11 +3118,6 @@ static int get_gender_internal
   int  gender,res;
   char c;
   char temp [LENGTH_FIRST_NAME+52];
- 
-  if (first_name[0] == '\0')
-    {
-      return (IS_UNISEX_NAME);
-    }
  
   compare_mode &= ~(SEARCH_EQUIV | SEARCH_FIRST);
   compare_mode |= SEARCH_GENDER;
@@ -3372,12 +3226,6 @@ static int get_gender_internal
  
           switch (gender)
             {
-              case IS_FEMALE        :  res |=  1;  break;
-              case IS_MOSTLY_FEMALE :  res |=  2;  break;
-              case IS_MALE          :  res |=  4;  break;
-              case IS_MOSTLY_MALE   :  res |=  8;  break;
-              case IS_UNISEX_NAME   :  res |= 16;  break;
-              case NAME_NOT_FOUND   :  res |= 32;  break;
 	      case IS_COUNTRY       :  res |= 128;  break;
               case IS_CITY          :  res |= 256;  break;
               default               :  res |= 64;  break;
@@ -3393,18 +3241,6 @@ static int get_gender_internal
         }
     }
  
-  if ((res & 1)  &&  (res & 4))
-    {
-      if (compare_mode & GENDER_ALLOW_COUPLE)
-        {
-          /****  name is both male and female  ****/
-          return (IS_A_COUPLE);
-        }
- 
-      /****  error in mame  ****/
-      return (ERROR_IN_NAME);
-    }
- 
   if (res & 128)
      {
        return (IS_COUNTRY);
@@ -3413,29 +3249,6 @@ static int get_gender_internal
      {
        return (IS_CITY);
      }
-  if (res & 1)
-    {
-      return (IS_FEMALE);
-    }
-  if (res & 4)
-    {
-      return (IS_MALE);
-    }
- 
-  if ((res & 2)  &&  ! (res & 8))
-    {
-      return (IS_MOSTLY_FEMALE);
-    }
-  if ((res & 8)  &&  ! (res & 2))
-    {
-      return (IS_MOSTLY_MALE);
-    }
- 
-  if (res & (2|8|16))
-    {
-      return (IS_UNISEX_NAME);
-    }
- 
   return (gender);
 }
  
