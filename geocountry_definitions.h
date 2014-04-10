@@ -185,20 +185,6 @@ int get_gender_unicode (char first_name[], int compare_mode, int country, struct
 int get_gender_utf8 (char first_name[], int compare_mode, int country, struct ze_geocountry_obj *zgo TSRMLS_DC);
 
 
-int check_nickname (char first_name_1[],
-         char first_name_2[], int compare_mode, int country, struct ze_geocountry_obj *zgo TSRMLS_DC);
-int check_nickname_unicode (char first_name_1[],
-         char first_name_2[], int compare_mode, int country, struct ze_geocountry_obj *zgo TSRMLS_DC);
-int check_nickname_utf8 (char first_name_1[],
-         char first_name_2[], int compare_mode, int country, struct ze_geocountry_obj *zgo TSRMLS_DC);
-
-int find_similar_name (char first_name[], int country,
-         char result_string[], int len, struct ze_geocountry_obj *zgo TSRMLS_DC);
-int find_similar_name_unicode (char first_name[], int country,
-         char result_string[], int two_byte_len, struct ze_geocountry_obj *zgo TSRMLS_DC);
-int find_similar_name_utf8 (char first_name[], int country,
-         char result_string[], int one_byte_len, struct ze_geocountry_obj *zgo TSRMLS_DC);
-
 /*
  void standardize_arabic_name (char dest[], char src[], int len);
 */

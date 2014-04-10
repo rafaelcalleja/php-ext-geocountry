@@ -171,11 +171,6 @@ zend_function_entry Geocountry_methods[] = {
     PHP_ME(Geocountry, __construct, NULL, ZEND_ACC_PUBLIC)
 	PHP_ME(Geocountry, get, NULL, ZEND_ACC_PUBLIC)
 	PHP_ME(Geocountry, getCoords, NULL, ZEND_ACC_PUBLIC)
-	/*PHP_ME(Gender, connect, NULL, ZEND_ACC_PUBLIC)
-	PHP_ME(Gender, trace, NULL, ZEND_ACC_PUBLIC)
-	PHP_ME(Gender, country, NULL, ZEND_ACC_PUBLIC)
-	PHP_ME(Gender, similarNames, NULL, ZEND_ACC_PUBLIC)
-	PHP_ME(Gender, isNick, NULL, ZEND_ACC_PUBLIC)*/
     {NULL, NULL, NULL}
 };
 /* }}} */
@@ -413,40 +408,6 @@ PHP_METHOD(Geocountry, getCoords)
         php_printf ("--------------------------------__%s-----------------------------------", zgo->longitude);
 
         return;
-        /*buf = (char *) emalloc(sizeof(char)*2048);
-        array_init(return_value);
-
-        find_similar_name(name, (int)country, buf, 2048, zgo TSRMLS_CC);
-
-        if (strlen(buf) < 1) {
-            efree(buf);
-            return;
-        }
-
-        pch0 = buf;
-        pch1 = strchr(buf, ';');
-
-        if (NULL == pch1) {
-            add_next_index_string(return_value, buf, 1);
-        } else {
-            char *one;
-
-            while(NULL != pch1) {
-                int one_len = pch1 - pch0;
-
-                one = estrndup(pch0, one_len);
-                one[one_len] = '\0';
-                add_next_index_string(return_value, one, 0);
-
-                pch0 = pch1 + 2;
-                pch1 = strchr(pch0, ';');
-            }
-            add_next_index_string(return_value, pch0, 1);
-        }
-
-        efree(buf);*/
-
-
     }
 
     RETURN_FALSE;
@@ -522,109 +483,5 @@ PHP_METHOD(Geocountry, connect)
 /* }}} */
 
 
-/* {{{ proto boolean Gender::trace(void) allow trace mode */
-PHP_METHOD(Geocountry, trace)
-{
-	struct ze_geocountry_obj *zgo;
 
-	zgo = (struct ze_geocountry_obj *) zend_object_store_get_object(getThis() TSRMLS_CC);
-
-    zgo->internal_mode = TRACE_GENDER;
-}
-/* }}} */
-
-
-/* {{{ proto string Gender::country(integer id) Get string country representation from a gender country class constant. */
-PHP_METHOD(Geocountry, country)
-{
-	long country;
-	int i;
-	struct ze_geocountry_obj *zgo;
-
-    if (zend_parse_parameters(ZEND_NUM_ARGS() TSRMLS_CC, "l", &country) == FAILURE) {
-		RETURN_FALSE;
-	}
-
-	zgo = (struct ze_geocountry_obj *) zend_object_store_get_object(getThis() TSRMLS_CC);
-
-	array_init(return_value);
-	for (i=0; zgo->gc_data[i].country_text != NULL; i++) {
-		if(zgo->gc_data[i].gc_country == (int)country) {
-			add_assoc_stringl(return_value, "country_short", zgo->gc_data[i].country_short, strlen(zgo->gc_data[i].country_short), 1);
-			add_assoc_stringl(return_value, "country", zgo->gc_data[i].country_text, strlen(zgo->gc_data[i].country_text), 1);
-			break;
-		}
-	}
-}
-/* }}} */
-
-/*{{{ proto string Gender::similarNames(string name[, integer country]) Find similar name*/
-PHP_METHOD(Geocountry, similarNames)
-{
-	long country = GC_ANY_COUNTRY;
-	int name_len = 0;
-	char *name, *buf, *pch0, *pch1;
-	struct ze_geocountry_obj *zgo;
-
-	if (zend_parse_parameters(ZEND_NUM_ARGS() TSRMLS_CC, "s|l", &name, &name_len, &country) == FAILURE) {
-		RETURN_FALSE;
-	}
-
-	zgo = (struct ze_geocountry_obj *) zend_object_store_get_object(getThis() TSRMLS_CC);
-
-	/* XXX possible overflow */
-	buf = (char *) emalloc(sizeof(char)*2048);
-	array_init(return_value);
-
-	find_similar_name(name, (int)country, buf, 2048, zgo TSRMLS_CC);
-
-	if (strlen(buf) < 1) {
-		efree(buf);
-		return;
-	}
-
-	pch0 = buf;
-	pch1 = strchr(buf, ';');
-
-	if (NULL == pch1) {
-		add_next_index_string(return_value, buf, 1);
-	} else {
-		char *one;
-
-		while(NULL != pch1) {
-			int one_len = pch1 - pch0;
-
-			one = estrndup(pch0, one_len);
-			one[one_len] = '\0';
-			add_next_index_string(return_value, one, 0);
-
-			pch0 = pch1 + 2;
-			pch1 = strchr(pch0, ';');
-		}
-		add_next_index_string(return_value, pch0, 1);
-	}
-
-	efree(buf);
-}
-/*}}}*/
-
-/*{{{ proto string Gender::isNick(string name0, string name1[, int country]) Check if name0 is a nick of name1 */
-PHP_METHOD(Geocountry, isNick)
-{
-	long country = GC_ANY_COUNTRY;
-	char *name0, *name1;
-	int name0_len, name1_len, check;
-	struct ze_geocountry_obj *zgo;
-
-	if (zend_parse_parameters(ZEND_NUM_ARGS() TSRMLS_CC, "ss|l", &name0, &name0_len, &name1, &name1_len, &country) == FAILURE) {
-		RETURN_FALSE;
-	}
-
-	zgo = (struct ze_geocountry_obj *) zend_object_store_get_object(getThis() TSRMLS_CC);
-
-	check = check_nickname(name0, name1, 0, (int)country, zgo TSRMLS_CC);
-
-	RETURN_BOOL(EQUIVALENT_NAMES == check);
-}
-/*}}}*/
 
