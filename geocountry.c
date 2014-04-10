@@ -148,7 +148,6 @@ php_geocountry_obj_init(zend_class_entry *ze TSRMLS_DC)
 
 
 	for (i=0; i < GENDER_GC_DATA_SIZE; i++) {
-	    php_printf ("GCDATA %s\n", gc_data[i].country_text);
 		zgo->gc_data[i].pos = gc_data[i].pos;
 		zgo->gc_data[i].n = gc_data[i].n;
 		zgo->gc_data[i].quality_of_statistics = gc_data[i].quality_of_statistics;
