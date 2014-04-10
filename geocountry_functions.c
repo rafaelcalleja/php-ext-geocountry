@@ -12,7 +12,7 @@
   | obtain it through the world-wide-web, please send a note to          |
   | license@php.net so we can mail you a copy immediately.               |
   +----------------------------------------------------------------------+
-  |                                    |
+  |                                   |
   +----------------------------------------------------------------------+
 */
  
@@ -39,7 +39,6 @@ extern int gender_connect_to_source(struct ze_geocountry_obj *zgo TSRMLS_DC);
 /* NOTE In PHP we have to put this into the gender object to have it
 thread safe. */
 struct gc_struct gc_data[] = {
-
     { 30, 0, VERY_GOOD, 60, GC_BRITAIN,   "LS",   "Latitude Sig" },
     { 31, 0, GOOD,       4, GC_IRELAND,   "L1",   "Latitude 1"     },
     { 32, 0, VERY_GOOD,150, GC_USA,       "L2",   "Latitude 2"      },
@@ -65,7 +64,7 @@ struct gc_struct gc_data[] = {
     { 51, 0, GOOD,       2, GC_LATVIA,     "L010", "Longitude 10"      },
 
     { 52, 0, GOOD,       3, GC_LITHUANIA,  "LIT", "Lithuania"   }, 
-    { 53, 0, GOOD,      35, GC_POLAND,     "PL",  "Poland"      },
+    { 53, 0, GOOD,      35, GC_POLAND,     "PL",  "Poland"      }, 
     { 54, 0, GOOD,       8, GC_CZECH_REP,  "CZ",  "Czech Republic" }, 
     { 55, 0, GOOD,       7, GC_SLOVAKIA,   "SK",  "Slovakia"    }, 
     { 56, 0, GOOD,      11, GC_HUNGARY,    "H",   "Hungary"     }, 
@@ -108,39 +107,39 @@ static char *umlauts_unicode[]
        "256",  "<A/>",
        "257",  "<a/>",
        "258",  "<A^>",
-       "258",  "<ï¿½>",   /** <A^> **/
+       "258",  "<Â>",   /** <A^> **/
        "259",  "<a^>",
-       "259",  "<ï¿½>",   /** <a^> **/
+       "259",  "<â>",   /** <a^> **/
        "260",  "<A,>",
        "261",  "<a,>",
-       "262",  "<Cï¿½>",
-       "263",  "<cï¿½>",
+       "262",  "<C´>",
+       "263",  "<c´>",
        "268",  "<C^>",
        "268",  "<CH>",
        "269",  "<c^>",
        "269",  "<ch>",
-       "271",  "<dï¿½>",
-       "272",  "<ï¿½>",
+       "271",  "<d´>",
+       "272",  "<Ð>",
        "272",  "<DJ>",
-       "273",  "<ï¿½>",
+       "273",  "<ð>",
        "273",  "<dj>",
        "274",  "<E/>",
        "275",  "<e/>",
-       "278",  "<Eï¿½>",
-       "279",  "<eï¿½>",
+       "278",  "<E°>",
+       "279",  "<e°>",
        "280",  "<E,>",
        "281",  "<e,>",
        "282",  "<E^>",
-       "282",  "<ï¿½>",
+       "282",  "<Ê>",
        "283",  "<e^>",
-       "283",  "<ï¿½>",
+       "283",  "<ê>",
        "286",  "<G^>",
        "287",  "<g^>",
        "290",  "<G,>",
-       "291",  "<gï¿½>",
+       "291",  "<g´>",
        "298",  "<I/>",
        "299",  "<i/>",
-       "304",  "<Iï¿½>",
+       "304",  "<I°>",
        "305",  "<i>",
        "306",  "<IJ>",
        "307",  "<ij>",
@@ -148,46 +147,46 @@ static char *umlauts_unicode[]
        "311",  "<k,>",
        "315",  "<L,>",
        "316",  "<l,>",
-       "317",  "<Lï¿½>",
-       "318",  "<lï¿½>",
+       "317",  "<L´>",
+       "318",  "<l´>",
        "321",  "<L/>",
        "322",  "<l/>",
        "325",  "<N,>",
        "326",  "<n,>",
        "327",  "<N^>",
        "328",  "<n^>",
-       "336",  "<ï¿½>",
-       "337",  "<ï¿½>",
+       "336",  "<Ö>",
+       "337",  "<ö>",
        "338",  "<OE>",
-       "338",  "ï¿½",   /** <OE> **/
+       "338",  "Œ",   /** <OE> **/
        "339",  "<oe>",
-       "339",  "ï¿½",   /** <oe> **/
+       "339",  "œ",   /** <oe> **/
        "344",  "<R^>",
        "345",  "<r^>",
        "350",  "<S,>",
        "351",  "<s,>",
        "352",  "<S^>",
-       "352",  "ï¿½",   /** <S^> **/
+       "352",  "Š",   /** <S^> **/
        "352",  "<SCH>",
        "352",  "<SH>",
        "353",  "<s^>",
-       "353",  "ï¿½",   /** <s^> **/
+       "353",  "š",   /** <s^> **/
        "353",  "<sch>",
        "353",  "<sh>",
        "354",  "<T,>",
        "355",  "<t,>",
-       "357",  "<tï¿½>",
+       "357",  "<t´>",
        "362",  "<U/>",
        "363",  "<u/>",
-       "366",  "<Uï¿½>",
-       "367",  "<uï¿½>",
+       "366",  "<U°>",
+       "367",  "<u°>",
        "370",  "<U,>",
        "371",  "<u,>",
-       "379",  "<Zï¿½>",
-       "380",  "<zï¿½>",
+       "379",  "<Z°>",
+       "380",  "<z°>",
        "381",  "<Z^>",
        "382",  "<z^>",
-       "7838", "<ï¿½>",   /***  newly defined "Groï¿½es ï¿½"  ***/
+       "7838", "<ß>",   /***  newly defined "Großes ß"  ***/
        NULL,    NULL
      };
  
@@ -210,13 +209,13 @@ static struct PHONETIC_RULES ph_rules_german[] =
  
     { "AH",  "A",   0, 0,    5,  3 },
     { "H",   "",    0, 0,   50,  3 },
-    { "ï¿½",   "AA",  0, 0,    0,  3 },
-    { "ï¿½",   "AE",  0, 0,    0,  3 },
-    { "ï¿½",   "A",   0, 0,   40,  3 },
+    { "Å",   "AA",  0, 0,    0,  3 },
+    { "Ä",   "AE",  0, 0,    0,  3 },
+    { "Ä",   "A",   0, 0,   40,  3 },
     { "AE",  "A",   0, 0,   60,  3 },
  
-    { "ï¿½",   "E",   0, 0,   20,  4 },
-    { "ï¿½",   "E",   0, 0,   20,  4 },
+    { "Ä",   "E",   0, 0,   20,  4 },
+    { "Æ",   "E",   0, 0,   20,  4 },
     { "A",   "ER",  0, 0,   70,  4 },
     { "AE",  "E",   0, 0,   20,  4 },
     { "AE",  "",    0, 0,  110,  4 },
@@ -228,14 +227,14 @@ static struct PHONETIC_RULES ph_rules_german[] =
     { "AY",  "EY",  0, 0,    5,  4 },
     { "EI",  "EY",  0, 0,    5,  4 },
  
-    { "ï¿½",   "O",   0, 0,   70,  5 },
-    { "ï¿½",   "OE",  0, 0,    0,  5 },
-    { "ï¿½",   "O",   0, 0,   40,  5 },
-    { "ï¿½",   "ï¿½",   0, 0,    0,  5 },
-    { "ï¿½",   "OE",  0, 0,   10,  5 },
-    { "ï¿½",   "O",   0, 0,   30,  5 },
-    { "ï¿½",   "ï¿½",   0, 0,    5,  5 },
-    { "ï¿½",   "OE",  0, 0,    0,  5 },
+    { "Å",   "O",   0, 0,   70,  5 },
+    { "Ö",   "OE",  0, 0,    0,  5 },
+    { "Ö",   "O",   0, 0,   40,  5 },
+    { "Ø",   "Ö",   0, 0,    0,  5 },
+    { "Ø",   "OE",  0, 0,   10,  5 },
+    { "Ø",   "O",   0, 0,   30,  5 },
+    { "Œ",   "Ö",   0, 0,    5,  5 },
+    { "Œ",   "OE",  0, 0,    0,  5 },
     { "OE",  "O",   0, 0,   60,  5 },
     { "OE",  "",    0, 0,  110,  5 },
  
@@ -266,8 +265,8 @@ static struct PHONETIC_RULES ph_rules_german[] =
     { "NTX", "NSH", 0, 0,   20,  9 },
     { "NG",  "NK",  0, 0,   20,  9 },
  
-    { "ï¿½",   "SS",  0, 0,    0, 10 },
-    { "ï¿½",   "S",   0, 0,    5, 10 },
+    { "ß",   "SS",  0, 0,    0, 10 },
+    { "ß",   "S",   0, 0,    5, 10 },
     { "SCH", "SH",  0, 0,    5, 10 },
     { "SCH", "SZ",  0, 0,   20, 10 },
     { "SCH", "S",   0, 0,  100, 10 },
@@ -288,9 +287,9 @@ static struct PHONETIC_RULES ph_rules_german[] =
     { "F",   "V",   0, 0,   20, 14 },
     { "W",   "V",   0, 0,   20, 14 },
  
-    { "ï¿½",   "UE",  0, 0,    0, 15 },
-    { "ï¿½",   "U",   0, 0,   40, 15 },
-    { "ï¿½",   "Y",   0, 0,   30, 15 },
+    { "Ü",   "UE",  0, 0,    0, 15 },
+    { "Ü",   "U",   0, 0,   40, 15 },
+    { "Ü",   "Y",   0, 0,   30, 15 },
     { "UE",  "U",   0, 0,   60, 15 },
     { "UE",  "",    0, 0,  110, 15 },
  
@@ -473,8 +472,6 @@ int initialize_gender (struct ze_geocountry_obj *zgo TSRMLS_DC)
 {
   int  i,k,n;
   char *s,*s2,*s3;
-
-
  
   if (! (zgo->internal_mode & GENDER_INITIALIZED))
     {
@@ -487,6 +484,7 @@ int initialize_gender (struct ze_geocountry_obj *zgo TSRMLS_DC)
             }
           return (-1);
         }
+ 
       if ((int)strlen (letters_a_to_z) != (int)strlen (letters_A_to_Z))
         {
           if (zgo->internal_mode & TRACE_GENDER)
@@ -505,6 +503,7 @@ int initialize_gender (struct ze_geocountry_obj *zgo TSRMLS_DC)
             }
           return (-1);
         }
+ 
       if ((int)strlen (umlaut_lower) != (int)strlen (umlaut_sort)
       ||  (int)strlen (umlaut_lower) != (int)strlen (umlaut_sort2))
         {
@@ -515,8 +514,7 @@ int initialize_gender (struct ze_geocountry_obj *zgo TSRMLS_DC)
             }
           return (-1);
         }
-
-
+ 
       zgo->internal_mode |= GENDER_INITIALIZED;
  
       /****  generate arrays "zgo->sortchar", "zgo->sortchar2" and "zgo->upperchar"  ****/
@@ -528,7 +526,7 @@ int initialize_gender (struct ze_geocountry_obj *zgo TSRMLS_DC)
           zgo->upperchar[i] = (char) i;
         }
       zgo->sortchar [(unsigned char) '-'] = ' ';
-      zgo->sortchar [(unsigned char) '\''] = 'ï¿½';
+      zgo->sortchar [(unsigned char) '\''] = '´';
       zgo->up_and_conv [(unsigned char) '-'] = ' ';
  
       s = CHARS_TO_IGNORE;
@@ -699,7 +697,7 @@ static int strcmp_search (char text[], char text_2[],
  
 /****  This function converts "src" to upper case,      ****/
 /****  compresses successive blanks and (if necessary)  ****/
-/****  expands umlauts, i.e. "ï¿½" is converted to "AE".  ****/
+/****  expands umlauts, i.e. "ä" is converted to "AE".  ****/
 /****  The conversion is done "on demand" using the     ****/
 /****  arrays "zgo->sortchar" and "zgo->sortchar2". The second    ****/
 /****  array is needed only for umlauts and contains    ****/
@@ -889,7 +887,7 @@ static int strcmp_search (char text[], char text_2[],
               && ((compare_mode & EXPAND_PARAM_2)
 	      ||  ! (compare_mode & GENDER_ALLOW_COMPRESSED_UMLAUTS)))
                 {
-                  /****  strings don't match (e.g. "Kï¿½te" vs "Kï¿½te")  ****/
+                  /****  strings don't match (e.g. "Káte" vs "Käte")  ****/
                   k |= 1024;
                 }
             }
@@ -900,7 +898,7 @@ static int strcmp_search (char text[], char text_2[],
     {
       if (c != c2  ||  (k & (128+256)) == 128+256)
         {
-          /****  strings don't match (e.g. "Katï¿½" vs "Kï¿½te")  ****/
+          /****  strings don't match (e.g. "Katé" vs "Käte")  ****/
           k |= 1024;
         }
       *diff = k;
@@ -999,15 +997,13 @@ static long binary_search (php_stream *fr, char search_name[],
   int  i,n;
   char text [MAX_LINE_SIZE+1];
   char temp [MAX_LINE_SIZE+1];
-   php_printf ("Binary Search\n");
+ 
   if (zgo->line_size == 0  ||  zgo->record_count == 0L)
     {
       /****  determine length of first line  ****/
       i = php_stream_seek(fr, 0L, SEEK_SET);
       if (i != 0)
         {
-        php_printf ("Error: Could not position in dictionary file '%s'\n",
-                          zgo->dsn);
           if (zgo->internal_mode & TRACE_GENDER)
             {
               php_printf ("Error: Could not position in dictionary file '%s'\n",
@@ -1019,10 +1015,6 @@ static long binary_search (php_stream *fr, char search_name[],
       read_line(fr, text, MAX_LINE_SIZE+1 TSRMLS_CC);
       if (strncmp (text, CHECK_STRING, strlen(CHECK_STRING)) != 0)
         {
-        php_printf ("Error: Invalid version of dictionary file '%s'.\n",
-                           zgo->dsn);
-                      php_printf ("File header is:  \"%s\"\n", text);
-                      php_printf ("(this should be:  \"%s\").\n", CHECK_STRING);
           if (zgo->internal_mode & TRACE_GENDER)
             {
               i = (int)strlen (text);
@@ -1047,8 +1039,6 @@ static long binary_search (php_stream *fr, char search_name[],
       i = php_stream_seek(fr,0L, SEEK_END);
       if (i != 0)
         {
-         php_printf ("Error: Could not position in dictionary file '%s'.\n",
-                          zgo->dsn);
           if (zgo->internal_mode & TRACE_GENDER)
             {
               php_printf ("Error: Could not position in dictionary file '%s'.\n",
@@ -1073,7 +1063,7 @@ static long binary_search (php_stream *fr, char search_name[],
   p2 = zgo->record_count;
   i = -1;
   n = -1;
-  php_printf ("start binary search.\n");
+ 
   while (p1 <= p2)
     {
       p = (long) ((p1+p2) / 2L);
@@ -1090,9 +1080,6 @@ static long binary_search (php_stream *fr, char search_name[],
           i = php_stream_seek(fr, (zgo->line_size * p), SEEK_SET);
           if (i != 0)
             {
-             php_printf ("Could not position in dictionary file '%s'.\n",
-                                  zgo->dsn);
-
               if (zgo->internal_mode & TRACE_GENDER)
                 {
                   php_printf ("Could not position in dictionary file '%s'.\n",
@@ -1116,26 +1103,21 @@ static long binary_search (php_stream *fr, char search_name[],
         {
           copycut (temp, text+offset, len_s TSRMLS_CC);
         }
-
-  php_printf ("Range = line %ld - %ld,  guess = %ld ('%s')\n",
-               p1+1L, p2+1L, p+1L, temp);
+ 
       if (zgo->internal_mode & TRACE_GENDER)
         {
           php_printf ("Range = line %ld - %ld,  guess = %ld ('%s')\n",
               p1+1L, p2+1L, p+1L, temp);
         }
-
-
+ 
       /****  compare first names  ****/
       i = strcmp_search (search_name, temp, (compare_mode | IGNORE_SEPARATOR),
               text[POS_UMLAUT_INFO], NULL, zgo TSRMLS_CC);
-  php_printf ("compare first names %d\n", i == 0);
-  php_printf ("P == P1 %d == %d ::: %d\n", p, p1, p == p1);
+ 
       if (i == 0)
         {
           if (p == p1)
             {
-                php_printf ("first match has been found\n");
               /****  first match has been found  ****/
               break;
             }
@@ -1165,7 +1147,6 @@ static long binary_search (php_stream *fr, char search_name[],
  
   if (i == 0)
     {
-    php_printf ("Result: name '%s' foundDDDDDDDDDDDDDDDDDDD\n", temp);
       /****  match has been found  ****/
       if (zgo->internal_mode & TRACE_GENDER)
         {
@@ -2617,7 +2598,7 @@ static int conv_internal_result (char *text, int compare_mode)
           if (strncmp (text,"1F",2) == 0)  return (IS_FEMALE);
           if (strncmp (text,"1M",2) == 0)  return (IS_MALE);
         }
-
+ 
       if (strncmp (text,"P ",2) == 0)  return (IS_COUNTRY);
       if (strncmp (text,"C ",2) == 0)  return (IS_CITY);
       if (strncmp (text,"F ",2) == 0)  return (IS_FEMALE);
@@ -2715,8 +2696,6 @@ static void trace_info_into_buffer
  
   switch (res)
     {
-      case IS_COUNTRY       :  s = "is country";           break;
-      case IS_CITY          :  s = "is city";              break;
       case IS_FEMALE        :  s = "is female";            break;
       case IS_MOSTLY_FEMALE :  s = "is mostly female";     break;
       case IS_MALE          :  s = "is male";              break;
@@ -2904,13 +2883,9 @@ static int internal_search
 
   char tempLat [DATA_LATITUDE_LENGTH+1];
   char tempLon [DATA_LONGITUDE_LENGTH+1];
-
-
-  php_printf ("Entro en la funcion\n", search_name);
-
-//search country dictionary
-  //if (zgo->internal_mode & TRACE_GENDER)
-//    {
+ 
+  if (zgo->internal_mode & TRACE_GENDER)
+    {
       php_printf ("Searching for name '%s'", search_name);
  
       /****  check for country  ****/
@@ -2923,14 +2898,12 @@ static int internal_search
             }
         }
       php_printf ("\n");
-   // }
-
+    }
+ 
   if (zgo->f_names == NULL)
     {
-      php_printf ("Conectando con el diccionario\n");
       if(gender_connect_to_source(zgo TSRMLS_CC) == INTERNAL_ERROR_GENDER)
         {
-        php_printf ("Error: could not open dictionary file '%s'\n", zgo->dsn);
           if (zgo->internal_mode & TRACE_GENDER)
             {
               php_printf ("Error: could not open dictionary file '%s'\n",
@@ -2938,7 +2911,6 @@ static int internal_search
             }
           return (INTERNAL_ERROR_GENDER);
         }
-      php_printf (":::::::::::Conectando::::::::::\n");
     }
  
   if (compare_mode & SEARCH_GENDER)
@@ -2946,7 +2918,6 @@ static int internal_search
      i = (int)strlen (search_name);
      if (i == 0)
        {
-         php_printf ("Retunr UNISEX Conectando::::::::::\n");
          return (IS_UNISEX_NAME);
        }
  
@@ -2971,10 +2942,9 @@ static int internal_search
         {
           return (INTERNAL_ERROR_GENDER);
         }
-        php_printf ("POS_F < 0::::::::::\n");
       return (NAME_NOT_FOUND);
     }
- php_printf ("read one or more first names in dictionary file\n");
+ 
   /****  read one or more first names in dictionary file  ****/
   res = NAME_NOT_FOUND;
   php_stream_seek(zgo->f_names, pos_f, SEEK_SET);
@@ -2998,9 +2968,6 @@ restart_loop:
       if (text[0] != '#'  &&  len > DATA_NAME_POS)
         {
           copycut (temp, text+DATA_NAME_POS, DATA_NAME_LENGTH+1 TSRMLS_CC);
-          copycut (tempLat, text+DATA_LATITUDE_POS, DATA_LATITUDE_LENGTH+1 TSRMLS_CC);
-          copycut (tempLon, text+DATA_LONGITUDE_POS, DATA_LONGITUDE_LENGTH+1 TSRMLS_CC);
-
         }
  
       /****  compare first names  ****/
@@ -3019,7 +2986,6 @@ restart_loop:
 
           res = conv_internal_result (text, compare_mode);
 
-          trace_info ("evaluating name", temp,NULL, res, text, zgo TSRMLS_CC);
           if (zgo->internal_mode & TRACE_GENDER)
             {
               trace_info ("evaluating name", temp,NULL, res, text, zgo TSRMLS_CC);
@@ -3027,7 +2993,6 @@ restart_loop:
  
           if (compare_mode & COMPARE_ABBREVIATION)
             {
-               php_printf ("COMPARANDO COMPARE_ABBREVIATION\n", search_name);
               if (res == IS_FEMALE)  res = IS_MOSTLY_FEMALE;
               if (res == IS_MALE)  res = IS_MOSTLY_MALE;
  
@@ -3133,13 +3098,11 @@ restart_loop:
                     }
                 }
             }
- php_printf ("Pointer RES %d\n", res);
- php_printf ("Latitude %s\n", tempLat);
- php_printf ("Longitude %s\n", tempLon);
 
- copycut (zgo->latitude, text+DATA_LATITUDE_POS, DATA_LATITUDE_LENGTH+1 TSRMLS_CC);
- copycut (zgo->longitude, text+DATA_LONGITUDE_POS, DATA_LONGITUDE_LENGTH+1 TSRMLS_CC);
+copycut (zgo->latitude, text+DATA_LATITUDE_POS, DATA_LATITUDE_LENGTH+1 TSRMLS_CC);
+copycut (zgo->longitude, text+DATA_LONGITUDE_POS, DATA_LONGITUDE_LENGTH+1 TSRMLS_CC);
 
+ 
           switch (res)
             {
               case IS_FEMALE        :  i =  1;  x = 0;  break;
@@ -3147,9 +3110,9 @@ restart_loop:
               case IS_MALE          :  i =  4;  x = 2;  break;
               case IS_MOSTLY_MALE   :  i =  8;  x = 3;  break;
               case IS_UNISEX_NAME   :  i = 16;  x = 4;  break;
-              case IS_COUNTRY       :  i = 128;  x = 7;  break;
-              case IS_CITY          :  i = 256;  x = 8;  break;
               case EQUIVALENT_NAMES :  i = 32;  x = 5;  break;
+	      case IS_COUNTRY       :  i = 128;  x = 7;  break;
+              case IS_CITY          :  i = 256;  x = 8;  break;
               default               :  i = 64;  x = 6;  break;
             }
  
@@ -3305,7 +3268,7 @@ static int get_gender_internal
   compare_mode |= SEARCH_GENDER;
  
   copycut (temp, first_name, LENGTH_FIRST_NAME+51 TSRMLS_CC);
-  php_printf ("Reset Statistics\n" );
+ 
   /****  reset statistics  ****/
   for (i=0; zgo->gc_data[i].country_text != NULL; i++)
     {
@@ -3315,8 +3278,7 @@ static int get_gender_internal
           zgo->gc_data[i].n |= 1024;
         }
     }
-
-  php_printf ("Evaluate Name\n" );
+ 
   /****  evaluate name  ****/
   k = 0;
   while (temp[k] != '\0'  &&  temp[k] != ' '
@@ -3331,17 +3293,15 @@ static int get_gender_internal
  
   if (temp[k] != '\0')
     {
-     php_printf ("Search whole name\n" );
      /****  search whole name  ****/
-     gender = internal_search (temp, compare_mode, country, zgo TSRMLS_CC );
-     php_printf ("gender: %d\n", gender );
+     gender = internal_search (temp, compare_mode, country, zgo TSRMLS_CC);
+ 
      if (gender != NAME_NOT_FOUND)
        {
          return (gender);
        }
     }
-
-  php_printf ("evaluate multiple name\n");
+ 
   /****  evaluate "multiple" name  ****/
   n = 0;
   gender = NAME_NOT_FOUND;
@@ -3350,7 +3310,6 @@ static int get_gender_internal
  
   while (temp[n] != '\0')
     {
-      php_printf ("look for end of word\n");
       /****  look for end of word  ****/
       k = n;
       while (temp[k] != '\0'  &&  temp[k] != ' '
@@ -3367,7 +3326,6 @@ static int get_gender_internal
  
       if (k > n)
         {
-          php_printf ("check this name\n");
           /****  check this name  ****/
           if (zgo->internal_mode & TRACE_GENDER)
             {
@@ -3387,9 +3345,8 @@ static int get_gender_internal
                     }
                 }
             }
-
+ 
           gender = internal_search (temp+n, compare_mode, country, zgo TSRMLS_CC);
-          trace_info ("result for", temp+n, NULL, gender, NULL, zgo TSRMLS_CC);
           if (zgo->internal_mode & TRACE_GENDER)
             {
               trace_info ("result for", temp+n, NULL, gender, NULL, zgo TSRMLS_CC);
@@ -3420,7 +3377,7 @@ static int get_gender_internal
               case IS_MOSTLY_MALE   :  res |=  8;  break;
               case IS_UNISEX_NAME   :  res |= 16;  break;
               case NAME_NOT_FOUND   :  res |= 32;  break;
-              case IS_COUNTRY       :  res |= 128;  break;
+	      case IS_COUNTRY       :  res |= 128;  break;
               case IS_CITY          :  res |= 256;  break;
               default               :  res |= 64;  break;
             }
@@ -3446,7 +3403,7 @@ static int get_gender_internal
       /****  error in mame  ****/
       return (ERROR_IN_NAME);
     }
-
+ 
   if (res & 128)
      {
        return (IS_COUNTRY);
@@ -3550,7 +3507,7 @@ static int check_nickname_internal (char first_name_1[],
   if (n <= k)
     {
       php_sprintf (a_temp+n, " %s", a2_temp);
-      i = internal_search (a_temp, compare_mode, country, zgo TSRMLS_CC );
+      i = internal_search (a_temp, compare_mode, country, zgo TSRMLS_CC);
       a_temp[n] = '\0';
     }
   if (k <= n  &&  i == NAME_NOT_FOUND)
@@ -4182,7 +4139,7 @@ static int find_similar_name_internal
 int get_gender (char first_name[], int compare_mode, int country, struct ze_geocountry_obj *zgo TSRMLS_DC)
 {
   int i;
-  i = get_gender_internal (first_name, compare_mode, country, zgo TSRMLS_CC );
+  i = get_gender_internal (first_name, compare_mode, country, zgo TSRMLS_CC);
   return (i);
 }
  
